@@ -13,7 +13,7 @@ Before the case results are calculated, the user will have to set up the calcula
 - A **line based grid**, with added grid refinements around the roads, thus allowing better representation of the concentration gradients around the roads.
 - A **point based grid**, which serves a similar purpose, but is centered around the location of the point sources.
 
-As [mentioned earlier](case-and-scenario-management), the grid is common for all the scenarios in each case. So, in other words, the grid is defined at case level, not scenario level. Therefore, it can only be calculated after all the scenarios in a case are defined.
+As [mentioned earlier](../introduction-to-case-and-scenario-management.md), the grid is common for all the scenarios in each case. So, in other words, the grid is defined at case level, not scenario level. Therefore, it can only be calculated after all the scenarios in a case are defined.
 
 Default values for the grid settings are automatically computed when the user draws the case.
 

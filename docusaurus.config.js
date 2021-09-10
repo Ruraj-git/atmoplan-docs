@@ -7,9 +7,9 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
+    title: 'ATMO-Plan documentation',
+    tagline: 'Supporting Urban Air Quality Plans',
+    // url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -56,10 +56,10 @@ const katex = require('rehype-katex');
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
-          title: 'My Site',
+          title: 'ATMO-Plan documentation',
           logo: {
-            alt: 'My Site Logo',
-            src: 'img/logo.svg',
+            alt: 'ATMO-Plan Logo',
+            src: 'img/ATMO-Plan_logo.png',
           },
           items: [
             // {
@@ -69,8 +69,8 @@ const katex = require('rehype-katex');
             //   label: 'Docs',
             // },
             {
-              href: 'https://github.com/facebook/docusaurus',
-              label: 'GitHub',
+              href: 'https://www.vito.be',
+              label: 'VITO',
               position: 'right',
             },
           ],
@@ -88,37 +88,16 @@ const katex = require('rehype-katex');
             //   ],
             // },
             {
-              title: 'Community',
+              title: 'Links',
               items: [
                 {
-                  label: 'Stack Overflow',
-                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                },
-                {
-                  label: 'Discord',
-                  href: 'https://discordapp.com/invite/docusaurus',
-                },
-                {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/docusaurus',
-                },
-              ],
-            },
-            {
-              title: 'More',
-              items: [
-                // {
-                //   label: 'Blog',
-                //   to: '/blog',
-                // },
-                {
-                  label: 'GitHub',
-                  href: 'https://github.com/facebook/docusaurus',
+                  label: 'VITO',
+                  href: 'https://www.vito.be',
                 },
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+          copyright: `Copyright © ${new Date().getFullYear()} VITO, Built with Docusaurus.`,
         },
         prism: {
           theme: lightCodeTheme,
