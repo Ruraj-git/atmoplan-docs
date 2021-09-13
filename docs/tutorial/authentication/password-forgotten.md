@@ -1,5 +1,6 @@
 ---
 title: Password forgotten
+sidebar_position: 3
 ---
 
 :::tip Available in each deployment

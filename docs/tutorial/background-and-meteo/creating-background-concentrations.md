@@ -1,6 +1,7 @@
 ---
 title: Creating background concentrations
+sidebar_position: 2
 ---
 
-:::tip Not yet available
+:::caution Not yet available
 :::

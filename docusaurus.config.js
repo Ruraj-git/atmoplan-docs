@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
   module.exports = {
     title: 'ATMO-Plan documentation',
     tagline: 'Supporting Urban Air Quality Plans',
-    // url: 'https://your-docusaurus-test-site.com',
+    url: 'https://www.vito.be',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',

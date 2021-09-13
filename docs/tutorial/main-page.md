@@ -1,5 +1,6 @@
 ---
 title: Main page
+sidebar_position: 1.4
 ---
 
 :::tip Available in each deployment

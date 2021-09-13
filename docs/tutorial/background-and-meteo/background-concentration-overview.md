@@ -1,5 +1,6 @@
 ---
 title: Background concentration overview
+sidebar_position: 1
 ---
 
 :::tip Available in each deployment

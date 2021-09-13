@@ -1,5 +1,6 @@
 ---
 title: Logging out
+sidebar_position: 2
 ---
 
 :::tip Available in each deployment

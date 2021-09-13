@@ -1,5 +1,6 @@
 ---
-title: Scenario LEZ
+title: LEZ
+sidebar_position: 5
 ---
 
 ## Inspecting the low emission zones of a scenario

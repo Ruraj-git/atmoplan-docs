@@ -49,7 +49,7 @@ Default values for the line based grid settings are automatically computed when 
 
 In a line based grid, receptor points are defined perpendicular to the emission line sources (typically roads). These points are spaced according to a number of parameters. In the diagram below, a drawing of the parameters for the line based grid is shown. The black dots correspond to the receptor points.
 
-![Login](./images/login.png)
+![Login](./images/line-based-grid.png)
 
 The parameters for a line based grid are:
 _ (a): the distance in m between the locations of the perpendicular lines along the line source
@@ -67,6 +67,8 @@ The user is requested to add a tolerance in m. As the grids are based upon the e
 Default values for the point based grid settings are automatically computed when the user draws the case.
 
 The point based grid is defined in a similar way as the line based grid. Here, the receptor points are placed on concentric circles around each point source. Below a drawing is shown of the parameters for the point based grid. The black dots correspond to the receptor points. The central larger point represents the point source.
+
+![Login](./images/point-based-grid.png)
 
 The parameters for the point based grid are:
 

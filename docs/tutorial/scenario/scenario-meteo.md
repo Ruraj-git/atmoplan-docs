@@ -1,5 +1,6 @@
 ---
-title: Scenario meteo
+title: Meteo
+sidebar_position: 4
 ---
 
 ## Inspecting the meteo of a scenario

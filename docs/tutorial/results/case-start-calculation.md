@@ -1,5 +1,6 @@
 ---
-title: Start a calculation
+title: Starting a calculation
+sidebar_position: 1
 ---
 
 ## Available in Slovakia, Hungary

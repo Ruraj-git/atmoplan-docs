@@ -1,5 +1,6 @@
 ---
-title: Scenario emissions
+title: Emissions
+sidebar_position: 2
 ---
 
 ## Inspecting the emissions of a scenario

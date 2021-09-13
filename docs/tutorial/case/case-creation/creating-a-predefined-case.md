@@ -1,6 +1,8 @@
 ---
-title: Creating a case and baseline scenario based on pre-calculated data
+title: Precalculated data
 ---
+
+# Creating a case and baseline scenario based on pre-calculated data
 
 :::tip Available in Slovakia, Hungary
 :::

@@ -1,5 +1,6 @@
 ---
 title: Meteo overview
+sidebar_position: 3
 ---
 
 :::tip Available in each deployment

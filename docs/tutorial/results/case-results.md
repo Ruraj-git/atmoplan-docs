@@ -1,5 +1,6 @@
 ---
 title: Inspecting the results
+sidebar_position: 2
 ---
 
 :::tip Available in Slovakia, Hungary

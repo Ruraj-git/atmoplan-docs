@@ -1,5 +1,6 @@
 ---
 title: Introduction to case and scenario management
+sidebar_position: 1.5
 slug: case-and-scenario-management
 ---
 

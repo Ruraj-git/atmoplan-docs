@@ -1,8 +1,9 @@
 ---
-title: Scenario background concentration
+title: Background
+sidebar_position: 3
 ---
 
-## Inspecting the background concentration of a scenario
+# Inspecting the background concentration of a scenario
 
 :::caution Not yet available
 :::

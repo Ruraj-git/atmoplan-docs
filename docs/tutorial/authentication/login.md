@@ -1,5 +1,6 @@
 ---
 title: Logging in
+sidebar_position: 1
 ---
 
 :::tip Available in each deployment
