@@ -77,6 +77,11 @@ pipeline {
                 }
             }
         }
+        stage("Docsearch scraper") {
+            steps {
+                sh(script: "docker run --env-file=.env -e 'CONFIG=\$(cat docsearch.config.json | jq -r tostring)' algolia/docsearch-scraper")
+            }
+        }
     }
     post {
         always {

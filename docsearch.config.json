@@ -1,9 +1,6 @@
 {
   "index_name": "atmoplan-documentation",
-  "start_urls": [
-    "https://slovakia-atmo-plan.marvintest.vito.be/docs",
-    "https://slovakia-atmo-plan.marvin.vito.be/docs"
-  ],
+  "start_urls": ["https://slovakia-atmo-plan.marvintest.vito.be/docs"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/tests"],
   "selectors": {
