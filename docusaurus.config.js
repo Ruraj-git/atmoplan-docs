@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
     title: 'ATMO-Plan documentation',
     tagline: 'Supporting Urban Air Quality Plans',
     url: 'https://www.vito.be',
-    baseUrl: '/',
+    baseUrl: '/docs/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
