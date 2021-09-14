@@ -17,6 +17,7 @@ const katex = require('rehype-katex');
     organizationName: 'facebook', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
 
+    plugins: [],
     presets: [
       [
         '@docusaurus/preset-classic',
@@ -40,6 +41,7 @@ const katex = require('rehype-katex');
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
           },
+          sitemap: {},
         }),
       ],
     ],
@@ -102,6 +104,22 @@ const katex = require('rehype-katex');
         prism: {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
+        },
+
+        algolia: {
+          apiKey: '199fccb05a594da47013840d64f7660b',
+          indexName: 'atmoplan-documentation',
+
+          // Optional: see doc section below
+          contextualSearch: false,
+
+          // Optional: see doc section below
+          appId: 'Z5R641RNCC',
+
+          // Optional: Algolia search parameters
+          searchParameters: {},
+
+          //... other Algolia params
         },
       }),
   }
