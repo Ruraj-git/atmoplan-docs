@@ -17,7 +17,3 @@ When an ATMO-Plan deployment has been made operational for a specific project yo
 When navigating to the URL, you will be presented with a login screen requiring you to enter your credentials. When clicking on the login button, you will be redirected to the main ATMO-Plan workspace.
 
 ![Login](./images/login.png)
-
-[Go to FAQ](../faq.md)
-
-[anchor](../#the-atmo-plan-application)
