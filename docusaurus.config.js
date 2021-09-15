@@ -14,8 +14,8 @@ const katex = require('rehype-katex');
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'VITO', // Usually your GitHub org/user name.
+    projectName: 'atmoplan-documentation', // Usually your repo name.
 
     plugins: [],
     presets: [
@@ -27,7 +27,7 @@ const katex = require('rehype-katex');
             sidebarPath: require.resolve('./sidebars.js'),
             // Please change this to your repo.
             editUrl: 'https://git.vito.be/projects/MARVIN-ATMOSYS/repos/atmoplan-documentation',
-            routeBasePath: '/content',
+            routeBasePath: '/',
             remarkPlugins: [math],
             rehypePlugins: [katex],
           },
