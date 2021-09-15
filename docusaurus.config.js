@@ -31,7 +31,7 @@ const katex = require('rehype-katex');
             remarkPlugins: [math],
             rehypePlugins: [katex],
           },
-          blog: false,
+          blog: {},
           // blog: {
           //   showReadingTime: true,
           //   // Please change this to your repo.
