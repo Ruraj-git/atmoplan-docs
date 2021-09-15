@@ -26,12 +26,12 @@ const katex = require('rehype-katex');
           docs: {
             sidebarPath: require.resolve('./sidebars.js'),
             // Please change this to your repo.
-            editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-            routeBasePath: '/',
+            editUrl: 'https://git.vito.be/projects/MARVIN-ATMOSYS/repos/atmoplan-documentation',
+            routeBasePath: '/content',
             remarkPlugins: [math],
             rehypePlugins: [katex],
           },
-          blog: {},
+          blog: false,
           // blog: {
           //   showReadingTime: true,
           //   // Please change this to your repo.
