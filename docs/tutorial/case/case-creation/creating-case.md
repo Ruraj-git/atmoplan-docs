@@ -10,7 +10,7 @@ sidebar_position: 1
 
 When clicking on the Cases menu in the main page, the cases for the user are shown in a table. To create a new case, click the + sign at the top right.
 
-![Login](./images/login.png)
+![Creating a new case](./images/case_overview.png)
 
 There are two types of cases that can be created:
 

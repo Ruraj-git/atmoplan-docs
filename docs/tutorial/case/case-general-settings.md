@@ -9,7 +9,7 @@ title: General settings
 
 Go to the case detail page and click on 'General settings'. The name and description of the case can be inspected here.
 
-![Login](./images/login.png)
+![General settings](./images/case_general_settings.png)
 
 ## Updating the general settings of a case
 

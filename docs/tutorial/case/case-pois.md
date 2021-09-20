@@ -13,11 +13,11 @@ In the calculation, the points of interest are treated as normal receptor points
 
 Points of interest are associated with a case, not with individual scenarios. Simply select the 'Points of interest' menu in the case detail page to inspect the POIs of your case.
 
-![Login](./images/login.png)
+![POI list](./images/case_poi_list.png)
 
 All POIs are listed at the left and are shown on the map. An individual POI can be selected by clicking on a POI in the list or on a POI on the map. The properties of the selected POI are then shown on the right.
 
-![Login](./images/login.png)
+![Select POI](./images/case_poi_select.png)
 
 ## Creating points of interest
 
@@ -39,11 +39,9 @@ Select the 'Points of interest' menu in the case detail page to inspect the POIs
 
 Click on the '+'-sign in the top left corner of the map to create an extra POI. Click on the map to draw your POI in the correct location and then enter the name of the POI. Click on Save to create the POI.
 
-![Login](./images/login.png)
+![Draw POI](./images/case_poi_draw.png)
 
 The new POI is then added to the list at the left.
-
-![Login](./images/login.png)
 
 ## Upload multiple POIs via a file
 
@@ -53,19 +51,17 @@ Click on the 'Bulk upload' button at the left. At the right, a panel is shown wh
 
 Upload your POI file by dragging and dropping the file in the upload component. Alternatively, you can click on the upload component; this opens a file explorer, which allows you to choose a file on your file system. The name of the chosen file is shown below the upload component. Click on 'upload' to start importing the file.
 
-![Login](./images/login.png)
+![Bulk upload POI](./images/case_poi_bulk_upload.png)
 
 When importing files, their content is parsed, validated and put into a back-end database. For larger files, this may take some time. While the import is busy, a message is shown on the page.
 
-![Login](./images/login.png)
-
 When the file was valid, the POIs are added to the list at the left and shown on the map.
 
-![Login](./images/login.png)
+![Bulk upload POI](./images/case_poi_bulk_upload_success.png)
 
 When the file is invalid, the user is notified with a brief message of where the import went wrong. You can then correct your file and upload it again, as described above.
 
-![Login](./images/login.png)
+![Bulk upload POI](./images/case_poi_bulk_upload_fail.png)
 
 ## Updating a point of interest
 
@@ -80,7 +76,7 @@ Select the 'Points of interest' menu in the case detail page to inspect the POIs
 
 The name and location of a POI can be changed by clicking on a POI in the list or on the map.
 
-![Login](./images/login.png)
+![Select POI](./images/case_poi_select.png)
 
 The name is shown on the right. You can edit the name and click on Save.
 
@@ -99,4 +95,4 @@ POIs cannot be deleted while the results are being calculated or when the calcul
 
 POIs can be removed by hovering over a POI in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
 
-![Login](./images/login.png)
+![Delete POI](./images/case_poi_delete.png)

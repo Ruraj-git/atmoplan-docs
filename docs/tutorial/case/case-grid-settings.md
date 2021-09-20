@@ -19,9 +19,11 @@ Default values for the grid settings are automatically computed when the user dr
 
 When the user clicks on the 'Grid settings' menu, three submenus are presented for the three grid types. When clicking on each submenu, the corresponding configuration values are shown:
 
-![Login](./images/login.png)
+![Regular grid](./images/case_regular_grid.png)
+![Line based grid](./images/case_linebased_grid.png)
+![Point based grid](./images/case_pointbased_grid.png)
 
-For each of the grids a number of parameters should be given. These are described in the application itself with a brief explanation of what these parameters mean as well as their minimum and maximum value and a default value. (TODO) A help function is provided (click the '?' icon at the top right of the grid parameters section) which will show the figures below for the user to understand better the meaning of the different parameters in the grids. Note that the parameter names (a,b,c…) correspond to the letters in the figures.
+For each of the grids a number of parameters should be given. These parameters are described in more detail below. A link to the manual is provided in the bottom right corner.
 
 :::caution
 Please note that there is currently a limit of 60000 grid points on the total grid to reduce the computation time.
@@ -41,7 +43,7 @@ Note that the minimum distance may seem rather coarse, however, local refinement
 
 The extent of the regular grid is shown on the map with a blue rectangle.
 
-![Login](./images/login.png)
+![Regular grid](./images/case_regular_grid.png)
 
 ### Inspecting the line based grid
 
@@ -49,7 +51,7 @@ Default values for the line based grid settings are automatically computed when 
 
 In a line based grid, receptor points are defined perpendicular to the emission line sources (typically roads). These points are spaced according to a number of parameters. In the diagram below, a drawing of the parameters for the line based grid is shown. The black dots correspond to the receptor points.
 
-![Login](./images/line-based-grid.png)
+![Line based grid](./images/line-based-grid.png)
 
 The parameters for a line based grid are:
 _ (a): the distance in m between the locations of the perpendicular lines along the line source
@@ -68,7 +70,7 @@ Default values for the point based grid settings are automatically computed when
 
 The point based grid is defined in a similar way as the line based grid. Here, the receptor points are placed on concentric circles around each point source. Below a drawing is shown of the parameters for the point based grid. The black dots correspond to the receptor points. The central larger point represents the point source.
 
-![Login](./images/point-based-grid.png)
+![Point based grid](./images/point-based-grid.png)
 
 The parameters for the point based grid are:
 

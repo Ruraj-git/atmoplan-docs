@@ -12,6 +12,8 @@ To inspect or edit a case and its scenario, go to the case overview and then:
 
 In both situations, the detail page for the case is opened.
 
+![Edit case](./images/case_edit.png)
+
 :::caution
 A case can only be edited when its creation has successfully finished. When the creation is still busy, or has failed, the case cannot be edited. The menu item is disabled then.
 :::
