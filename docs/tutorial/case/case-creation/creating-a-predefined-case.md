@@ -12,9 +12,13 @@ Performing a quick scan of the air quality based on the generic EU-wide data com
 
 ## Step 1: Select the correct case type
 
-When clicking on the Cases menu in the main page, the cases for the user are shown in a table. To create a new case, click the + sign at the top right. A wizard is started. In the first step of the wizard, you can provide a name and optional description for your case and you can select the SRID in which the calculation results should be returned. Then select the 'Use pre-calculated data' option as shown in the figure below. Click on 'Next' to open the next step of the wizard. Click on 'Cancel' to close the wizard and abort the case creation.
+When clicking on the Cases menu in the main page, the cases for the user are shown in a table. To create a new case, click the + sign at the top right.
 
-![Login](./images/login.png)
+![Create new case](./images/case_overview.png)
+
+ A wizard is started. In the first step of the wizard, you can provide a name and optional description for your case and you can select the SRID in which the calculation results should be returned. Then select the 'Use pre-calculated data' option as shown in the figure below. Click on 'Next' to open the next step of the wizard. Click on 'Cancel' to close the wizard and abort the case creation.
+
+![Select name and case type](./images/predefined_case_name_type.png)
 
 ## Step 2: Draw your domain
 
@@ -24,7 +28,7 @@ Domains can be any polygon and should approximately be the size of a single city
 
 After drawing the polygon, click on Next to close the wizard.
 
-![Login](./images/login.png)
+![Draw polygon](./images/predefined_case_polygon.png)
 
 ## Step 3: Watch the progress of the case creation
 
@@ -33,6 +37,9 @@ After clicking on 'Next', the new case will appear in the case overview table wh
 - Preparing: the creation is busy
 - Creation finished: the creation has completed successfully. The case is now ready to be edited.
 - Creation failed: the creation has failed. When clicking on 'Error details', an error message is shown.
+
+![Case creation progress](./images/predefined_case_progress.png)
+![Case creation progress](./images/case_too_large1.png)
 
 After closing the wizard, the case creation automatically starts in the background. The following data is calculated:
 
@@ -48,8 +55,6 @@ After closing the wizard, the case creation automatically starts in the backgrou
 
 Acquiring the data can take several minutes.
 
-![Login](./images/login.png)
-
 :::caution
 TODO: uitleg over buffer, verschilt per deployment, waarom doen we dit?
 :::
@@ -58,8 +63,8 @@ TODO: uitleg over buffer, verschilt per deployment, waarom doen we dit?
 The domain should maximally be 1000 km2 and (for computational constraints) the maximum number of roads is 10.000. If the domain is too big or if there are too many roads in the selected domain, the creation of the case will fail and the status will change to 'Creation failed'. By clicking on 'Error details', an error message is shown. In both cases, a smaller domain should be provided.
 :::
 
-![Login](./images/login.png)
-![Login](./images/login.png)
+![Case too large](./images/case_too_large1.png) 
+![Case too large](./images/case_too_large2.png)
 
 ## Step 4: Inspect your case
 
@@ -67,8 +72,8 @@ When the creation of the case is complete, the status 'Creation finished' will a
 
 The computed road segments can be visualized by going to the base scenario, clicking on 'Emissions' and then on 'Traffic'.
 
-![Login](./images/login.png)
+![Login](./images/emissions_traffic.png)
 
 The computed point sources can be visualized in a similar way by clicking on 'Point source'.
 
-![Login](./images/login.png)
+![Login](./images/emissions_pointsources.png)
