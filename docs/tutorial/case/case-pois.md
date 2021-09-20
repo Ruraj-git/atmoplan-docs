@@ -13,7 +13,7 @@ In the calculation, the points of interest are treated as normal receptor points
 
 Points of interest are associated with a case, not with individual scenarios. Simply select the 'Points of interest' menu in the case detail page to inspect the POIs of your case.
 
-![POI list](./images/case_poi_list.png)
+![POI list](./images/case_poi_bulk_upload_success.png)
 
 All POIs are listed at the left and are shown on the map. An individual POI can be selected by clicking on a POI in the list or on a POI on the map. The properties of the selected POI are then shown on the right.
 
@@ -96,3 +96,5 @@ POIs cannot be deleted while the results are being calculated or when the calcul
 POIs can be removed by hovering over a POI in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
 
 ![Delete POI](./images/case_poi_delete.png)
+
+![Delete POI: confirmation dialog](./images/case_poi_delete2.png)

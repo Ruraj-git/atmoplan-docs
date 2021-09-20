@@ -70,6 +70,8 @@ The domain should maximally be 1000 km2 and (for computational constraints) the 
 
 When the creation of the case is complete, the status 'Creation finished' will appear in the case overview. From that moment, the case is available for editing. Click on the case name or open the case menu and click on 'Edit'. The detail page for the case is opened, showing the case and its baseline scenario.
 
+![Edit a case](./../images/case_overview_plus_menu.png)
+
 The computed road segments can be visualized by going to the base scenario, clicking on 'Emissions' and then on 'Traffic'.
 
 ![Login](./images/emissions_traffic.png)
