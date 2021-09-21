@@ -8,6 +8,8 @@ sidebar_position: 1
 
 When clicking on the menu item 'Background concentrations' in the main page, an overview of all available background concentrations is shown.
 
+![Background overview](./images/background_overview.png)
+
 Each background concentration has the following properties:
 
 - Name: the name of the background concentration

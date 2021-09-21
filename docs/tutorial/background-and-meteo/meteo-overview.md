@@ -8,6 +8,8 @@ sidebar_position: 3
 
 When clicking on the menu item 'Meteo' in the main page, an overview of all available meteo is shown.
 
+![Meteo overview](./images/meteo_overview.png)
+
 Each meteo item has the following properties:
 
 - Name: the name of the meteo
