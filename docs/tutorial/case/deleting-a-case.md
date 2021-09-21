@@ -12,3 +12,4 @@ A case cannot be deleted when the creation is still busy, or while the results a
 :::
 
 ![Deleting a case](./images/case_delete.png)
+![Deleting a case: confirmation dialog](./images/case_delete2.png)
