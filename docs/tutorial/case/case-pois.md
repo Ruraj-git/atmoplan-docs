@@ -1,5 +1,5 @@
 ---
-title: Point Of Interest
+title: Point of interest
 ---
 
 ## Inspecting the points of interest
