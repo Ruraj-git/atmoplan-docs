@@ -26,6 +26,8 @@ In the second step of the wizard, you can draw the domain of your case on the ma
 
 Domains can be any polygon and should approximately be the size of a single city. If the domain is too large, an error message will appear, telling you to draw a smaller domain. Furthermore, only data is available for your region of interest. If you draw a polygon outside of that region, an error message will appear.
 
+At the right, a layer manager is shown, which allows you to visualise maps that can help you when drawing your case. The maps include the roads and point sources of the entire region, the background maps for the different pollutants and the location of the monitoring stations for the different pollutants.
+
 After drawing the polygon, click on Next to close the wizard.
 
 ![Draw polygon](./images/predefined_case_polygon.png)
