@@ -6,7 +6,12 @@ sidebar_position: 2
 :::tip Available in Slovakia, Hungary
 :::
 
-When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right). The results consist of:
+When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
+
+![View results: main page](./images/view_results_button_main.png)
+![View results: detail page](./images/view_results_button_detail.png)
+
+The results consist of:
 
 - Interpolated maps containing the yearly mean concentrations for each pollutant
 - Interpolated maps showing the absolute and relative difference for the yearly mean concentrations between the scenario and baseline scenario
@@ -17,17 +22,16 @@ When a calculation is finished, an email is sent to the user. The results of the
 
 Go to the results page of a case. The menu on the left shows all the scenarios of the case, all substances, the different map types, the POIs and a button to download the results.
 
-For the baseline scenario, the yearly mean concentrations for the four pollutants (NO<sub>2</sub>, NOBG, PM<sub>10</sub> and PM<sub>2.5</sub>) can be selected.
+For the baseline scenario, the annual mean concentrations for the four pollutants (NO<sub>2</sub>, PM<sub>10</sub>, PM<sub>2.5</sub>, WILDCARD) can be selected.
 
 For a non-baseline scenario, also the relative and absolute difference maps of the yearly mean concentration with respect to the base scenario are provided. In these maps, positive values refer to an increase in concentrations (worsening of the air quality), while negative values refer to a decrease in concentrations (improvement of the air quality).
 
 When selecting a map in the drop down list, the map is visualized on the right, using a default legend which is shown in the bottom left corner. For each pollutant a default legend is provided (option 'default'), but it is also possible to select a legend ranging from the minimum to the maximum value on the map (option 'dynamic'), or to provide a custom minimum and maximum value (option 'custom').
 
-![Login](./images/login.png)
-
-![Login](./images/login.png)
-
-![Login](./images/login.png)
+![Result map for NO2](./images/result_no2.png)
+![Result map for NO2: default legend](./images/result_no2_default.png)
+![Result map for NO2: dynamic legend](./images/result_no2_dynamic.png)
+![Result map for NO2: custom legend](./images/result_no2_custom.png)
 
 ### Timeseries for POIs
 
@@ -44,11 +48,15 @@ Additional functionalities are available through the menu above the graph. These
   - Use + and - to zoom in and out
   - Use 'autoscale' to reset the graph after zooming
 
-![Login](./images/login.png)
+![Daily timeseries](./images/result_timeseries_daily.png)
+![Hourly timeseries](./images/result_timeseries_hourly.png)
+![Hourly timeseries (zoomed)](./images/result_timeseries_hourly_zoomed.png)
 
 ### Downloading the results
 
 The results can be downloaded via the 'Download output' button. When the user clicks this button, a zip-archive will be downloaded containing the results for all scenarios in the case.
+
+![Content of the result zip file](./images/output_zip.png)
 
 #### Case
 
@@ -117,7 +125,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputIndicatorsX_Y_Z.tif</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
         <br/>
         Y = indicator corresponding to the pollutant (MeanConcentration, P50, P99.8, max1day, ...)
         <br/>
@@ -129,14 +137,14 @@ Each scenario folder contains files that describe the scenario and result files:
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_diff.tif</td>
     <td>
-      <p>X = pollutant (NO2, NOBG, PM10, PM25)</p>
+      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
       <p>These GeoTIFF raster files contain the differences of the annual mean values between the scenario and the baseline scenario.</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_rel_diff.tif</td>
     <td>
-      <p>X = pollutant (NO2, NOBG, PM10, PM25)</p>
+      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
       <p>These GeoTIFF raster files contain the relative differences of the annual mean values between the scenario and the baseline scenario.</p>
     </td>
   </tr>
@@ -144,7 +152,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputIndicatorsX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
 	<br/>
         Z = SRID
       </p>
@@ -155,7 +163,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputIndicatorsX_Z_diff.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
 	<br/>
         Z = SRID
       </p>
@@ -166,7 +174,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputIndicatorsX_Z_rel_diff.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
 	<br/>
         Z = SRID
       </p>
@@ -177,7 +185,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputTimeseriesX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
 	<br/>
         Z = SRID
       </p>
@@ -189,7 +197,7 @@ Each scenario folder contains files that describe the scenario and result files:
     <td>outputTimeseriesDailyX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, NOBG, PM10, PM25)
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
 	<br/>
         Z = SRID
       </p>

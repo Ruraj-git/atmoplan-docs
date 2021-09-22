@@ -11,7 +11,8 @@ When all the scenarios in a case are defined, the grid configuration is set up a
 It is important to realize that once a case is submitted for processing, it is not possible to add additional scenarios to it. The user is notified of this, as can be seen in the figure below.
 :::
 
-![Login](./images/login.png)
+![Start calculation](./images/start_calculation.png)
+![Start calculation: confirmation dialog](./images/start_calculation_confirmation.png)
 
 When a calculation is started, the following chain of events occurs in the background:
 
@@ -26,14 +27,10 @@ When a calculation is started, the following chain of events occurs in the backg
 
 During the calculation of a case, the status of the case in the case overview is 'Calculating'.
 
-![Login](./images/login.png)
+![Calculation progress](./images/start_calculation_progress.png)
 
 Since **calculations can take several hours to finish**, the planning application sends an email to the user when the calculation has ended, both successfully or if failed. The status of the case in the case overview is then changed to 'Calculation finished' or 'Calculation failed'.
 
+![Calculation progress: finished](./images/view_results_button_main.png)
+
 When a calculation is failed, an error message is available under 'Error details' in the case overview.
-
-![Login](./images/login.png)
-
-![Login](./images/login.png)
-
-![Login](./images/login.png)
