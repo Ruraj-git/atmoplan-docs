@@ -5,7 +5,7 @@ title: FASTRACE output format
 :::tip Available in each deployment
 :::
 
-When the user downloads the scenario results, one of the files contains the output of the FASTRACE traffic emission model calculation. This translates the traffic intensities on the network into emission values. [This is an exampple file](./fastrace.txt)
+When the user downloads the scenario results, one of the files contains the output of the FASTRACE traffic emission model calculation. This translates the traffic intensities on the network into emission values. [This is an example file](./files/fastrace.txt)
 
 The file contains the following information :
 

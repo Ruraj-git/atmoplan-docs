@@ -6,7 +6,7 @@ title: Traffic emission fleet composition file
 Uploading a custom fleet composition file is not yet available. At this moment, only pre-calculated cases can be created in which the fleet is determined when drawing the case and cannot be edited.
 :::
 
-[An example of a traffic fleet composition file can be found here.](./traffic-emission-fleet-composition.txt)
+[An example of a traffic fleet composition file can be found here.](./files/traffic-emission-fleet-composition.txt)
 
 The fleet files are plain text files using TAB's as a separator between the columns. Such files can easily be opened and edited in excel.
 

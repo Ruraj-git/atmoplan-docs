@@ -6,7 +6,7 @@ title: POI file
 POI files can be uploaded in each deployment.
 :::
 
-[An example of a POI file is shown below and can be downloaded here.](./poi.txt)
+[An example of a POI file is shown below and can be downloaded here.](./files/poi.txt)
 
 ```
 X   Y   Name
