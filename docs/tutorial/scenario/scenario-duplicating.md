@@ -16,13 +16,15 @@ Duplicating a scenario can be used to rapidly define a new scenario based on an 
 
 Go to the case detail page. A scenario can be duplicated hovering over the scenario name in the list at the left and clicking on the duplicate button. A pop-up appears asking the user to provide a name for the new scenario. The scenario names in a case should be unique, so an error message is shown when a name is provided that already exists.
 
-After clicking on Save, the new scenario is added to the list of scenarios at the left.
+![Duplicating a scenario](./images/scenario_duplicate.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_name.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_name2.png)
 
-![Login](./images/login.png)
+After clicking on Save, the new scenario is added to the list of scenarios at the left.
 
 Duplicating a scenario takes some time. During the duplication, an icon is shown to the right of the copied scenario and a message appears when hovering over the icon.
 
-![Login](./images/login.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_progress.png)
 
 When copying a scenario, the following data is created:
 

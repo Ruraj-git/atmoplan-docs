@@ -10,7 +10,7 @@ sidebar_position: 1.5
 
 Go to the case detail page, open a scenario and click on 'General'. The name of the scenario can be inspected here.
 
-![Login](./images/login.png)
+![Scenario list](./images/scenario_general_settings.png)
 
 ## Updating the general settings of a scenario
 

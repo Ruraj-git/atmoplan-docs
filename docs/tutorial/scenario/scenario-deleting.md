@@ -18,6 +18,4 @@ A scenario cannot be deleted while the results are being calculated, when file i
 
 Go to the case detail page. A scenario can be removed by hovering over a scenario in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
 
-![Login](./images/login.png)
-
-![Login](./images/login.png)
+![Delete scenario: confirmation dialog](./images/scenario_delete.png)

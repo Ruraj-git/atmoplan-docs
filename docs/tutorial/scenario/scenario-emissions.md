@@ -10,6 +10,8 @@ sidebar_position: 2
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left.
 
+![Scenario emissions](./images/scenario_emissions.png)
+
 There are two types of emissions:
 
 - Traffic emissions
@@ -25,9 +27,11 @@ The **point source emissions** for a scenario consists of a list of (industrial)
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
-When clicking on a road, the properties of the road are shown on the right. The properties consist of the traffic intensities, speed limit, height and road type. The road type can be H (Highway), R (Rural) or U (Urban).
+When clicking on a road, the properties of the road are shown on the right. The properties consist of the traffic intensities, speed limit, height and road type. The road type can be Highway, Rural or Urban.
 
 Click on Cancel before selecting another road on the map.
+
+![Traffic emissions](./images/scenario_traffic.png)
 
 ### Inspecting point source emissions
 
@@ -37,12 +41,14 @@ When clicking on a point source, the properties of the point source are shown on
 
 Click on Cancel before selecting another point source on the map.
 
+![Point source emissions](./images/scenario_pointsources.png)
+
 ## Creating emissions for a scenario
 
 :::caution Not yet available
 :::
 
-## Updating the emissions of a scenario
+## Updating the traffic emissions of a scenario
 
 :::tip Available in Slovakia, Hungary
 :::
@@ -57,8 +63,6 @@ In some deployments (Slovakia, Hungary), it is not allowed to update emissions i
 The emissions cannot be updated while the results are being calculated or when the calculation is (successfully) finished.
 :::
 
-### Updating traffic emissions
-
 There are different options:
 
 - Updating the properties of an existing road
@@ -66,7 +70,7 @@ There are different options:
 - Uploading a file containing multiple roads
 - Deleting a road
 
-#### Updating the properties of an existing road
+### Updating the properties of an existing road
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
@@ -79,13 +83,19 @@ The properties can be updated by editing the fields and clicking on Save. The pr
 - The speed limit should be an integer value between 1 and 130
 - The height should be a decimal value between 0 and 150
 
-#### Creating a road by drawing on the map
+![Update road](./images/scenario_road_update.png)
+
+### Creating a road by drawing on the map
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
 Click on the icon in the top left corner of the map and draw a road on the map by clicking on the begin and end point of the road. Each road is represented by a line string. After drawing the road, the properties of the road appear at the right. Fill in the different properties and click on Save to create the new road. The properties follow some rules that are describe in the previous section.
 
-#### Uploading a file containing multiple roads
+![Draw road: + button](./images/scenario_road_draw.png)
+![Draw road: empty properties](./images/scenario_road_draw_empty_properties.png)
+![Draw road: empty properties](./images/scenario_road_draw_valid_properties.png)
+
+### Uploading a file containing multiple roads
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
@@ -93,27 +103,42 @@ Click on 'Bulk upload' in the menu of the traffic emission. At the right, a pane
 
 Upload your network file by dragging and dropping the file in the upload component. Alternatively, you can click on the upload component; this opens a file explorer, which allows you to choose a file on your file system. The name of the chosen file is shown below the upload component. Click on 'upload' to start importing the file.
 
-![Login](./images/login.png)
+![Bulk upload: menu](./images/scenario_road_bulk_upload_menu.png)
+![Bulk upload: choose file](./images/scenario_road_bulk_upload_file1.png)
+![Bulk upload: file uploaded](./images/scenario_road_bulk_upload_file2.png)
 
 When importing files, their content is parsed, validated and put into a back-end database. For larger files, this may take some time. While the import is busy, a message is shown on the page.
 
-![Login](./images/login.png)
+![Bulk upload: progress](./images/scenario_road_bulk_upload_progress.png)
 
 When the file was valid, the new roads are added to the map.
 
-![Login](./images/login.png)
+![Bulk upload: successful upload](./images/scenario_road_bulk_upload_success.png)
 
 When the file is invalid, the user is notified with a brief message of where the import went wrong. You can then correct your file and upload it again, as described above.
 
-![Login](./images/login.png)
+![Bulk upload: failed upload](./images/scenario_road_bulk_upload_fail.png)
 
-#### Deleting a road
+### Deleting a road
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
 When clicking on a road, the properties of the road are shown on the right. Click on the Delete button to delete the selected road. A confirmation dialog is shown containing an ok and cancel button.
 
-### Updating point source emissions
+![Delete road](./images/scenario_road_delete.png)
+
+## Updating point source emissions
+
+:::tip Available in Slovakia, Hungary
+:::
+
+:::caution
+In some deployments (Slovakia, Hungary), it is not allowed to update emissions in the baseline scenario.
+:::
+
+:::caution
+The emissions cannot be updated while the results are being calculated or when the calculation is (successfully) finished.
+:::
 
 There are different options:
 
@@ -122,7 +147,7 @@ There are different options:
 - Uploading a file containing multiple point sources
 - Deleting a point source
 
-#### Updating the properties of an existing point source
+### Updating the properties of an existing point source
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a point source emission. All point sources are shown on the map as red squares.
 
@@ -137,13 +162,19 @@ The properties can be updated by editing the fields and clicking on Save. The pr
 - The diameter should be a decimal value greater than or equal to 0
 - The temperature should be a decimal value greater than or equal to 273.15
 
-#### Creating a point source by drawing on the map
+![Update point source](./images/scenario_pointsource_update.png)
+
+### Creating a point source by drawing on the map
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a point source emission. All point sources are shown on the map as red squares.
 
 Click on the icon in the top left corner of the map and click on the map to draw your point source. After drawing the point source, the properties of the point source appear at the right. Fill in the different properties and click on Save to create the new point source. The properties follow some rules that are describe in the previous section.
 
-## Uploading a file containing multiple point sources
+![Draw point source: + button](./images/scenario_pointsource_draw.png)
+![Draw point source: empty properties](./images/scenario_pointsource_draw_empty_properties.png)
+![Draw point source: empty properties](./images/scenario_pointsource_draw_valid_properties.png)
+
+### Uploading a file containing multiple point sources
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a point source emission. All point sources are shown on the map as red squares.
 
@@ -151,22 +182,24 @@ Click on 'Bulk upload' in the menu of the point source emission. At the right, a
 
 Upload your point source file by dragging and dropping the file in the upload component. Alternatively, you can click on the upload component; this opens a file explorer, which allows you to choose a file on your file system. The name of the chosen file is shown below the upload component. Click on 'upload' to start importing the file.
 
-![Login](./images/login.png)
+![Bulk upload: menu](./images/scenario_pointsource_bulk_upload_menu.png)
+![Bulk upload: choose file](./images/scenario_pointsource_bulk_upload_file1.png)
+![Bulk upload: file uploaded](./images/scenario_pointsource_bulk_upload_file2.png)
 
 When importing files, their content is parsed, validated and put into a back-end database. For larger files, this may take some time. While the import is busy, a message is shown on the page.
 
-![Login](./images/login.png)
-
 When the file was valid, the new point sources are added to the map.
 
-![Login](./images/login.png)
+![Bulk upload: successful upload](./images/scenario_pointsource_bulk_upload_success.png)
 
 When the file is invalid, the user is notified with a brief message of where the import went wrong. You can then correct your file and upload it again, as described above.
 
-![Login](./images/login.png)
+![Bulk upload: failed upload](./images/scenario_pointsource_bulk_upload_fail.png)
 
-#### Deleting a point source
+### Deleting a point source
 
 Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a point source emission. All point sources are shown on the map as red squares.
 
 When clicking on a point source, the properties of the point source are shown on the right. Click on the Delete button to delete the selected point source. A confirmation dialog is shown containing an ok and cancel button.
+
+![Delete point source](./images/scenario_pointsource_delete.png) 
