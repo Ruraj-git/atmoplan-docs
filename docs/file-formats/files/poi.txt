@@ -1,3 +1,4 @@
-X	Y	Name
-18.758	49.221	name1
-18.759	49.222	name2
+Lon	Lat	Name
+20.30	49.06	POI5
+20.27	49.05	POI6
+

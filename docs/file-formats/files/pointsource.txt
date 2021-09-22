@@ -1,3 +1,3 @@
-X	Y	Height_m	Diameter_m	Temperature_K	Flowrate_Nm3_s	NO2	PM10	PM25	NOBG	NO/NOX	Name
-17.17	48.11	20	1	350	47.12	333.33	333.34	333.35	333.36	0.95	name1
-17.18	48.12	21	2	351	47.13	333.34	333.35	333.36	333.37	0.96	name2
+Lon	Lat	Height (m)	Diameter (m)	Temperature (K)	Flowrate (Nm3/s)	NOX (kg/h)	PM10 (kg/h)	PM25 (kg/h)	NOBG(kg/h)	NO/NOX	Name
+20.31417	49.05141	20	1	350	47.12	338.447488584	0	0	1	0.95	name1
+20.29632	49.06246	5	1	350	47.12	151.590185822	9.88591419319	8.42163908455	1	0.95	name2
