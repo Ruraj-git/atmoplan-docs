@@ -8,7 +8,7 @@ When a user has admin rights, the main page shows a fourth menu item: 'User mana
 
 When clicking on this menu item, a table is shown with all current users.
 
-![User overview](./images/user_overview.png)
+![User overview](./images/user_overview.jpg)
 
 The user admin can edit or delete users via the menu item at the right.
 
