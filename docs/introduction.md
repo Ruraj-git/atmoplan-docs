@@ -8,7 +8,7 @@ slug: /
 
 The ATMOSYS platform is an air quality toolbox targeted at policy support. The ecosystem of tools and web applications are designed to deliver policy oriented information on air quality in terms of forecasts, assessments and evaluation of air quality plans. At the core of the ATMOSYS services are state-of-the-art, well validated scientific models with a proven track record.
 
-![Example banner](./introduction-ATMOSYS.png)
+![Example banner](./images/introduction-ATMOSYS.png)
 
 ## The ATMO-Plan application
 
@@ -60,6 +60,6 @@ The [IFDM](https://vito.be/en/product/ifdm-high-resolution-air-quality-modelling
 
 A Gaussian model is a simplified analytic solution to the full advection diffusion equations using meteo dependent parameterisations for the steady state plume spreading in the atmosphere. IFDM works with a source-receptor grid in which the concentration contributions from all sources are computed for each receptor grid point.
 
-![IDFM model visual explanation](./ifdm-explanation.png)
+![IDFM model visual explanation](./images/ifdm-explanation.png)
 
 The IFDM model has been well validated for use in urban environments with several atmospheric environment papers published (W. Lefebvre, Cosemans, & Kegels, 2013; W. Lefebvre, Van Poppel, Maiheu, Janssen, & Dons, 2013; Wouter Lefebvre et al., 2011; Wouter Lefebvre & Vranckx, 2013).
