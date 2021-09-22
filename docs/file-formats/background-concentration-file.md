@@ -6,7 +6,7 @@ title: Background concentration file
 Uploading a custom background concentration file is not yet available. At this moment, only predefined background can be used.
 :::
 
-[This is an example of a background concentration data file.](./background-concentration.txt)
+[This is an example of a background concentration data file.](./files/background-concentration.txt)
 
 The ATMO-Plan application works with hourly data. The background concentration files are plain text files using `<tab>` as separators between the columns. Such files can easily be opened and edited in excel. A full year of data is required.
 
