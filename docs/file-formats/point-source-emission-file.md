@@ -29,6 +29,6 @@ The following columns are required (separated by TABs):
 | NOX_kg_h       | Emission rate for NOx                                                                                     | float  | kg/h  |
 | PM10_kg_h      | Emission rate for PM10                                                                                    | float  | kg/h  |
 | PM25_kg_h      | Emission rate for PM25                                                                                    | float  | kg/h  |
-| NOBG_kg_h      | Emission rate for a pollutant that ... (TODO)                                                             | float  | kg/h  |
+| WILDCARD_kg_h  | Emission rate for a pollutant that ... (TODO)                                                             | float  | kg/h  |
 | NO/NOx         | Ratio of NO exhaust in the NOx emission                                                                   | float  | -     |
 | Name           | The name of the point source                                                                              | string | -     |

@@ -1,3 +1,3 @@
-Lon	Lat	Height (m)	Diameter (m)	Temperature (K)	Flowrate (Nm3/s)	NOX (kg/h)	PM10 (kg/h)	PM25 (kg/h)	NOBG(kg/h)	NO/NOX	Name
+Lon	Lat	Height (m)	Diameter (m)	Temperature (K)	Flowrate (Nm3/s)	NOX (kg/h)	PM10 (kg/h)	PM25 (kg/h)	WILDCARD(kg/h)	NO/NOX	Name
 20.31417	49.05141	20	1	350	47.12	338.447488584	0	0	1	0.95	name1
 20.29632	49.06246	5	1	350	47.12	151.590185822	9.88591419319	8.42163908455	1	0.95	name2
