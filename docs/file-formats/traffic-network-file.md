@@ -6,7 +6,7 @@ title: Traffic network file
 Network files can be uploaded in each deployment.
 :::
 
-[An example of a traffic network file can be found here.](./network.txt)
+[An example of a traffic network file can be found here.](./files/network.txt)
 
 The files are plain text files using TABs as separators between the columns. Such files can easily be opened and edited in excel.
 

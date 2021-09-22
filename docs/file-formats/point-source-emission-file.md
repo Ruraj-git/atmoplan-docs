@@ -6,7 +6,7 @@ title: Point source emission files
 Point source files can be uploaded in each deployment.
 :::
 
-[An example of a point source input file is shown below and can be downloaded here.](./pointsource.txt)
+[An example of a point source input file is shown below and can be downloaded here.](./files/pointsource.txt)
 
 ```
 X   Y   Height_m    Diameter_m  Temperature_K   Flowrate_Nm3_s  NO2 PM10    PM25    NOBG    NO/NOX  Name

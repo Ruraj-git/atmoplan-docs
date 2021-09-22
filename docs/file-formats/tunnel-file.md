@@ -5,7 +5,7 @@ title: Tunnel file
 :::caution Not yet available
 :::
 
-[A typical tunnel file is shown below and can be downloaded here.](./tunnel.txt)
+[A typical tunnel file is shown below and can be downloaded here.](./files/tunnel.txt)
 
 ```
 1   1234    1235
@@ -62,10 +62,10 @@ Each field in the paragraph is explained below:
 The given road segments should correspond **exactly** with the tunnel. Segments that only partially overlap with the tunnel cannot be included. This is because the emissions of the given road segments are distributed over the tunnel entrances and ventilation shafts. The figures below illustrate how the tunnel and the road segments should correspond.
 
 Road segment with 1 traffic direction:
-![road-segment-with-1-traffic-direction](./road-segment-with-1-traffic-direction.png)
+![road-segment-with-1-traffic-direction](./images/road-segment-with-1-traffic-direction.png)
 
 Road segment with 2 traffic directions:
-![road-segment-with-1-traffic-direction](./road-segment-with-2-traffic-directions.png)
+![road-segment-with-1-traffic-direction](./images/road-segment-with-2-traffic-directions.png)
 
 The first figure above shows a road segment and a tunnel in the middle of this segment. In this case, the road segment should be split into three parts so that one road segment (the middle part) corresponds exactly with the tunnel. The second figure shows a similar situation with 2 traffic directions. The 2 road segments are replaced by 6 smaller segments.
 

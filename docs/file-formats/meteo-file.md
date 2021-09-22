@@ -6,7 +6,7 @@ title: Meteo file
 Uploading a custom meteo file is not yet available. At this moment, only pre-calculated meteo can be used.
 :::
 
-[This is an example of a meteo data file. ](./meteo.txt)
+[This is an example of a meteo data file. ](./files/meteo.txt)
 
 The ATMO-Plan application works with hourly data. The files are plain text files using TABs as separators between the columns. Such files can easily be opened and edited in excel. A full year of data is required.
 
