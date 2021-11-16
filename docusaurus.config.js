@@ -9,12 +9,12 @@ const katex = require('rehype-katex');
   module.exports = {
     title: 'ATMO-Plan documentation',
     tagline: 'Supporting Urban Air Quality Plans',
-    url: 'https://slovakia-atmo-plan.marvintest.vito.be/docs',
-    baseUrl: '/docs/',
+    url: 'https://flamboyant-euclid-8b9c02.netlify.app/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'VITO', // Usually your GitHub org/user name.
+    organizationName: 'Ruraj-git', // Usually your GitHub org/user name.
     projectName: 'atmoplan-documentation', // Usually your repo name.
 
     plugins: [],
