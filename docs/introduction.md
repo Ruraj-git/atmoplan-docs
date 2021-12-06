@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## ATMOSYS Všade samé podopiere 2
+## ATMOSYS Všade samé podopiere 2 krajc
 
 The ATMOSYS platform is an air quality toolbox targeted at policy support. The ecosystem of tools and web applications are designed to deliver policy oriented information on air quality in terms of forecasts, assessments and evaluation of air quality plans. At the core of the ATMOSYS services are state-of-the-art, well validated scientific models with a proven track record.
 
