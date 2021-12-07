@@ -12,17 +12,14 @@ ATMOSYS je softvérový systém, ktorý obsahuje nástroje a aplikácie určené
 
 ## Aplikácia ATMO-Plan
 
-Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan, aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľná webová  
+Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan -- aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľná webová  
+aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
 
-One of the key applications within the ATMOSYS platform is ATMO-Plan, the urban scale air quality planning application. It's a user friendly web based scenario assessment tool that allows users to run urban air quality planning scenarios. It was initially designed to assess the impact of urban mobility scenarios on the air quality, such as the creation of new bypasses, ring roads, traffic tunnels or low emission zones. But it also includes the option to add (industrial) point sources and thus simulate measures aimed at reducing those emissions. At the time of print, ATMO-Plan is being expanded to allow the assessment of measures aimed at tackling residential emissions.
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívaťeľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež pozaďové koncentrácie z modelu RIO pre rok 2019 sú zahrnuté. Užívateľ spustí tento základný scenár najprv a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom.  
 
-The main ATMO-Plan application is hosted by VITO and available online through the URL [](https://atmo-plan.vito.be/). As explained further in Chapter 2, each registered user receives their own log-in details. This version includes access to the pan-European data that can be used as input to the underlying models to screen traffic related scenarios for any city across the EU. This dataset is typically used to get users started until they source their own local data. This dataset is region specific as background air quality, emission factors etc. are specific to each region in the EU. Users can also upload their own input data.
+## Hlavné využitie
 
-ATMO-Plan can also be further customized for a specific region and installed at a user's location. The latter deployment usually includes the addition of specific local data in discussion with the receiving party for the system. During the initial project inception phase certain aspects in the core models can also be fine-tuned, such as the available fleet categories, nature of the traffic intensities and preconfigured datasets for background concentrations and meteo.
-
-## The Pan-EU Traffic Emissions Screening Functionality (The generic EU-wide data)
-
-ATMO-Plan contains a pan-European database of model input data to allow for screening of traffic related scenarios for any city across the EU. The Copernicus Atmospheric Monitoring Service (CAMS) regional re-analysis dataset for Europe and the European Centre for Medium-range Weather Forecasts (ECMWF) ERA-5 data for 2015 provide the background air quality data. A precompiled database of traffic intensity estimates for motorways and major roads across the EU allows the generation of traffic emissions data for the EU-28.
+Aplikácia je typicky , na dizajnovanie nízko emisných zón a  is typically used to support the implementation of air quality actions plans in line with the European air quality ambient directive, designing LEZ's and to evaluate the impact of local clean air action plans. It can also be used as a standard tool to harmonize all air quality assessment impact processes across a region (e.g. environmental permit processes and Environmental Impact Assessments (EIA)).
 
 ## Key Uses
 
