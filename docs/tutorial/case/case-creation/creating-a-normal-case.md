@@ -1,8 +1,8 @@
 ---
-title: Custom data
+title: Vlastné dáta
 ---
 
-# Creating a new case by uploading your own data
+# Vytvorenie projektu nahraním vlastných dát
 
-:::caution Not yet available
+::: Upozornenie: táto možnosť nie je aktuálne dostupná 
 :::
