@@ -1,16 +1,18 @@
 ---
-title: Introduction
+title: Úvod
 sidebar_position: 1
 slug: /
 ---
 
-## ATMOSYS Všade samé podopiere 2 krajc a pol
+## ATMOSYS 
 
-The ATMOSYS platform is an air quality toolbox targeted at policy support. The ecosystem of tools and web applications are designed to deliver policy oriented information on air quality in terms of forecasts, assessments and evaluation of air quality plans. At the core of the ATMOSYS services are state-of-the-art, well validated scientific models with a proven track record.
+ATMOSYS je softvérový systém, ktorý obsahuje nástroje a aplikácie určené pre posudzovanie kvality ovzdušia, ktoré sú navrhnuté tak, aby poskytovali informácie vhodné pre uplatňovanie v praxi. Umožňujú detailné posudzovanie a predpovedanie kvality ovzdušia a je ich možné použiť pri príprave plánov na zlepšenie kvality ovzdušia a ich vyhodnotení. Jadro systému Atmosys tvoria súčasné vedecké modely, ktoré sú dobre zvalidované a poskytujú osvedčené výsledky. 
 
 ![Example banner](./images/introduction-ATMOSYS.png)
 
-## The ATMO-Plan application
+## Aplikácia ATMO-Plan
+
+Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan, aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľná webová  
 
 One of the key applications within the ATMOSYS platform is ATMO-Plan, the urban scale air quality planning application. It's a user friendly web based scenario assessment tool that allows users to run urban air quality planning scenarios. It was initially designed to assess the impact of urban mobility scenarios on the air quality, such as the creation of new bypasses, ring roads, traffic tunnels or low emission zones. But it also includes the option to add (industrial) point sources and thus simulate measures aimed at reducing those emissions. At the time of print, ATMO-Plan is being expanded to allow the assessment of measures aimed at tackling residential emissions.
 
