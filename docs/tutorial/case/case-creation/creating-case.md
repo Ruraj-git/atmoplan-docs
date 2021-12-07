@@ -7,7 +7,6 @@ sidebar_position: 1
 
 
 Na vytvorenie nového projektu kliknite na + znamienko v pravom hornom rohu. Vytvorené projekty sa zobrazia v tabuľke. 
-When clicking on the Cases menu in the main page, the cases for the user are shown in a table. To create a new case, click the + sign at the top right.
 
 ![Creating a new case](./images/case_overview_SK.png)
 
