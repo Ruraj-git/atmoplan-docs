@@ -12,52 +12,49 @@ ATMOSYS je softvérový systém, ktorý obsahuje nástroje a aplikácie určené
 
 ## Aplikácia ATMO-Plan
 
-Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan -- aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľná webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
+Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan - aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľská webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
 
-Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívaťeľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež pozaďové koncentrácie z modelu RIO pre rok 2019 sú zahrnuté. Užívateľ spustí tento základný scenár najprv a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom.  
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež pozaďové koncentrácie z modelu RIO pre rok 2019 sú zahrnuté. Užívateľ spustí tento základný scenár najprv a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom.  
 
 ## Hlavné využitie
 
-Aplikácia je typicky , na dizajnovanie nízko emisných zón a  is typically used to support the implementation of air quality actions plans in line with the European air quality ambient directive, designing LEZ's and to evaluate the impact of local clean air action plans. It can also be used as a standard tool to harmonize all air quality assessment impact processes across a region (e.g. environmental permit processes and Environmental Impact Assessments (EIA)).
+Aplikácia je určená pre podporu implementácie plánov na zlepšenie kvality ovzdušia v súlade so Zákonom o ovzduší 137/2010, ako aj na vyhodnotenie týchto plánov. Môže sa použiť aj ako štandardný nástroj na harmonizáciu všetkých procesov hodnotenia vplyvu na kvalitu ovzdušia (napr. rozptylové štúdie - imisno-prenosové posudzovanie v zmysle zákona č.24/2006 Z.z a hodnotenia vplyvov na životné prostredie (EIA)). Aplikácia je tiež vhodná na dizajnovanie nízko emisných zón.  
 
-## Key Uses
 
-The application is typically used to support the implementation of air quality actions plans in line with the European air quality ambient directive, designing LEZ's and to evaluate the impact of local clean air action plans. It can also be used as a standard tool to harmonize all air quality assessment impact processes across a region (e.g. environmental permit processes and Environmental Impact Assessments (EIA)).
+## Modely v aplikácii ATMO-plan
 
-## The underlying models
+### Dopravný emisný model FASTRACE 
 
-### The FASTRACE traffic emissions model
+[FASTRACE](https://vito.be/en/product/fastrace-traffic-emission-model) je dopravný emisný model vyvinutý vo VITO. Je založený na softvéri COPERT, ktorý sa celosvetovo používa na výpočet emisií z cestnej dopravy (vyvinutý spoločnosťou Emisia na objednávku Európskej environmentálnej agentúry (EEA)). COPERT neposkytuje geografické rozdelenie vypočítaných emisií. Avšak modely kvality ovzdušia s vysokým rozlíšením vyžadujú priestorovo rozčlenené emisie. Preto bol vyvinutý FASTRACE, ktorý je založený na COPERT a zároveň poskytuje priestorové rozdelenie emisií na úrovni ulíc. Nižšie sú popísané základné koncepty modelu FASTRACE.   
 
-[FASTRACE](https://vito.be/en/product/fastrace-traffic-emission-model) is a traffic emission model developed by VITO. It is based on COPERT, the software used worldwide to calculate emissions from road transport (developed by emisia commissioned by the European Environment Agency (EEA)). COPERT does not provide a geographical breakdown of the calculated emissions. However high resolution air quality models require spatially disaggregated emissions. Consequently, FASTRACE was built as a COPERT based model, providing spatial allocation of emissions at street level. Below, the basic concepts of FASTRACE are described.
+#### Výpočtové jadro
 
-#### Computational kernel
+FASTRACE počíta emisie z cestnej dopravy pre všetky typy vozidiel vo vozovom parku (emisie vozového parku), alebo pre všetky segmenty ciest v sieti (emisie cestnej siete) na základe údajov o mobilite a vozového parku použitím emisných faktorov COPERT. Emisie sa potom vypočítajú ako
+emisie (E) = vozokilometre (vkm) \* emisný faktor (EF) 
 
-FASTRACE calculates emissions from road transport for all types of vehicles in a fleet (fleet emissions) or for all road segments in a network (network emissions), starting from mobility data and a fleet and based on COPERT emission factors. Emissions are then calculated as
-emissions (E) = vehicle kilometers (vkm) \* emission factor (EF)
+#### Údaje o mobilite, vozovom parku a cestnej sieti
 
-#### Mobility data, fleet, and network
+Na výpočet emisií potrebuje FASTRACE údaje o mobilite. Tieto môžu byť dodané v rôznych formátoch: vo formáte vozového parku a/alebo vo formáte cestnej siete:
 
-To calculate emissions, FASTRACE requires mobility data. These can be delivered in different formats: in fleet format and/or network format:
+- Údaje vo formáte vozového parku pozostávajú z počtu vozidiel na typ vozidla spolu s ročným počtom najazdených kilometrov na typ vozidla;
+- Údaje vo formáte cestnej siete predstavujú počet prechádzajúcich vozidiel na segmente cesty a súvisiacu rýchlosť.
 
-- A fleet consists of the number of vehicles per vehicle type, along with the annual mileage per vehicle type;
-- A network describes the number of passing vehicles per road segment and the associated speed.
+FASTRACE spracováva tieto súbory na vozokilometre (vkm) podľa typu vozidla a segmentu cesty, čo je hlavný vstup pre výpočet emisií. 
 
-FASTRACE processes these files to vehicle kilometers (vkm) per vehicle type and road segment, which is the main input for the calculation of emissions.
+#### Mapovanie typov vozidiel a typov ciest zo súborov cestnej siete a vozového parku
 
-#### Mapping the vehicle types in the network & fleet files
+Typy vozidiel a  typy ciest sa zvyčajne líšia v závislosti od zdroja údajov. Typy vozidiel uvažované v metodike COPERT sa zvyčajne nezhodujú s typmi vozidiel aké máme v reálnych dátach. To isté platí pre typy ciest. V COPERT existujú tri typy ciest: „Diaľnice“, „Mestské“ a „Vidiecke“, zatiaľ čo údaje o cestnej sieti sú vo všeobecnosti známe oveľa podrobnejšie. Z tohto dôvodu FASTRACE poskytuje rôzne mapovania. V aplikácii je poskytnutá funkcionalita, ktorá umožňuje užívateľovi mapovať typy vozidiel a typy ciest. Ak sa klasifikácie (typy ciest, typy vozidiel, …) medzi súbormi nezhodujú, mapovania budú definované na základe expertných predpokladov. 
 
-Vehicle types, road types, pollutants, ... usually differ depending on the data-source. The vehicle types from COPERT are usually not identical to the types of vehicles within the fleet file, or to the aggregation level available within the network. The same applies to types of roads. In COPERT there are three types of roads: 'Highway', 'Urban' and 'Rural' whereas in a network file, the road types are in general known in much greater detail. In order to correctly implement the above computation, FASTRACE provides various mappings. In the application the functionality is provided to allow the user to map the vehicle types in both files. This is shown in section 3.8.2.1. If classifications (road types, vehicle types, …) do not mutually match with each other and/or the COPERT types, mappings will be defined based on (expert) assumptions.
+####  Emisné faktory
 
-#### Emission Factors
+Emisné faktory (EF) sú určené na základe softvéru COPERT. Zatiaľ čo COPERT obsahuje funkcie EF, FASTRACE používa vyhľadávaciu tabuľku obsahujúcu EF podľa typu vozidla, typu cesty, znečisťujúcej látky a rýchlosti. Interpolácia EF z vyhľadávacej tabuľky prebieha v rámci modelu FASTRACE. Konfigurácia vyhľadávacej tabuľky je založená na množstve (úplných) behov COPERT špecifických pre daný región a odborných názoroch. Základné EF sú odvodené z výstupov COPERT. Tieto základné EF sú doplnené, keďže niektoré typy vozidiel, najmä typy, ktoré sa očakávajú v blízkej budúcnosti (a preto je potrebné ich zahrnúť do modelu vzhľadom na analýzu scenára), ešte nie sú zahrnuté v COPERT. Pre tieto typy vozidiel sa EF vkladajú do vyhľadávacej tabuľky na základe názoru odborníkov, literatúry a štúdií. 
 
-Emission factors (EF) are determined based on the COPERT software. However, whereas COPERT implements complex EF functions, FASTRACE uses a look-up table containing EFs per vehicle type, road type, pollutant and speed. Interpolation of EFs from the look-up table occurs within the FASTRACE model. Configuration of the look-up table is based on a number of (full-blown) region specific COPERT runs and expert opinions. The basic EF are derived from the COPERT output. These basic EFs are supplemented as some vehicle types, in particular types that are to be expected in the near future (and thus are necessary to include in the model with respect to scenario analysis) are not yet included in COPERT. For these vehicle types, EFs are inserted into the look-up table based on expert opinion, literature and specific studies.
+### Disperzný model IFDM 
 
-### The IFDM dispersion model
+Model [IFDM](https://vito.be/en/product/ifdm-high-resolution-air-quality-modelling) počíta rozptyl znečisťujúcich látok v atmosfére v závislosti od rýchlosti vetra a jeho smeru a stability atmosféry. IFDM je bi-gaussovský disperzný model využívajúci Bultynck-Maletove disperzné parametre (Bultynck & Malet, 1972).
 
-The [IFDM](https://vito.be/en/product/ifdm-high-resolution-air-quality-modelling) model calculates the dispersion of pollutants in the atmosphere depending on windspeed/direction & atmospheric stability. IFDM is a bi-Gaussian dispersion model using the Bultynck-Malet dispersion parameters (Bultynck & Malet, 1972) . The figure below illustrates the elements in a Gaussian dispersion model.
-
-A Gaussian model is a simplified analytic solution to the full advection diffusion equations using meteo dependent parameterisations for the steady state plume spreading in the atmosphere. IFDM works with a source-receptor grid in which the concentration contributions from all sources are computed for each receptor grid point.
+Gaussovský model predstavuje zjednodušené analytické riešenie rovníc plnej advekčnej difúzie, pričom využíva parametrizácie pre ustálený stav šírenia dymovej vlečky v atmosfére, ktoré sú závislé na meteorológii. Obrázok nižšie ilustruje princíp gaussovského modelu.
 
 ![IDFM model visual explanation](./images/ifdm-explanation.png)
 
-The IFDM model has been well validated for use in urban environments with several atmospheric environment papers published (W. Lefebvre, Cosemans, & Kegels, 2013; W. Lefebvre, Van Poppel, Maiheu, Janssen, & Dons, 2013; Wouter Lefebvre et al., 2011; Wouter Lefebvre & Vranckx, 2013).
+IFDM počíta pre každý definovaný bod receptora koncentračné príspevky zo všetkých zdrojov. Použitie modelu IFDM v mestskom prostredí bolo dobre zvalidované, čo dokumentuje viacero publikácií v odborných časopisoch týkajúcich sa atmosféry (W. Lefebvre, Cosemans, & Kegels, 2013; W. Lefebvre, Van Poppel, Maiheu, Janssen, & Dons, 2013; Wouter Lefebvre et al., 2011; Wouter Lefebvre & Vranckx, 2013).
