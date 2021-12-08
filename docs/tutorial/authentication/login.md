@@ -1,17 +1,11 @@
 ---
-title: Logging in
+title: Prihlásenie
 sidebar_position: 1
 ---
 
-:::tip Available in each deployment
-:::
+[//]: # myslím, že toto je skoro zbytočná stránka, lebo keď sa užívateľ dostane k tomuto helpu, tak sa už zvládol prihlásiť :)
+[//]: # možno bz sme tu mali uviesť kontaktnú adresu na administrátora (Juraj), ale vi+d predch. poznámka :)
+ATMO-Plan  je online aplikácia dostupná na adrese https://atmoplan.shmu.sk/. Prihlasovacie údaje dostal/dostane užívateľ na požiadanie od pracovníkov SHMÚ. Prihlasovacia obrazovka je na nasledujúcom obrázku 
 
-When an ATMO-Plan deployment has been made operational for a specific project you will have received a URL with the online location of the application's deployment along with a username / password. You can fill in these details here for future reference.
 
-    ATMO-plan URL: 
-    Login:
-    Password:
-
-When navigating to the URL, you will be presented with a login screen requiring you to enter your credentials. When clicking on the login button, you will be redirected to the main ATMO-Plan workspace.
-
-![Login](./images/login.png)
+![Login](./images/login_sk.png)
