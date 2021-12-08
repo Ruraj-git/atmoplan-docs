@@ -9,12 +9,16 @@ Ak chcete získať prvotné informácie o kvalite ovzdušia vo vašej študijnej
 
 ## Krok 1: Vytvorenie nového projektu a základného scenára 
 
-Na úvodnej stránke kliknite vpravo hore na symbol *Pridanie nového projektu* ![Quickstart step 1](./images/pridat_novy.PNG)
+Na úvodnej stránke kliknite v záložke *Projekty* vpravo hore na symbol *Pridanie nového projektu*  ![button](./images/pridat_novy.PNG)
 
-Create a new case by choosing the pre-calculated data option. Then simply draw your domain and enter a name for the case.
+Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Pričom na začiatku môžete použiť len vopred vypočítané údaje (zodpovedá základnému scenáru). 
+![Quickstart step 1](./images/quickstart1_case_name_type_SK.png)
 
-![Quickstart step 1](./images/quickstart1_case_name_type.png)
-![Quickstart step 1](./images/quickstart1_case_polygon.png)
+Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu projektu.
+
+![Quickstart step 1.1](./images/quickstart1_case_polygone_SK.png)
+
+Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom. Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom. Ak chcete spustiť len základný scenár s prednastavenými vstupmi kliknite vpravo hore na tlačítko **
 
 The case and baseline scenario are then automatically computed. The computation takes some time and the progress can be monitored in the status column of the case overview. When the computation is finished, the generated case and baseline scenario contain all necessary information to start a run (including a grid configuration, traffic emission, point source emission, background and meteo data). Click on the case name to open the case detail page.
 
