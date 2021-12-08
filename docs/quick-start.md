@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Rýchle vytvorenie nového projektu
 
-Ak chcete získať prvotné informácie o kvalite ovzdušia vo vašej študijnej oblasti, môžete postupovať podľa týchto krokov rýchleho spustenia a definovať základný scenár a niektoré ďalšie scenáre. 
+Nasledujúce kroky rýchleho spustenia Vás prevedú cez vytvorenie nového projektu, definíciu základného scenára a vytvorenia ďalších scenárov, v ktorých si môžete pridať vlastné bodové a cestné emisie alebo zmeniť tie v základnom scenári, a taktiež si v nich môžete definovať nízkoemisnú zónu. 
 
 ## Krok 1: Vytvorenie nového projektu a základného scenára 
 
@@ -18,7 +18,7 @@ Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
-Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas). Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky,emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). Ďalej si ukážeme ako vytvoriť scenáre s vlastne definovanými emisiami a nízko-emisnými zónami.  
+Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas). Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky, emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). Ďalej si ukážeme ako vytvoriť scenáre s vlastne definovanými emisiami a nízkoemisnými zónami.  
 
 ## Krok 2: Pridanie scenáru kopírovaním základného scenára
 
@@ -33,18 +33,13 @@ Následne zadajte názov
 Skopírovaný scenár bude obsahovať rovnaké informácie ako základný scenár, čo je dobrý východiskový bod na definovanie nového scenára, ktorý môžete modifikovať nasledovným spôsobom.  
 
 
-## Step 3: Modify the copied scenario
+## Step 3: Modifikácia vytvoreného scenáru
 
-The extra scenario can then be edited to define a realistic scenario. The following sections contain some examples:
+Vo všetkých scenároch okrem základného môžete meniť veľkosť emisií už existujúcich zdrojov v doméne, môžete pridávať nové bodové a cestné zdroje a vytvoriť nízkoemisnú zónu.
 
-### Example 1: Add a low emission zone
+### Príklad 1: Pridanie novej cesty
 
-A low emission zone can be defined in a few steps. First, you should draw your LEZ and provide a name for it. Then you should define your LEZ fleet, by including/banning vehicle types in/from your LEZ.
-
-![Quickstart step 3: add LEZ](./images/quickstart3_lez_name_polygon.png)
-![Quickstart step 3: add LEZ](./images/quickstart3_lez_vehicle_restrictions.png)
-
-### Example 2: Add a new road
+Nová cesta môže byť pridaná 
 
 A new road can be added by drawing it on the map and then specifying the traffic intensities and the other road properties.
 
@@ -55,6 +50,18 @@ A new road can be added by drawing it on the map and then specifying the traffic
 A road can be deleted by selecting the road on the map, and the clicking the delete button.
 
 ![Quickstart step 3: delete road](./images/quickstart3_delete_road.png)
+
+
+
+
+### Example 1: Add a low emission zone
+
+A low emission zone can be defined in a few steps. First, you should draw your LEZ and provide a name for it. Then you should define your LEZ fleet, by including/banning vehicle types in/from your LEZ.
+
+![Quickstart step 3: add LEZ](./images/quickstart3_lez_name_polygon.png)
+![Quickstart step 3: add LEZ](./images/quickstart3_lez_vehicle_restrictions.png)
+
+
 
 ## Step 4: Start the calculation
 
