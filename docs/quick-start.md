@@ -16,7 +16,7 @@ Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Pričo
 
 Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu projektu.
 
-![Quickstart step 1.1](./images/quickstart1_case_polygone_SK.png)
+![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
 Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom. Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom. Ak chcete spustiť len základný scenár s prednastavenými vstupmi kliknite vpravo hore na tlačítko **
 
