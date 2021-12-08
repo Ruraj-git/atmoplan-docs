@@ -18,7 +18,8 @@ Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
-Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom. Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom. Ak chcete spustiť len základný scenár s prednastavenými vstupmi kliknite vpravo hore na tlačítko **
+Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas). Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky,emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). Ďalej si môžete vytvoriť rôzny počet scenárov s vlastne definovanými  
+
 
 The case and baseline scenario are then automatically computed. The computation takes some time and the progress can be monitored in the status column of the case overview. When the computation is finished, the generated case and baseline scenario contain all necessary information to start a run (including a grid configuration, traffic emission, point source emission, background and meteo data). Click on the case name to open the case detail page.
 
