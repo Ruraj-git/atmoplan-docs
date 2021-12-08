@@ -9,7 +9,7 @@ Ak chcete získať prvotné informácie o kvalite ovzdušia vo vašej študijnej
 
 ## Krok 1: Vytvorenie nového projektu a základného scenára 
 
-Na úvodnej stránke kliknite vpravo hore na symbol *Pridanie nového projektu* ![Quickstart step 1](./images/pridat_novy.png)
+Na úvodnej stránke kliknite vpravo hore na symbol *Pridanie nového projektu* ![Quickstart step 1](./images/pridat_novy.PNG)
 
 Create a new case by choosing the pre-calculated data option. Then simply draw your domain and enter a name for the case.
 
