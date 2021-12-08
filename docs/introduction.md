@@ -4,17 +4,11 @@ sidebar_position: 1
 slug: /
 ---
 
-## ATMOSYS 
-
-ATMOSYS je softvérový systém, ktorý obsahuje nástroje a aplikácie určené pre posudzovanie kvality ovzdušia, ktoré sú navrhnuté tak, aby poskytovali informácie vhodné pre uplatňovanie v praxi. Umožňujú detailné posudzovanie a predpovedanie kvality ovzdušia a je ich možné použiť pri príprave plánov na zlepšenie kvality ovzdušia a ich vyhodnotení. Jadro systému Atmosys tvoria súčasné vedecké modely, ktoré sú dobre zvalidované a poskytujú osvedčené výsledky. 
-
-![Example banner](./images/introduction-ATMOSYS.png)
-
 ## Aplikácia ATMO-Plan
 
-Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan - aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľská webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
+ATMO-Plan je aplikácia na posudzovanie kvality ovzdušia. Je to užívateľsky priateľská webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
 
-Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež sú zahrnuté pozaďové koncentrácie z modelu RIO pre rok 2019. Užívateľ najprv spustí tento základný scenár  a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako je opísané v návode na použitie, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež sú zahrnuté pozaďové koncentrácie z modelu RIO pre rok 2019. Užívateľ najprv spustí tento základný scenár  a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
 
 ## Hlavné využitie
 
@@ -58,6 +52,6 @@ Model [IFDM](https://vito.be/en/product/ifdm-high-resolution-air-quality-modelli
 
 Gaussovský model predstavuje zjednodušené analytické riešenie rovníc plnej advekčnej difúzie, pričom využíva parametrizácie pre ustálený stav šírenia dymovej vlečky v atmosfére, ktoré sú závislé na meteorológii. Obrázok nižšie ilustruje princíp gaussovského modelu.
 
-![IDFM model visual explanation](./images/ifdm-explanation.png)
+![IDFM model visual explanation](./images/ifdm-explanation_SK.png)
 
 IFDM počíta pre každý definovaný bod receptora koncentračné príspevky zo všetkých zdrojov. Použitie modelu IFDM v mestskom prostredí bolo dobre zvalidované, čo dokumentuje viacero publikácií v odborných časopisoch týkajúcich sa atmosféry (W. Lefebvre, Cosemans, & Kegels, 2013; W. Lefebvre, Van Poppel, Maiheu, Janssen, & Dons, 2013; Wouter Lefebvre et al., 2011; Wouter Lefebvre & Vranckx, 2013).
