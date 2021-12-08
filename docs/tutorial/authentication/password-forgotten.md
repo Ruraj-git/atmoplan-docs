@@ -5,7 +5,7 @@ sidebar_position: 3
 
 
 
-Ak ste zabudli svoje heslo, môžete si zvoliť nové heslo kliknutím na tlačidlo 'Zabudli ste heslo?' tlačidlo.
+Ak ste zabudli svoje heslo, môžete si zvoliť nové heslo kliknutím na 'Zabudli ste heslo?'.
 
 ![Login](./images/login_sk.png)
 
