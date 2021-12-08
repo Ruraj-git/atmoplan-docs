@@ -1,11 +1,9 @@
----
+--- Odhl8senie
 title: Logging out
 sidebar_position: 2
 ---
 
-:::tip Available in each deployment
-:::
 
-To log out of a session, the user can click the icon in the upper right corner.
+Používateľ sa môže odhlásiť kliknutím na ikonu v pravom hornom rohu.
 
-![Log out](./images/logout.png)
+![Log out](./images/logout_sk.png)
