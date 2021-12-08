@@ -1,4 +1,4 @@
---- Odhl8senie
+--- Odhlásenie
 title: Logging out
 sidebar_position: 2
 ---
