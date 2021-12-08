@@ -1,13 +1,15 @@
 ---
-title: Quick start
+title: Rýchle spustenie
 sidebar_position: 1
 ---
 
-# Quickly setting up a case
+# Rýchle vytvorenie nového projektu
 
-To get a quick first impression of the air quality in your study area, you can follow these quick start steps to define a baseline scenario and some additional scenarios.
+Ak chcete získať prvotné informácie o kvalite ovzdušia vo vašej študijnej oblasti, môžete postupovať podľa týchto krokov rýchleho spustenia a definovať základný scenár a niektoré ďalšie scenáre. 
 
-## Step 1: Generate a case and baseline scenario
+## Krok 1: Vytvorenie nového projektu a základného scenára 
+
+Na úvodnej stránke kliknite vpravo hore na symbol *Pridanie nového projektu* ![Quickstart step 1](./images/pridat_novy.png)
 
 Create a new case by choosing the pre-calculated data option. Then simply draw your domain and enter a name for the case.
 
