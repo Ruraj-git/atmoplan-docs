@@ -14,12 +14,15 @@ ATMOSYS je softvérový systém, ktorý obsahuje nástroje a aplikácie určené
 
 Jedna z kľúčových aplikácií v rámci systému ATMOSYS je ATMO-Plan - aplikácia na posudzovanie kvality ovzdušia na mestskej škále. Je to užívateľsky priateľská webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
 
-Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež pozaďové koncentrácie z modelu RIO pre rok 2019 sú zahrnuté. Užívateľ spustí tento základný scenár najprv a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom.  
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako bude opísané v Kapitole 2, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež sú zahrnuté pozaďové koncentrácie z modelu RIO pre rok 2019. Užívateľ najprv spustí tento základný scenár  a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
 
 ## Hlavné využitie
 
-Aplikácia je určená pre podporu implementácie plánov na zlepšenie kvality ovzdušia v súlade so Zákonom o ovzduší 137/2010, ako aj na vyhodnotenie týchto plánov. Môže sa použiť aj ako štandardný nástroj na harmonizáciu všetkých procesov hodnotenia vplyvu na kvalitu ovzdušia (napr. rozptylové štúdie - imisno-prenosové posudzovanie v zmysle zákona č.24/2006 Z.z a hodnotenia vplyvov na životné prostredie (EIA)). Aplikácia je tiež vhodná na dizajnovanie nízko emisných zón.  
+ Aplikácia je určená hlavne pre tieto účely:
 
+-Hodnotenie vplyvu na kvalitu ovzdušia (napr. rozptylové štúdie - imisno-prenosové posudzovanie v zmysle zákona č.24/2006 Z.z a hodnotenie vplyvov na životné prostredie (EIA)) - pričom cieľom je na harmonizácia týchto procesov a vzájomná porovnateľnosť výstupov
+
+-Podpora implementácie Programov na zlepšenie kvality ovzdušia v súlade so Zákonom o ovzduší 137/2010. Na tento účel aplikácia obsahuje aj možnosť návrhu a hodnotenia nízkoemisných zón  
 
 ## Modely v aplikácii ATMO-plan
 
@@ -41,9 +44,9 @@ Na výpočet emisií potrebuje FASTRACE údaje o mobilite. Tieto môžu byť dod
 
 FASTRACE spracováva tieto súbory na vozokilometre (vkm) podľa typu vozidla a segmentu cesty, čo je hlavný vstup pre výpočet emisií. 
 
-#### Mapovanie typov vozidiel a typov ciest zo súborov cestnej siete a vozového parku
+#### Priradenie typov vozidiel a typov ciest zo súborov cestnej siete a vozového parku
 
-Typy vozidiel a  typy ciest sa zvyčajne líšia v závislosti od zdroja údajov. Typy vozidiel uvažované v metodike COPERT sa zvyčajne nezhodujú s typmi vozidiel aké máme v reálnych dátach. To isté platí pre typy ciest. V COPERT existujú tri typy ciest: „Diaľnice“, „Mestské“ a „Vidiecke“, zatiaľ čo údaje o cestnej sieti sú vo všeobecnosti známe oveľa podrobnejšie. Z tohto dôvodu FASTRACE poskytuje rôzne mapovania. V aplikácii je poskytnutá funkcionalita, ktorá umožňuje užívateľovi mapovať typy vozidiel a typy ciest. Ak sa klasifikácie (typy ciest, typy vozidiel, …) medzi súbormi nezhodujú, mapovania budú definované na základe expertných predpokladov. 
+Typy vozidiel a  typy ciest sa zvyčajne líšia v závislosti od zdroja údajov. Typy vozidiel uvažované v metodike COPERT sa zvyčajne nezhodujú s typmi vozidiel aké máme v reálnych dátach. To isté platí pre typy ciest. V COPERT existujú tri typy ciest: „Diaľnice“, „Mestské“ a „Vidiecke“, zatiaľ čo údaje o cestnej sieti sú vo všeobecnosti známe oveľa podrobnejšie. Z tohto dôvodu FASTRACE poskytuje rôzne priradenia. V aplikácii je poskytnutá funkcionalita, ktorá umožňuje užívateľovi priradiť rôzne typy vozidiel a typy ciest. Ak sa klasifikácie (typy ciest, typy vozidiel, …) medzi súbormi nezhodujú, priradenia budú definované na základe expertných predpokladov. 
 
 ####  Emisné faktory
 
