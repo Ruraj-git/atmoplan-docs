@@ -1,83 +1,75 @@
 ---
-title: Precalculated data
+title: Vopred vypočítané údaje
 ---
 
-# Creating a case and baseline scenario based on pre-calculated data
+# Vytvorenie projektu a základného scenára na základe vopred vypočítaných údajov 
 
-:::tip Available in Slovakia, Hungary
-:::
+Do aplikácie ATMO-Plan boli vložené údaje reprezentatívne pre Slovenskú republiku. Medzi ne patria informácie o bodových zdrojoch, emisiách z cestnej premávky, pozaďové koncentrácie a meteorológia. Tieto údaje sú automaticky aplikované pri vytváraní nových projektov. Výpočet slúži ako prvý referenčný základ na získanie údajov o situácii v kvalite ovzdušia a umožňuje používateľom otestovať vplyv nízkoemisných zón alebo iných opatrení na zníženie emisií z dopravy.
 
-(TODO: herschrijven) For quick screening and testing purposes, generic EU-wide data for all 28 members of the European Union has been inserted in the ATMO-Plan application. More details concerning this dataset is provided in Appendix H : Generic EU-wide data. We recommend that this data is only used as a first screening to provide a first estimate of the air quality concentrations. This serves as a first basic reference baseline to get an indication of the air quality situation and allow users to already test the impact of LEZ or other actions to reduce traffic emissions. The data is based on (a downscaling of) open source datasets, and errors in the underlying datasets may be reflected in the final dataset. In those cases, the custom data should be complemented with local bottom-up data.
-Performing a quick scan of the air quality based on the generic EU-wide data comprises of two key processes. Firstly, all the input data is acquired from the VITO-servers, secondly, using this data the air quality simulation is started.
+## Krok 1: Výber projektu 
 
-## Step 1: Select the correct case type
+Po kliknutí na menu Projekty na hlavnej stránke sa projekty používateľa zobrazia v tabuľke. Ak chcete vytvoriť nový projekt, kliknite na znamienko + vpravo hore.
 
-When clicking on the Cases menu in the main page, the cases for the user are shown in a table. To create a new case, click the + sign at the top right.
+![Create new case](./images/case_overview_SK.png)
 
-![Create new case](./images/case_overview.png)
+Po kliknutí sa spustí sprievodca. V prvom kroku sprievodcu môžete zadať názov a voliteľný popis. ATMO-Plan používa predefinovanú projekciu EPSG:3035, v ktorej sa generované aj výsledky výpočtu. Následne vyberte možnosť „Použiť vopred vypočítané údaje“, ako je znázornené na obrázku nižšie. Kliknutím na 'Ďalší' otvoríte ďalší krok sprievodcu. Kliknutím na „Zrušiť“ zatvoríte sprievodcu a prerušíte vytváranie projektu.
 
- A wizard is started. In the first step of the wizard, you can provide a name and optional description for your case and you can select the SRID in which the calculation results should be returned. Then select the 'Use pre-calculated data' option as shown in the figure below. Click on 'Next' to open the next step of the wizard. Click on 'Cancel' to close the wizard and abort the case creation.
+![Select name and case type](./images/predefined_case_name_type_SK.png)
 
-![Select name and case type](./images/predefined_case_name_type.png)
+## Krok 2: Nakreslite svoju doménu
 
-## Step 2: Draw your domain
+V druhom kroku sprievodcu môžete na mapu nakresliť doménu vášho projektu. To sa robí kliknutím na mapu a nakreslením rohov polygónu. Priblížiť/oddialiť môžete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Kreslenie polygónu ukončíte kliknutím na prvý bod polygónu.
 
-In the second step of the wizard, you can draw the domain of your case on the map. This is done by clicking on the map and drawing the corners of a polygon. You can zoom in/out using the icons at the bottom right of the map, or by using the mouse wheel. Close the polygon by clicking on the first corner.
+Domény môžu byť ľubovoľné polygóny, ktoré by mali by mať veľkosť približne jedného mesta. Ak je doména príliš veľká, zobrazí sa chybové hlásenie, ktoré vám povie, aby ste nakreslili menšiu doménu. K dispozícii sú iba údaje pre Slovenkú republiku. Ak nakreslíte polygón mimo tejto oblasti, zobrazí sa chybové hlásenie.
 
-Domains can be any polygon and should approximately be the size of a single city. If the domain is too large, an error message will appear, telling you to draw a smaller domain. Furthermore, only data is available for your region of interest. If you draw a polygon outside of that region, an error message will appear.
+Vpravo je zobrazený správca vrstiev. Ten vám umožňuje vizualizovať mapy, ktoré vám môžu pomôcť pri kreslení vášho projektu. Mapy zahŕňajú cesty a bodové zdroje celého regiónu, podkladové mapy pre rôzne znečisťujúce látky a umiestnenie monitorovacích staníc pre rôzne znečisťujúce látky.
 
-At the right, a layer manager is shown, which allows you to visualise maps that can help you when drawing your case. The maps include the roads and point sources of the entire region, the background maps for the different pollutants and the location of the monitoring stations for the different pollutants.
+Po nakreslení polygónu kliknutím na Ďalej zatvoríte sprievodcu. 
 
-After drawing the polygon, click on Next to close the wizard.
+![Draw polygon](./images/predefined_case_polygon_SK.png)
 
-![Draw polygon](./images/predefined_case_polygon.png)
+## Krok 3: Sledovanie priebehu vytvárania projektu
 
-## Step 3: Watch the progress of the case creation
+Po kliknutí na „Ďalej“ sa nový projekt zobrazí v tabuľke prehľadu projektov, kde je možné skontrolovať stav vytvárania projektu. Stav výpočtu je zobrazený v stĺpci „Stav“. Obnovuje sa automaticky a môže mať nasledujúce hodnoty:
 
-After clicking on 'Next', the new case will appear in the case overview table where the status of the case creation can be inspected. The status of the calculation is shown in the 'Status' column. It is refreshed automatically and can have the following values:
+- Príprava: tvorba projektu stále prebieha
+- Projekt je vytvorený: vytváranie bolo úspešne dokončené. Projekt je teraz pripravený na úpravu.
+- Vytvorenie projektu zlyhalo: vytvorenie zlyhalo. Po kliknutí na „Podrobnosti o chybe“ sa zobrazí chybové hlásenie.
 
-- Preparing: the creation is busy
-- Creation finished: the creation has completed successfully. The case is now ready to be edited.
-- Creation failed: the creation has failed. When clicking on 'Error details', an error message is shown.
+![Case creation progress](./images/predefined_case_progress_SK.png)
+![Case creation progress](./images/case_too_large1_SK.png)
 
-![Case creation progress](./images/predefined_case_progress.png)
-![Case creation progress](./images/case_too_large1.png)
+Po zatvorení sprievodcu sa na pozadí automaticky spustí vytváranie projektu. Vypočítajú sa nasledujúce údaje:
 
-After closing the wizard, the case creation automatically starts in the background. The following data is calculated:
+- Vytvorí sa nový projekt so zadaným názvom, popisom a projekciou.
+- Na základe nakreslenej domény sa určí vhodná konfigurácia mriežky.
+- Pre projekt je vytvorený základný scenár.
+- Nasledujúce údaje sa vypočítajú a uložia v základnom scenári:
+   - Pre nakreslenú doménu je vypočítaná sieť.
+   - Pre nakreslenú doménu sa určí skladba vozového parku.
+   - Vypočíta sa mapovanie siete.
+   - Pre doménu sú určené bodové zdroje.
+   - Koncentrácie pozadia a meteorologické podmienky sú vypočítané pre nakreslenú doénu.
 
-- A new case is created, with the provided name, description and SRID.
-- Based on the drawn domain, an appropriate grid configuration is determined.
-- A baseline scenario is created for the case.
-- The following data is calculated and stored in the baseline scenario:
-  - A network is calculated for the drawn domain.
-  - A fleet is calculated for the drawn domain.
-  - A network mapping is calculated.
-  - Point sources are calculated for the drawn domain.
-  - Background concentrations and meteorological conditions are calculated for the drawn domain.
+Získavanie údajov môže trvať niekoľko minút. 
 
-Acquiring the data can take several minutes.
+:::Upozornenie: Existujú určité obmedzenia týkajúce sa veľkosti domény.
+Doména by mala byť maximálne 1000 km2 a (pre výpočtové obmedzenia) maximálny počet ciest je 10 000. Ak je doména príliš veľká alebo ak je vo vybranej doméne príliš veľa ciest, vytvorenie projektu zlyhá a stav sa zmení na „Vytvorenie projektu zlyhalo“. Kliknutím na „Podrobnosti o chybe“ sa zobrazí chybové hlásenie. V oboch prípadoch by mala byť poskytnutá menšia doména.
 
-:::caution
-TODO: uitleg over buffer, verschilt per deployment, waarom doen we dit?
-:::
+![Case too large](./images/case_too_large1_SK.png) 
+![Case too large](./images/case_too_large2_SK.png)
 
-:::caution There are some limitations on the size of the domain.
-The domain should maximally be 1000 km2 and (for computational constraints) the maximum number of roads is 10.000. If the domain is too big or if there are too many roads in the selected domain, the creation of the case will fail and the status will change to 'Creation failed'. By clicking on 'Error details', an error message is shown. In both cases, a smaller domain should be provided.
-:::
+## Krok 4: Úprava projektu
 
-![Case too large](./images/case_too_large1.png) 
-![Case too large](./images/case_too_large2.png)
+Po dokončení vytvárania projektu sa v prehľade projektov zobrazí stav „Projekt je vytvorený“. Od tohto momentu je projekt k dispozícii na úpravu. Kliknite na názov projektu alebo otvorte ponuku projektu a kliknite na „Upraviť“. Otvorí sa stránka s podrobnosťami o projekte, ktorá zobrazuje projekt a jeho základný scenár.
 
-## Step 4: Inspect your case
 
-When the creation of the case is complete, the status 'Creation finished' will appear in the case overview. From that moment, the case is available for editing. Click on the case name or open the case menu and click on 'Edit'. The detail page for the case is opened, showing the case and its baseline scenario.
+![Edit a case](./../images/case_overview_plus_menu_SK.png)
 
-![Edit a case](./../images/case_overview_plus_menu.png)
+Vypočítané úseky ciest je možné zobraziť tak, že prejdete na základný scenár, kliknete na „Emisie“ a potom na „Doprava“.
 
-The computed road segments can be visualized by going to the base scenario, clicking on 'Emissions' and then on 'Traffic'.
+![Login](./images/emissions_traffic_SK.png)
 
-![Login](./images/emissions_traffic.png)
-
-The computed point sources can be visualized in a similar way by clicking on 'Point source'.
+Vypočítané bodové zdroje je možné zobraziť podobným spôsobom kliknutím na „Bodový zdroj“.
 
 ![Login](./images/emissions_pointsources.png)
