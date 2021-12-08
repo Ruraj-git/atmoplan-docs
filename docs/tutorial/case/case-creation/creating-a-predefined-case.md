@@ -72,4 +72,4 @@ Vypočítané úseky ciest je možné zobraziť tak, že prejdete na základný 
 
 Vypočítané bodové zdroje je možné zobraziť podobným spôsobom kliknutím na „Bodový zdroj“.
 
-![Login](./images/emissions_pointsources.png)
+![Login](./images/emissions_pointsources_SK.png)
