@@ -1,15 +1,14 @@
 ---
-title: Password forgotten
+title: Zabudnuté heslo
 sidebar_position: 3
 ---
 
-:::tip Available in each deployment
-:::
 
-When you have forgotten your password, a new password can be chosen by clicking the 'Forgot password?' button.
+Ak ste zabudli svoje heslo, môžete si zvoliť nové heslo kliknutím na 'Zabudli ste heslo?'.
 
-![Login](./images/login.png)
 
-A new page is opened where you can enter your email address. An email is then sent to this email address, containing a link. This link is only valid for a limited period. When clicking on this link, a page is opened where a new password can be chosen. This password will replace your old password.
+![Login](./images/login_sk.png)
 
-![Password forgotten](./images/password_forgotten.png)
+Otvorí sa nová stránka, kde môžete zadať svoju e-mailovú adresu. Na túto e-mailovú adresu sa potom odošle e-mail s odkazom (link). Tento odkaz je platný len počas obmedzenej doby. Po kliknutí na tento odkaz sa otvorí stránka, kde si môžete zvoliť nové heslo. Toto heslo nahradí vaše pôvodné heslo.
+
+![Password forgotten](./images/password_forgotten_sk.png)
