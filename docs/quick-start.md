@@ -37,40 +37,64 @@ Skopírovaný scenár bude obsahovať rovnaké informácie ako základný scená
 
 Vo všetkých scenároch okrem základného môžete meniť veľkosť emisií už existujúcich zdrojov v doméne, môžete pridávať nové bodové a cestné zdroje a vytvoriť nízkoemisnú zónu.
 
-### Príklad 1: Pridanie novej cesty
+
+### Príklad 1: Pridanie bodového zdroja
+
+Nový zdroj môže byť pridaný 
+
+1. manuálne 
+
+V scenári kliknite na *Emisie* -> *Bodový zdroj* -> a na mape vľavo hore kliknite na symbol + a zakreslite nový bodový zdroj do mapy.
+
+![Quickstart step 3: draw road](./images/quickstart3_draw_point_SK.png)
+
+V paneli vľavo môžete potom jednoducho pridať názov zdroja a jeho vlastnosti
+
+2. načítaním zo súboru, ktorý je pripravený pomocou manuálu (kliknite na tri bodky pre načítanie súboru s bodovými zdrojmi)
+
+### Príklad 2: Zmena vlastností bodového zdroja alebo vymazanie bodového zdroja 
+
+V scenári kliknite na *Emisie* -> *Bodový zdroj* a na mape kliknite na cestný úsek (editovateľné sú bodové zdroje vyznačené modrými štvorčekmi). V paneli vľavo môžete potom zmeniť jeho vlastnosti, alebo ho úplne vymazať tlačidlom *ODSTRÁNIŤ*, ktoré sa nachádza vľavo dole.
+
+
+### Príklad 3: Pridanie novej cesty
 
 Nová cesta môže byť pridaná 
 
-A new road can be added by drawing it on the map and then specifying the traffic intensities and the other road properties.
+1. manuálne 
+V scenári kliknite na *Emisie* -> *Doprava* -> a na mape vľavo hore kliknite na symbol + a nakreslite cestu do mapy.
 
-![Quickstart step 3: draw road](./images/quickstart3_draw_road.png)
+![Quickstart step 3: draw road](./images/quickstart3_draw_road_SK.png)
 
-### Example 3: Delete a road
+Následne zadajte dopravné intenzity a ostatné vlastnosti cestného segmentu. 
 
-A road can be deleted by selecting the road on the map, and the clicking the delete button.
+![Quickstart step 3: draw road](./images/quickstart3_draw_road2_SK.png)
 
-![Quickstart step 3: delete road](./images/quickstart3_delete_road.png)
+2. načítaním zo súboru, ktorý je pripravený pomocou manuálu (kliknite na tri bodky pre načítanie súboru s cestnými segmentmi)
+
+### Príklad 4: Zmena vlastností cestného segmentu alebo vymazanie cesty  
+
+V scenári kliknite na *Emisie* -> *Doprava* a na mape kliknite na cestný úsek (editovateľné sú cestné úseky vyznačené modrou farbou). Môžete zmeniť jeho vlastnosti, alebo ho úplne vymazať tlačidlom *ODSTRÁNIŤ* v paneli vľavo dole. 
+
+### Príklad 5: Pridanie nízkoemisnej zóny
+
+V scenári kliknite na *Nízkoemisné zóny* -> *Pridanie nízkoemisnej zóny* a pomenujte a nakreslite nízkoemisnú zónu (vrcholy oblasti zóny musia ležať na cestných segmentoch)
+
+![Quickstart step 3: add LEZ](./images/quickstart3_lez_name_polygon_SK.png)
+
+Po nakreslení nízkoemisnej zóny kliknite vľavo dole na *SPRÁVA OBMEDZENÍ VOZIDIEL* a definujte aké typy vozidiel povolíte v nízkoemisnej zóne
+
+![Quickstart step 3: add LEZ](./images/quickstart3_lez_vehicle_restrictions_SK.png)
 
 
+## Krok 4: Spustenie výpočtu
 
-
-### Example 1: Add a low emission zone
-
-A low emission zone can be defined in a few steps. First, you should draw your LEZ and provide a name for it. Then you should define your LEZ fleet, by including/banning vehicle types in/from your LEZ.
-
-![Quickstart step 3: add LEZ](./images/quickstart3_lez_name_polygon.png)
-![Quickstart step 3: add LEZ](./images/quickstart3_lez_vehicle_restrictions.png)
-
-
-
-## Step 4: Start the calculation
-
-The calculation can be started by clicking on the 'Start calculation' button in the top right corner. The calculation will take some time and an e-mail will be sent when the calculation has finished.
+Výpočet je možné spustiť kliknutím na tlačidlo „Spustiť výpočet“ v pravom hornom rohu. Trvanie výpočetu je závislé od veľkosti domény, počtu zdrojov a dostupných výpočtových prostriedkov. Po dokončení výpočtu Vám bude odoslaný e-mail.  
 
 ![Quickstart step 4: start calculation](./images/quickstart4_start_calculation.png)
 
-## Step 5: Inspect the results
+## Krok 5: Prezeranie výstupov 
 
-When a calculation is finished an email is sent to the user and the results of the calculation are made available in the tool. The results consist of interpolated maps and timeseries that can be visualized in the application and a zip file that can be downloaded.
+Po dokončení výpočtu sa výsledky výpočtu sprístupnia v aplikácii. Kliknutím na „ZOBRAZIŤ VÝSLEDKY“ na stránke Prehľad prípadov zobrazíte výsledné interpolované mapy a časové rady. V predvolenom nastavení sa zobrazujú výsledky pre prvý scenár, scenár Baseline. Po kliknutí na iné scenáre sa pod možnosťami Výpočtov zobrazí možnosť zobrazenia máp „Rozdiel“ a „Relatívny rozdiel“. Mapy (ako súbory .tif) a údaje časových radov na znečisťujúcu látku (ako súbory .csv) pre jednotlivé prípady si môžete stiahnuť (tlačidlo Stiahnuť výstup). Časové série je možné zobraziť v nástroji kliknutím na bod záujmu. 
 
 ![Quickstart step 5: view results](./images/quickstart5_results.png)
