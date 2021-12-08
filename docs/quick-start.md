@@ -18,16 +18,20 @@ Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
-Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas). Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky,emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). Ďalej si môžete vytvoriť rôzny počet scenárov s vlastne definovanými  
+Kliknite na tlačítko Dokončiť. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas). Na úvodnej stránke kliknite na názov projektu, otvorí sa vám okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky,emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). Ďalej si ukážeme ako vytvoriť scenáre s vlastne definovanými emisiami a nízko-emisnými zónami.  
 
+## Krok 2: Pridanie scenáru kopírovaním základného scenára
 
-The case and baseline scenario are then automatically computed. The computation takes some time and the progress can be monitored in the status column of the case overview. When the computation is finished, the generated case and baseline scenario contain all necessary information to start a run (including a grid configuration, traffic emission, point source emission, background and meteo data). Click on the case name to open the case detail page.
+K základnému scenáru je možné pridať ďalší scenár jednoduchým kopírovaním základného scenáru. Prostredníctvom tlačidla na obrázku skopírujte základný scenár
 
-## Step 2: Add a scenario by duplicating the baseline scenario
+![Quickstart step 2](./images/kopirovanie_scenaru.png)
 
-An extra scenario can be added to the case by simply duplicating the baseline scenario from step 1. The copied scenario will contain the same information as your baseline scenario, which is a good starting point to define your scenario.
+Následne zadajte názov 
 
-![Quickstart step 2](./images/quickstart2_scenario_duplicate.png)
+![Quickstart step 2.2](./images/kopirovanie_scenaru_nazov.png)
+
+Skopírovaný scenár bude obsahovať rovnaké informácie ako základný scenár, čo je dobrý východiskový bod na definovanie nového scenára, ktorý môžete modifikovať nasledovným spôsobom.  
+
 
 ## Step 3: Modify the copied scenario
 
