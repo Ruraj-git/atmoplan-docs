@@ -17,7 +17,7 @@ Na úvodnej stránke kliknite v záložke *Projekty* vpravo hore na symbol *Prid
 Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Pričom na začiatku môžete použiť len vopred vypočítané údaje (zodpovedá základnému scenáru). Môžete si tiež pozrieť emisie základného scenáru v interaktívnej mape. 
 ![Quickstart step 1](./images/quickstart1_case_name_type_SK.png)
 
-Kliknite na tlačítko *Ďalší*. A nakreslite región pre výpočtovú doménu projektu.
+Kliknite na tlačítko *Ďalší* a nakreslite región pre výpočtovú doménu projektu.
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
