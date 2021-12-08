@@ -15,7 +15,6 @@ Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dost
  Aplikácia je určená hlavne pre tieto účely:
 
 -Hodnotenie vplyvu na kvalitu ovzdušia (napr. rozptylové štúdie - imisno-prenosové posudzovanie v zmysle zákona č.24/2006 Z.z a hodnotenie vplyvov na životné prostredie (EIA)) - pričom cieľom je na harmonizácia týchto procesov a vzájomná porovnateľnosť výstupov
-
 -Podpora implementácie Programov na zlepšenie kvality ovzdušia v súlade so Zákonom o ovzduší 137/2010. Na tento účel aplikácia obsahuje aj možnosť návrhu a hodnotenia nízkoemisných zón  
 
 ## Modely v aplikácii ATMO-plan
