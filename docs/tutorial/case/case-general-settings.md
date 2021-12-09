@@ -1,19 +1,17 @@
 ---
-title: General settings
+title: Všeobecné nastavenia
 ---
 
-## Inspecting the general settings of a case
+## Kontrola všeobecných nastavení projektu
 
-:::tip Available in each deployment
+Prejdite na stránku s podrobnosťami o projekte a kliknite na „Všeobecné nastavenia“. Názov a popis projektu si môžete pozrieť tu.
+
+![General settings](./images/case_general_settings_SK.png)
+
+## Aktualizácia všeobecných nastavení projektu
+
+Prejdite na stránku s podrobnosťami o projektu a kliknite na „Všeobecné nastavenia“. Tu je možné upraviť názov a popis.
+:::Upozornenie
+Všeobecné nastavenia nie je možné aktualizovať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončení. Všeobecné nastavenia sú potom prístupné len na čítanie.
 :::
 
-Go to the case detail page and click on 'General settings'. The name and description of the case can be inspected here.
-
-![General settings](./images/case_general_settings.png)
-
-## Updating the general settings of a case
-
-Go to the case detail page and click on 'General settings'. The name and description can be edited here.
-:::caution
-The general settings cannot be updated while the results are being calculated or when the calculation is (successfully) finished. The general settings are read-only then.
-:::
