@@ -1,19 +1,17 @@
 ---
-title: Detail page
+title: Stránka s podrobnosťami 
 ---
 
-:::tip Available in each deployment
+Ak chcete skontrolovať alebo upraviť projekt a jeho scenár, prejdite na prehľad projektov a potom:
+
+Kliknite na názov projektu.
+Otvorte ponuku napravo od vybraného projektu. Kliknite na 'Upraviť'.
+V oboch prípadoch sa otvorí stránka s podrobnosťami o projekte.
+
+![Edit case](./images/case_edit_SK.png)
+
+:::Upozornenie
+Projekt je možné upraviť až po jeho úspešnom vytvorení. Pokiaľ vytváranie stále prebieha alebo zlyhalo, projekt nie je možné upraviť.
 :::
 
-To inspect or edit a case and its scenario, go to the case overview and then:
 
-- Click on the case name.
-- Open the menu to the right of your case. Click on 'Edit'.
-
-In both situations, the detail page for the case is opened.
-
-![Edit case](./images/case_edit.png)
-
-:::caution
-A case can only be edited when its creation has successfully finished. When the creation is still busy, or has failed, the case cannot be edited. The menu item is disabled then.
-:::
