@@ -1,15 +1,12 @@
 ---
-title: Deleting a case
+title: Odstránenie projektu
 ---
 
-:::tip Available in each deployment
+Ak chcete projekt odstrániť, prejdite do prehľadu projektov a otvorte ponuku napravo od vybraného projektu. Kliknite na 'Odstrániť'. Zobrazí sa potvrdzovacie dialógové okno, v ktorom môžete potvrdiť vymazanie alebo ho zrušiť. Po kliknutí na OK sa projekt a všetky súvisiace scenáre vymažú.
+
+:::Upozornenie
+Projekt nemožno odstrániť, keď je vytváranie stále prebiehaé alebo keď sa počítajú výsledky.
 :::
 
-To delete a case, go to the case overview and open the menu to the right of your case. Click on 'Delete'. A confirmation dialog is shown in which you can confirm the deletion, or cancel it. When clicking on OK, the case and all associated scenarios will be deleted.
-
-:::caution
-A case cannot be deleted when the creation is still busy, or while the results are being calculated. The menu item is disabled then.
-:::
-
-![Deleting a case](./images/case_delete.png)
-![Deleting a case: confirmation dialog](./images/case_delete2.png)
+![Deleting a case](./images/case_delete_SK.png)
+![Deleting a case: confirmation dialog](./images/case_delete2_SK.png)
