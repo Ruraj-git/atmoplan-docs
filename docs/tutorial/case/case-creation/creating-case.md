@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Úvod
 sidebar_position: 1
 ---
 
