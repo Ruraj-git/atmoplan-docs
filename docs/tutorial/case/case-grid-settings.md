@@ -1,88 +1,79 @@
 ---
-title: Grid settings
+title: Nastavenia mriežky
 ---
 
-## Inspecting the grid settings of a case
+## Prehľad nastavení mriežky projektu
 
-:::tip Available in each deployment
+Pred spustením výpočtu projektu musí používateľ nastaviť výpočtovú mriežku a receptory. Základný disperzný model IFDM je Gaussovský model založený na receptoroch v okolí zdrojov, vyžaduje si teda receptorovú mriežku, na ktorej sa vypočítajú koncentrácie znečisťujúcich látok. Z tejto receptorovej mriežky možno odvodiť interpolovanú mapu s hodnotami výslednej koncentrácie. Aby však táto interpolácia bola úspešná, výsledná mriežka by mala byť upravená tak, aby zachytávala priestorové gradienty v koncentračnom poli. Na tento účel sú do výpočtu pridané rôzne nastavenia receptorov a pravidelnej mriežky. (Parametre líniových a bodových zdrojov v aktuálnej verzií ATMO-Plan majú definované prednastavené hodnoty, ktoré užívateľ nemôže zmeniť. V prípade pravidelnej mriežky je možné nastaviť iba jej veľkosť).
+
+- **Pravidelná mriežka**, ktorá pozostáva z pravouhlej siete rovnomerne rozmiestnených bodov mriežky.
+- **Receptory líniových zdrojov** s pridanými nastaveniami v okolí ciest, čo umožňuje lepšie znázornenie gradientov koncentrácie.
+- **Receptory bodových zdrojov**. Nastavenie slúži na podobný účel ako pri líniových zdrojoch, ale je zamerané na okolie bodových zdrojov.
+
+
+As [mentioned earlier](../introduction-to-case-and-scenario-management.md), mriežka je spoločná pre všetky scenáre v projekte. Inými slovami, mriežka je definovaná na úrovni projektu, nie na úrovni scenára. Z tohto dôvodu je počítaná až po zadefinovaní všetkých scenárov projektu.
+
+Predvolené hodnoty pre nastavenia mriežky sa automaticky vypočítajú, keď používateľ nakreslí projekt.
+
+Keď používateľ klikne na ponuku „Nastavenia mriežky“, zobrazia sa tri podponuky pre tri typy nastavení. Po kliknutí na každú podponuku sa zobrazia príslušné konfiguračné hodnoty:
+
+![Regular grid](./images/case_regular_grid_SK.png)
+![Line based grid](./images/case_linebased_grid_SK.png)
+![Point based grid](./images/case_pointbased_grid_SK.png)
+
+Pre každé z nastavení je potrebné uviesť niekoľko parametrov. Tieto parametre sú podrobnejšie opísané nižšie. 
+
+:::Upozornenie
+V súčasnosti existuje limit 60 000 bodov mriežky na celkovej mriežke, aby sa skrátil výpočtový čas.
 :::
 
-Before the case results are calculated, the user will have to set up the calculation grid. As the underlying IFDM dispersion model is a Gaussian model and thus source receptor based, it requires a receptor grid on which to calculate the concentrations. From this receptor grid, an interpolated map with the final concentration values can be derived. However, for this interpolation to succeed, the receptor grid should be adjusted to capture the spatial gradients in the concentration field. To this end there are different receptor grids added to the calculation:
+### Pravidelná mriežka
 
-- A **regular grid**, which consists of a rectangular mesh of evenly spaced grid points.
-- A **line based grid**, with added grid refinements around the roads, thus allowing better representation of the concentration gradients around the roads.
-- A **point based grid**, which serves a similar purpose, but is centered around the location of the point sources.
+Predvolené hodnoty pre bežné nastavenia mriežky sa automaticky vypočítajú, keď používateľ nakreslí projekt. Stredový bod pravidelnej mriežky je stredovým bodom nakresleného polygónu.
 
-As [mentioned earlier](../introduction-to-case-and-scenario-management.md), the grid is common for all the scenarios in each case. So, in other words, the grid is defined at case level, not scenario level. Therefore, it can only be calculated after all the scenarios in a case are defined.
+V prípade pravidelnej mriežky existujú tri nastavenia:
 
-Default values for the grid settings are automatically computed when the user draws the case.
+- počet bodov v horizontálnom smere (os x)
+- počet bodov vo vertikálnom smere (y - os)
+- vzdialenosť medzi bodmi v metroch medzi 50 a 1000 m
 
-When the user clicks on the 'Grid settings' menu, three submenus are presented for the three grid types. When clicking on each submenu, the corresponding configuration values are shown:
+Všimnite si, že minimálna vzdialenosť sa môže zdať dosť hrubá, avšak do nastavnia vstupujú aj parametre bodových a líniových zdrojov s vysokým rozlíšením. Vhodná predvolená hodnota by bola 1000 m pre veľkosť väčšieho mesta.
 
-![Regular grid](./images/case_regular_grid.png)
-![Line based grid](./images/case_linebased_grid.png)
-![Point based grid](./images/case_pointbased_grid.png)
+Rozsah pravidelnej mriežky je na mape znázornený modrým obdĺžnikom.
 
-For each of the grids a number of parameters should be given. These parameters are described in more detail below. A link to the manual is provided in the bottom right corner.
+![Regular grid](./images/case_regular_grid_SK.png)
 
-:::caution
-Please note that there is currently a limit of 60000 grid points on the total grid to reduce the computation time.
-:::
+### Receptory líniových zdrojov
 
-### Inspecting the regular grid
+Predvolené hodnoty pre nastavenia receptorov líniových zdrojov sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
-Default values for the regular grid settings are automatically computed when the user draws the case. The center point of the regular grid is the center point of the drawn polygon.
+Receptorové body sú definované kolmo na zdroje emisných čiar ( cesty). Tieto body sú rozmiestnené s rozostupom podľa množstva parametrov. V nižšie uvedenom diagrame sú znázornené receptory líniových zdrojov. Čierne bodky zodpovedajú receptorovým bodom.
 
-In case of the regular grid, there are three settings:
+![Line based grid](./images/line-based-grid_SK.png)
 
-- the number of points in horizontal direction (x - axis)
-- the number of points in vertical direction (y - axis)
-- the distance between the points in meter, between 50 and 1000m
+Parametre receptorov:
+_ (a): vzdialenosť (v m) medzi polohami kolmých čiar pozdĺž líniového zdroja
+_ (b): vzdialenosť k prvému receptorovému bodu na kolmici (v m)
+_ (c): vzdialenosť k poslednému receptorovému bodu na kolmici (v m)
+_ Počet bodov na každej kolmej čiare
+\_ Tolerancia (v m) na minimálnu vzdialenosť bodov.
 
-Note that the minimum distance may seem rather coarse, however, local refinements around the emission sources will be dealt with by the high resolution line and point based grids. A good default would be 1000 m for the size of a larger city.
+Receptorové body bližšie k linkovému zdroju budú rozmiestnené bližšie k sebe ako body ďalej od linkového zdroja.
 
-The extent of the regular grid is shown on the map with a blue rectangle.
+Keďže mriežky sú založené na zdrojoch emisií vybraných alebo nahraných pre konkrétne miesto, systém vopred (t. j. pred odoslaním testu) nevie, kde budú umiestnené všetky body mriežky. Preto sa po výpočte celej mriežky na základe všetkých dostupných emisných vstupov a definície pravidelnej mriežky vykoná kontrola bodov siete, ktoré sú umiestnené blízko seba. Kontrola je založená na hodnote tolerancie poskytnutej používateľom. Nadbytočné receptorové body budú z konečnej mriežky odstránené, aby sa zvýšila efektívnosť výpočtu. 
 
-![Regular grid](./images/case_regular_grid.png)
+### Receptory bodovéj mriežky 
 
-### Inspecting the line based grid
+Predvolené hodnoty pre nastavenia receptorov bodových zdrojov sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
-Default values for the line based grid settings are automatically computed when the user draws the case.
+Nastavenie je definovaná podobným spôsobom ako pri líniových zdrojoch. V tomto prípade sú receptorové body umiestnené na sústredných kruhoch okolo každého bodového zdroja. Pod nákresom sú zobrazené parametre receptorov. Čierne bodky zodpovedajú receptorovým bodom. Bod umiestnený v strede predstavuje bodový zdroj.
 
-In a line based grid, receptor points are defined perpendicular to the emission line sources (typically roads). These points are spaced according to a number of parameters. In the diagram below, a drawing of the parameters for the line based grid is shown. The black dots correspond to the receptor points.
+![Point based grid](./images/point-based-grid_SK.png)
 
-![Line based grid](./images/line-based-grid.png)
+Parametrereceptorov:
 
-The parameters for a line based grid are:
-_ (a): the distance in m between the locations of the perpendicular lines along the line source
-_ (b): the distance to the first receptor point on the perpendicular line (in m)
-_ (c): the distance to the last point on the perpendicular line (in m)
-_ The number of points on each perpendicular line
-\_ The tolerance (in m) determining when points are too close together
-
-The receptor points closer to the line source will be spaced closer to each other than the points further away from the line source.
-
-The user is requested to add a tolerance in m. As the grids are based upon the emission sources selected or uploaded for a particular location, the system does not know in advance (i.e. before the submission of the run) where all the grid points will be situated. Hence, after computation of the whole grid, based upon all the different emission inputs and the definition of the regular grid, a check is performed for grid points which end up very close together. This is based on the tolerance value provided by the user. Redundant receptor points will be removed from the final grid to increase calculation efficiency.
-
-### Inspecting the point based grid
-
-Default values for the point based grid settings are automatically computed when the user draws the case.
-
-The point based grid is defined in a similar way as the line based grid. Here, the receptor points are placed on concentric circles around each point source. Below a drawing is shown of the parameters for the point based grid. The black dots correspond to the receptor points. The central larger point represents the point source.
-
-![Point based grid](./images/point-based-grid.png)
-
-The parameters for the point based grid are:
-
-- The number of concentric circles
-- The number of receptor points on each circle
-- (a): the distance from the point source to the first concentric circle
-- (b) : the distance to the last concentric circle
-- The tolerance (in m) determining when points are too close together
-
-The tolerance is explained in [the previous section](#inspecting-the-line-based-grid).
-
-### Updating the grid settings of a case
-
-:::caution Not yet available
-:::
+- Počet sústredných kruhov
+- Počet receptorových bodov na každom kruhu
+- (a) : vzdialenosť od bodového zdroja k prvej sústrednej kružnici
+- (b) : vzdialenosť k poslednému sústrednému kruhu
+- Tolerancia (v m) určujúca, kedy sú body príliš blízko seba
