@@ -3,7 +3,7 @@ title: Main page
 sidebar_position: 1.4
 ---
 
-:::tip Dostupné v každej verzii
+:::tip Available in each deployment
 :::
 
 Po prihlásení sa otvorí hlavná stránka nástroja. Táto stránka sa skladá z nasledujúcich častí:
