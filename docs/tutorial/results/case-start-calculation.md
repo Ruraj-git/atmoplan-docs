@@ -3,7 +3,7 @@ title: Začiatok výpočtu
 sidebar_position: 1
 ---
 
-When all the scenarios in a case are defined, the grid configuration is set up and the points of interest are defined, the user may proceed to starting the calculations. This is done by clicking the 'Start calculation' button at the top right of the case detail page.
+
 
 Keď sú definované všetky scenáre v projekte, je nastavená konfigurácia siete a definované body záujmu, používateľ môže pristúpiť k spusteniu výpočtu  kliknutím na tlačidlo „Spustiť výpočet“ v pravej hornej časti stránky s podrobnosťami o projekte.
 
