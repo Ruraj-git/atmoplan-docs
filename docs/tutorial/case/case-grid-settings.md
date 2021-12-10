@@ -15,7 +15,7 @@ Mriežka je spoločná pre všetky scenáre v projekte. Inými slovami, mriežka
 
 Predvolené hodnoty pre nastavenia mriežky sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
-Keď používateľ klikne na ponuku „Nastavenia mriežky“, zobrazia sa tri podponuky pre tri typy nastavení. Po kliknutí na každú podponuku sa zobrazia príslušné konfiguračné hodnoty:
+Keď používateľ klikne na ponuku „Nastavenia mriežky“, zobrazia sa tri možnosti pre tri typy nastavení. Po kliknutí na každú možnosť sa zobrazia príslušné konfiguračné hodnoty:
 
 ![Regular grid](./images/case_regular_grid_SK.png)
 ![Line based grid](./images/case_linebased_grid_SK.png)
@@ -23,7 +23,7 @@ Keď používateľ klikne na ponuku „Nastavenia mriežky“, zobrazia sa tri p
 
 Pre každé z nastavení je potrebné uviesť niekoľko parametrov. Tieto parametre sú podrobnejšie opísané nižšie. 
 
-:::Upozornenie
+:::Upozornenie:
 V súčasnosti existuje limit 60 000 bodov mriežky na celkovej mriežke, aby sa skrátil výpočtový čas.
 :::
 
@@ -34,8 +34,8 @@ Predvolené hodnoty pre bežné nastavenia mriežky sa automaticky vypočítajú
 V prípade pravidelnej mriežky existujú tri nastavenia:
 
 - počet bodov v horizontálnom smere (os x)
-- počet bodov vo vertikálnom smere (y - os)
-- vzdialenosť medzi bodmi v metroch medzi 50 a 1000 m
+- počet bodov vo vertikálnom smere  (os z)
+- vzdialenosť medzi bodmi v metroch rozmedzí 50 a 1000 m
 
 Všimnite si, že minimálna vzdialenosť sa môže zdať dosť hrubá, avšak do nastavnia vstupujú aj parametre bodových a líniových zdrojov s vysokým rozlíšením. Vhodná predvolená hodnota by bola 1000 m pre veľkosť väčšieho mesta.
 
@@ -47,17 +47,17 @@ Rozsah pravidelnej mriežky je na mape znázornený modrým obdĺžnikom.
 
 Predvolené hodnoty pre nastavenia receptorov líniových zdrojov sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
-Receptorové body sú definované kolmo na zdroje emisných čiar ( cesty). Tieto body sú rozmiestnené s rozostupom podľa množstva parametrov. V nižšie uvedenom diagrame sú znázornené receptory líniových zdrojov. Čierne bodky zodpovedajú receptorovým bodom.
+Receptorové body sú definované kolmo na zdroje emisných čiar ( ciest). Tieto body sú rozmiestnené s rozostupom daným podľa množstva parametrov. V nižšie uvedenom diagrame sú znázornené receptory líniových zdrojov. Čierne bodky zodpovedajú receptorovým bodom.
 
 ![Line based grid](./images/line-based-grid.png)
 
 Parametre receptorov:
 
-_ (a): vzdialenosť (v m) medzi polohami kolmých čiar pozdĺž líniového zdroja
-_ (b): vzdialenosť k prvému receptorovému bodu na kolmici (v m)
-_ (c): vzdialenosť k poslednému receptorovému bodu na kolmici (v m)
-_ Počet bodov na každej kolmej čiare
-\_ Tolerancia (v m) na minimálnu vzdialenosť bodov.
+- vzdialenosť (v m) medzi polohami kolmých čiar pozdĺž líniového zdroja
+- vzdialenosť k prvému receptorovému bodu na kolmici (v m)
+- vzdialenosť k poslednému receptorovému bodu na kolmici (v m)
+- Počet bodov na každej kolmej čiare
+- Tolerancia (v m) na minimálnu vzdialenosť bodov.
 
 Receptorové body bližšie k linkovému zdroju budú rozmiestnené bližšie k sebe ako body ďalej od linkového zdroja.
 
