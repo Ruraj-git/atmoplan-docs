@@ -1,17 +1,19 @@
 ---
-title: User management
+title: Správa užívateľov
 ---
 
-When a user has admin rights, the main page shows a fourth menu item: 'User management'. 
+Ak má užívateľ práva správcu, na hlavnej stránke sa zobrazí štvrtá položka menu: „Správa užívateľov“.
 
 ![User management menu](./images/user_menu.png)
 
-When clicking on this menu item, a table is shown with all current users.
+Po kliknutí na túto položkumenu sa zobrazí tabuľka so všetkými aktuálnymi užívateľmi.
 
 ![User overview](./images/user_overview.png)
 
-The user admin can edit or delete users via the menu item at the right.
+Správca užívateľov môže užívateľov upravovať alebo mazať prostredníctvom položky menu vpravo.
 
-New users can be added via the '+' button. The user admin should specify the first name, last name, email and role of the new user. Currently, two roles are supported: expert and user admin. When clicking on save, an email is sent to the email address that was provided. Upon receiving this email, the new user can login to the ATMO-Plan tool using the link in the email. The new user can create a password by clicking on 'forgot password' in the login page.
+
+Nových užívateľov možno pridať pomocou tlačidla „+“. Správca užívateľov zadá meno, priezvisko, e-mail a rolu nového užívateľa. V súčasnosti sú podporované dve roly: expert a správca užívateľov. Po kliknutí na uložiť sa odošle e-mail na uvedenú e-mailovú adresu. Po prijatí tohto e-mailu sa nový užívateľ môže prihlásiť do nástroja ATMO-Plan pomocou odkazu v e-maile. Nový užívateľ si môže vytvoriť heslo kliknutím na „zabudnuté heslo“ na prihlasovacej stránke.
+
 
 ![User detail](./images/user_detail.png)
