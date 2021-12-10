@@ -7,8 +7,8 @@ When all the scenarios in a case are defined, the grid configuration is set up a
 
 Keď sú definované všetky scenáre v projekte, je nastavená konfigurácia siete a definované body záujmu, používateľ môže pristúpiť k spusteniu výpočtu  kliknutím na tlačidlo „Spustiť výpočet“ v pravej hornej časti stránky s podrobnosťami o projekte.
 
-:::POZOR
-It is important to realize that once a case is submitted for processing, it is not possible to add additional scenarios to it. The user is notified of this, as can be seen in the figure below.
+:::POZOR!
+
 Ak je projekt odoslaný na spracovanie (výpočet), nie je možné k nemu pridávať ďalšie scenáre. Používateľ je na to upozornený, ako je možné vidieť na obrázku nižšie.
 :::
 
@@ -26,10 +26,10 @@ When a calculation is started, the following chain of events occurs in the backg
     - Next, the IFDM model is run for the time steps given in the background and meteo files. For the defined POIs, the full time series is retained.
     - Finally, a postprocessing run is started which will grid the concentration results as calculated on the receptor grid to raster files and make them available via a web map service (WMS) so they can be visualized in the application. For non-baseline scenarios, (absolute and relative) difference maps are created.
 
-During the calculation of a case, the status of the case in the case overview is 'Calculating'.
+
 Počas výpočtu prípadu je stav prípadu v prehľade prípadov „Výpočet beží“.
 
-![Calculation progress](./images/start_calculation_progress.png)
+![Calculation progress](./images/start_calculation_progress_sk.png)
 
 Since **calculations can take several hours to finish**, the planning application sends an email to the user when the calculation has ended, both successfully or if failed. The status of the case in the case overview is then changed to 'Calculation finished' or 'Calculation failed'.
 
