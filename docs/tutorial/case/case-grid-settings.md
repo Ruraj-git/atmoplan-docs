@@ -11,7 +11,7 @@ Pred spustením výpočtu projektu musí používateľ nastaviť výpočtovú mr
 - **Receptory bodových zdrojov**. Nastavenie slúži na podobný účel ako pri líniových zdrojoch, ale je zamerané na okolie bodových zdrojov.
 
 
-As [mentioned earlier](../introduction-to-case-and-scenario-management.md), mriežka je spoločná pre všetky scenáre v projekte. Inými slovami, mriežka je definovaná na úrovni projektu, nie na úrovni scenára. Z tohto dôvodu je počítaná až po zadefinovaní všetkých scenárov projektu.
+Mriežka je spoločná pre všetky scenáre v projekte. Inými slovami, mriežka je definovaná na úrovni projektu, nie na úrovni scenára. Z tohto dôvodu je počítaná až po zadefinovaní všetkých scenárov projektu.
 
 Predvolené hodnoty pre nastavenia mriežky sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
@@ -49,9 +49,10 @@ Predvolené hodnoty pre nastavenia receptorov líniových zdrojov sa automaticky
 
 Receptorové body sú definované kolmo na zdroje emisných čiar ( cesty). Tieto body sú rozmiestnené s rozostupom podľa množstva parametrov. V nižšie uvedenom diagrame sú znázornené receptory líniových zdrojov. Čierne bodky zodpovedajú receptorovým bodom.
 
-![Line based grid](./images/line-based-grid_SK.png)
+![Line based grid](./images/line-based-grid.png)
 
 Parametre receptorov:
+
 _ (a): vzdialenosť (v m) medzi polohami kolmých čiar pozdĺž líniového zdroja
 _ (b): vzdialenosť k prvému receptorovému bodu na kolmici (v m)
 _ (c): vzdialenosť k poslednému receptorovému bodu na kolmici (v m)
@@ -68,9 +69,9 @@ Predvolené hodnoty pre nastavenia receptorov bodových zdrojov sa automaticky v
 
 Nastavenie je definovaná podobným spôsobom ako pri líniových zdrojoch. V tomto prípade sú receptorové body umiestnené na sústredných kruhoch okolo každého bodového zdroja. Pod nákresom sú zobrazené parametre receptorov. Čierne bodky zodpovedajú receptorovým bodom. Bod umiestnený v strede predstavuje bodový zdroj.
 
-![Point based grid](./images/point-based-grid_SK.png)
+![Point based grid](./images/point-based-grid.png)
 
-Parametrereceptorov:
+Parametre receptorov:
 
 - Počet sústredných kruhov
 - Počet receptorových bodov na každom kruhu
