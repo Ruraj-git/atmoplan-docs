@@ -4,9 +4,9 @@ title: Body záujmu
 
 ## Prehľad nastavení bodov záujmu
 
-Aplikácia ATMO-Plan ponúka možnosť pridať do výpočtu konkrétne body záujmu. Tieto môžu napríklad zodpovedať umiestneniu monitorovacích staníc alebo iných vhpdných lokalít.
+Aplikácia ATMO-Plan ponúka možnosť pridať do výpočtu konkrétne body záujmu. Tieto môžu napríklad zodpovedať umiestneniu monitorovacích staníc alebo iných vhodných lokalít.
 
-Vo výpočte sa body záujmu považujú za normálne receptorové body a pridajú sa do siete receptorov. Kľúčovou výhodou nastavenia týchto bodov je, že celý hodinový a denný časový rad výpočtu bude uložený vo výsledkoch pre všetky vybrané body záujmu. Pre bežné receptorové body sa uložia iba agregované (stredné) koncentrácie po spracovaní. Úplný časový rad bodov umožňuje porovnanie hodnôt modelu s pozorovaniami staníc pomocou množstva štatistík zamernaých na analýzu časových radov. 
+Vo výpočte sa body záujmu považujú za normálne receptorové body a pridajú sa do siete receptorov. Kľúčovou výhodou nastavenia týchto bodov je, že celý hodinový a denný časový rad výpočtu bude uložený vo výsledkoch pre všetky vybrané body záujmu. Pre bežné receptorové body sa uložia iba agregované (priemerné) koncentrácie po ich spracovaní. dostupnosť úplného časového radu bodov umožňuje porovnanie hodnôt modelu s pozorovaniami staníc pomocou množstva štatistík zamernaých na analýzu časových radov. 
 
 Body záujmu sú spojené s projektom, nie s jednotlivými scenármi. Jedoduchým vyberom ponuky „Body záujmu“ na stránke s podrobnosťami o projekte si môžete prezrieť body záujmu vášho projektu. 
 
@@ -43,11 +43,11 @@ Na stránke s podrobnosťami o projekte vyberte ponuku 'Body záujmu', aby ste s
 
 Kliknite na tlačidlo „Hromadné odovzdanie“ vľavo. Vpravo sa zobrazí panel, do ktorého je možné súbor nahrať. V hornej časti si možno stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súboru.
 
-Nahrajte súbor s bodmi presunutím súboru do časti okna určenej na nahrávanie. Prípadne môžete kliknúť na šípku. Tým sa otvorí prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom počítači. Kliknutím na „nahrať“ spustíte import súboru.
+Nahrajte súbor s bodmi presunutím súboru do časti okna určenej na nahrávanie. Prípadne môžete kliknúť na šípku. Tým sa otvorí prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom počítači. Kliknutím na „NAHRAŤ“ spustíte import súboru.
 
 ![Bulk upload POI](./images/case_poi_bulk_upload_SK.png)
 
-Pri importovaní súborov sa ich obsah analyzuje, overí a vloží do databázy typu back-end. V prípade väčších súborov to môže chvíľu trvať. Keď import stále prebieha, na stránke sa zobrazuje správa.
+Pri importovaní súborov sa ich obsah analyzuje, overí a vloží do databázy. V prípade väčších súborov to môže chvíľu trvať. Pokiaľ import stále prebieha, na stránke sa zobrazuje správa.
 
 Ak bol súbor platný, body záujmu sa pridajú do zoznamu vľavo a zobrazia sa na mape.
 
@@ -65,7 +65,7 @@ Body záujmu nemožno aktualizovať počas prebiehajúceho výpočtu alebo po je
 
 ![Select POI](./images/case_poi_select_SK.png)
 
-Názov sa zobrazuje vpravo. Môžete upraviť názov a kliknúť na Uložiť.
+Názov bodu sa zobrazuje vpravo. Môžete ho upraviť a kliknúť na Uložiť.
 
 Umiestnenie bodov záujmu možno zmeniť kliknutím na prekresliť a následným kliknutím na mapu vyberte nové miesto. Kliknutím na Uložiť uložíte nové umiestnenie.
 
@@ -74,7 +74,7 @@ Prípadne môžete kliknúť na upraviť a potom presunúť značku na nové mie
 ## Odstránenie bodu záujmu
 
 :::Upozornenie
-Body záujmu nemožno vymazať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončeníu. Tlačidlo Odstrániť je potom skryté.
+Body záujmu nemožno vymazať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončeníu. Tlačidlo Odstrániť je vtedy skryté.
 :::
 
 Body záujmu možno odstrániť umiestnením kurzora myši nad vybraný bod v zozname vľavo a kliknutím na ikonu odstránenia. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo OK a Zrušiť.
