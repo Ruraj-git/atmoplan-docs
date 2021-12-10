@@ -3,13 +3,13 @@ title: Main page
 sidebar_position: 1.4
 ---
 
-:::tip Available in each deployment
+:::tip Dostupné v každej verzii
 :::
 
-After logging in, the main page of the tool is opened. This page consists of the following parts:
+Po prihlásení sa otvorí hlavná stránka nástroja. Táto stránka sa skladá z nasledujúcich častí:
 
-- The menu at the left consists of links to the cases, background concentrations and meteo of the user.
-- The language selection allows the user to choose the language of the application. The supported languages are different for each deployment.
-- The user information icon allows the user to log out.
+- Menu vľavo obsahuje odkazy na projekty, koncentrácie pozadia a meteo používateľa.
+- Výber jazyka umožňuje používateľovi vybrať si jazyk aplikácie. Podporované jazyky sa pre líšia pre rôzne verzie.
+- Ikona s užívateľom slúži na odhlásenie sa. 
 
 ![Main page](./images/main_page.png)
