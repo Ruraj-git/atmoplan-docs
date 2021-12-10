@@ -1,100 +1,84 @@
 ---
-title: Point of interest
+title: Body záujmu
 ---
 
-## Inspecting the points of interest
+## Prehľad nastavení bodov záujmu
 
-:::tip Available in each deployment
+Aplikácia ATMO-Plan ponúka možnosť pridať do výpočtu konkrétne body záujmu. Tieto môžu napríklad zodpovedať umiestneniu monitorovacích staníc alebo iných vhpdných lokalít.
+
+Vo výpočte sa body záujmu považujú za normálne receptorové body a pridajú sa do siete receptorov. Kľúčovou výhodou nastavenia týchto bodov je, že celý hodinový a denný časový rad výpočtu bude uložený vo výsledkoch pre všetky vybrané body záujmu. Pre bežné receptorové body sa uložia iba agregované (stredné) koncentrácie po spracovaní. Úplný časový rad bodov umožňuje porovnanie hodnôt modelu s pozorovaniami staníc pomocou množstva štatistík zamernaých na analýzu časových radov. 
+
+Body záujmu sú spojené s projektom, nie s jednotlivými scenármi. Jedoduchým vyberom ponuky „Body záujmu“ na stránke s podrobnosťami o projekte si môžete prezrieť body záujmu vášho projektu. 
+
+![POI list](./images/case_poi_bulk_upload_success_SK.png)
+
+Všetky body záujmu sú uvedené vľavo a sú zobrazené na mape. Jednotlivý body je možné vybrať kliknutím  v zozname alebo na  mape. Vlastnosti vybraného bodov sa potom zobrazia vpravo.
+
+![Select POI](./images/case_poi_select_SK.png)
+
+## Vytváranie bodov záujmu
+
+:::Upozornenie:
+Body záujmu nemožno vytvárať počas prebiehajúceho výpočtu alebo po dokončení výpočtu. Príslušné tlačidlá sú skryté alebo deaktivované.
 :::
 
-The ATMO-Plan application offers the possibility to add specific points of interest (POI) to the calculation. These may e.g. correspond to the location of monitoring stations and/or sensitive receptors.
+Body záujmu možno definovať dvoma spôsobmi:
 
-In the calculation, the points of interest are treated as normal receptor points and are added to the receptor grid. The key benefit of setting these POI receptor points is that the full hourly and daily time series of the calculation will be stored in the results for all POIs. For the ordinary receptor points, only the post processed aggregated (mean) concentrations will be stored. The full time series of the POI's allow the comparison of model values against station observations using a number of temporal validation statistics. These statistics can be found in the output text files that can be downloaded. (TODO: we hebben die statistieken toch niet voor POIs?)
+- Kliknutím na mapu a následným zadaním názvu
+- Nahraním súboru obsahujúceho viacero bodov záujmu
 
-Points of interest are associated with a case, not with individual scenarios. Simply select the 'Points of interest' menu in the case detail page to inspect the POIs of your case.
+## Vytvorenie bodov záujmu prostredníctvom mapy
 
-![POI list](./images/case_poi_bulk_upload_success.png)
+Na stránke s podrobnosťami o projekte vyberte ponuku 'Body záujmu', kde si môžete prezreieť body záujmu vášho projektu. Body záujmu sa zobrazia v zozname ako aj na mape.
 
-All POIs are listed at the left and are shown on the map. An individual POI can be selected by clicking on a POI in the list or on a POI on the map. The properties of the selected POI are then shown on the right.
+Kliknutím na znamienko „+“ v ľavom hornom rohu mapy vytvoríte ďalší bod záujmu. Kliknutím na mapu nakreslite svoj bod na vybrané miesto a potom zadáte jeho názov. Kliknutím na Uložiť vytvoríte bod.
 
-![Select POI](./images/case_poi_select.png)
+![Draw POI](./images/case_poi_draw_SK.png)
 
-## Creating points of interest
+Nový bod záujmu sa potom pridá do zoznamu vľavo.
 
-:::tip Available in each deployment
+## Nahranie viacerých bodov záujmu prostredníctvom súboru
+
+Na stránke s podrobnosťami o projekte vyberte ponuku 'Body záujmu', aby ste si prezreli body záujmu vášho projektu.
+
+Kliknite na tlačidlo „Hromadné odovzdanie“ vľavo. Vpravo sa zobrazí panel, do ktorého je možné súbor nahrať. V hornej časti si možno stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súboru.
+
+Nahrajte súbor s bodmi presunutím súboru do časti okna určenej na nahrávanie. Prípadne môžete kliknúť na šípku. Tým sa otvorí prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom počítači. Kliknutím na „nahrať“ spustíte import súboru.
+
+![Bulk upload POI](./images/case_poi_bulk_upload_SK.png)
+
+Pri importovaní súborov sa ich obsah analyzuje, overí a vloží do databázy typu back-end. V prípade väčších súborov to môže chvíľu trvať. Keď import stále prebieha, na stránke sa zobrazuje správa.
+
+Ak bol súbor platný, body záujmu sa pridajú do zoznamu vľavo a zobrazia sa na mape.
+
+![Bulk upload POI](./images/case_poi_bulk_upload_success_SK.png)
+
+Ak je súbor neplatný, používateľ je upozornený krátkou správou o chybe importu. Potom môžete svoj súbor opraviť a znova nahrať, ako je popísané vyššie.
+
+![Bulk upload POI](./images/case_poi_bulk_upload_fail_SK.png)
+
+## Aktualizovanie informácií o bodoch záujmu
+
+:::Upozornenie:
+Body záujmu nemožno aktualizovať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončení. Nastavenia sú v tomto prípade prístupné iba na čítanie.
 :::
 
-:::caution
-POIs cannot be created while the results are being calculated or when the calculation is (successfully) finished. The appropriate buttons are hidden or disabled.
+![Select POI](./images/case_poi_select_SK.png)
+
+Názov sa zobrazuje vpravo. Môžete upraviť názov a kliknúť na Uložiť.
+
+Umiestnenie bodov záujmu možno zmeniť kliknutím na prekresliť a následným kliknutím na mapu vyberte nové miesto. Kliknutím na Uložiť uložíte nové umiestnenie.
+
+Prípadne môžete kliknúť na upraviť a potom presunúť značku na nové miesto. Kliknutím na Uložiť uložíte nové umiestnenie.
+
+## Odstránenie bodu záujmu
+
+:::Upozornenie
+Body záujmu nemožno vymazať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončeníu. Tlačidlo Odstrániť je potom skryté.
 :::
 
-Points of interest can be defined in two ways:
+Body záujmu možno odstrániť umiestnením kurzora myši nad vybraný bod v zozname vľavo a kliknutím na ikonu odstránenia. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo OK a Zrušiť.
 
-- By clicking on the map and then providing a name
-- By uploading a file containing multiple POIs
+![Delete POI](./images/case_poi_delete_SK.png)
 
-## Creating a POI via the map
-
-Select the 'Points of interest' menu in the case detail page to inspect the POIs of your case. A list with all POIs is shown and the POIs are shown on the map.
-
-Click on the '+'-sign in the top left corner of the map to create an extra POI. Click on the map to draw your POI in the correct location and then enter the name of the POI. Click on Save to create the POI.
-
-![Draw POI](./images/case_poi_draw.png)
-
-The new POI is then added to the list at the left.
-
-## Upload multiple POIs via a file
-
-Select the 'Points of interest' menu in the case detail page to inspect the POIs of your case. A list with all POIs is shown and the POIs are shown on the map.
-
-Click on the 'Bulk upload' button at the left. At the right, a panel is shown where the file can be uploaded. At the top a template can be downloaded that can be used to define your own POI file. The format of the POI file is described in more detail in an appendix.
-
-Upload your POI file by dragging and dropping the file in the upload component. Alternatively, you can click on the upload component; this opens a file explorer, which allows you to choose a file on your file system. The name of the chosen file is shown below the upload component. Click on 'upload' to start importing the file.
-
-![Bulk upload POI](./images/case_poi_bulk_upload.png)
-
-When importing files, their content is parsed, validated and put into a back-end database. For larger files, this may take some time. While the import is busy, a message is shown on the page.
-
-When the file was valid, the POIs are added to the list at the left and shown on the map.
-
-![Bulk upload POI](./images/case_poi_bulk_upload_success.png)
-
-When the file is invalid, the user is notified with a brief message of where the import went wrong. You can then correct your file and upload it again, as described above.
-
-![Bulk upload POI](./images/case_poi_bulk_upload_fail.png)
-
-## Updating a point of interest
-
-:::tip Available in each deployment
-:::
-
-:::caution
-The POIs cannot be updated while the results are being calculated or when the calculation is (successfully) finished. The POI settings are read-only then.
-:::
-
-Select the 'Points of interest' menu in the case detail page to inspect the POIs of your case. A list with all POIs is shown and the POIs are shown on the map.
-
-The name and location of a POI can be changed by clicking on a POI in the list or on the map.
-
-![Select POI](./images/case_poi_select.png)
-
-The name is shown on the right. You can edit the name and click on Save.
-
-The location of the POI can be changed by clicking on redraw and then clicking on the map to select a new location. Click on Save to save the new location.
-
-Alternatively, you can click on edit and then drag the marker to a new location. Click on Save to save the new location.
-
-## Deleting a point of interest
-
-:::tip Available in each deployment
-:::
-
-:::caution
-POIs cannot be deleted while the results are being calculated or when the calculation is (successfully) finished. The delete button is hidden then.
-:::
-
-POIs can be removed by hovering over a POI in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
-
-![Delete POI](./images/case_poi_delete.png)
-
-![Delete POI: confirmation dialog](./images/case_poi_delete2.png)
+![Delete POI: confirmation dialog](./images/case_poi_delete2_SK.png)
