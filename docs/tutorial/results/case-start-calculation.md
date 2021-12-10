@@ -27,7 +27,7 @@ When a calculation is started, the following chain of events occurs in the backg
     - Finally, a postprocessing run is started which will grid the concentration results as calculated on the receptor grid to raster files and make them available via a web map service (WMS) so they can be visualized in the application. For non-baseline scenarios, (absolute and relative) difference maps are created.
 
 
-Počas výpočtu prípadu je stav prípadu v prehľade prípadov „Výpočet beží“.
+V prehľade projektov je počas výpočtu projektu označenie „Výpočet beží“.
 
 ![Calculation progress](./images/start_calculation_progress_sk.png)
 
