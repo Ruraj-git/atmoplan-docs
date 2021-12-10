@@ -4,10 +4,10 @@ title: Nastavenia mriežky
 
 ## Prehľad nastavení mriežky projektu
 
-Pred spustením výpočtu projektu musí používateľ nastaviť výpočtovú mriežku a receptory. Základný disperzný model IFDM je Gaussovský model založený na receptoroch v okolí zdrojov, vyžaduje si teda receptorovú mriežku, na ktorej sa vypočítajú koncentrácie znečisťujúcich látok. Z tejto receptorovej mriežky možno odvodiť interpolovanú mapu s hodnotami výslednej koncentrácie. Aby však táto interpolácia bola úspešná, výsledná mriežka by mala byť upravená tak, aby zachytávala priestorové gradienty v koncentračnom poli. Na tento účel sú do výpočtu pridané rôzne nastavenia receptorov a pravidelnej mriežky. (Parametre líniových a bodových zdrojov v aktuálnej verzií ATMO-Plan majú definované prednastavené hodnoty, ktoré užívateľ nemôže zmeniť. V prípade pravidelnej mriežky je možné nastaviť iba jej veľkosť).
+Pred spustením výpočtu projektu musí používateľ nastaviť výpočtovú mriežku a receptory. Základný disperzný model IFDM je Gaussovský model založený na receptoroch v okolí zdrojov, vyžaduje si teda receptorovú sieť, na ktorej sa vypočítajú koncentrácie znečisťujúcich látok. Z tejto receptorovej siete možno odvodiť interpolovanú mapu s hodnotami výsledných koncentrácií. Aby však táto interpolácia bola úspešná, výsledná mriežka by mala byť upravená tak, aby zachytávala priestorové gradienty v koncentračnom poli. Na tento účel sú do výpočtu pridané rôzne nastavenia receptorov a pravidelnej mriežky. (Parametre líniových a bodových zdrojov v aktuálnej verzií ATMO-Plan majú definované prednastavené hodnoty, ktoré užívateľ nemôže zmeniť. V prípade pravidelnej mriežky je možné nastaviť iba jej veľkosť).
 
 - **Pravidelná mriežka**, ktorá pozostáva z pravouhlej siete rovnomerne rozmiestnených bodov mriežky.
-- **Receptory líniových zdrojov** s pridanými nastaveniami v okolí ciest, čo umožňuje lepšie znázornenie gradientov koncentrácie.
+- **Receptory líniových zdrojov** s nastaveniami v okolí ciest, čo umožňuje lepšie znázornenie gradientov koncentrácie.
 - **Receptory bodových zdrojov**. Nastavenie slúži na podobný účel ako pri líniových zdrojoch, ale je zamerané na okolie bodových zdrojov.
 
 
@@ -63,7 +63,7 @@ Receptorové body bližšie k linkovému zdroju budú rozmiestnené bližšie k 
 
 Keďže mriežky sú založené na zdrojoch emisií vybraných alebo nahraných pre konkrétne miesto, systém vopred (t. j. pred odoslaním testu) nevie, kde budú umiestnené všetky body mriežky. Preto sa po výpočte celej mriežky na základe všetkých dostupných emisných vstupov a definície pravidelnej mriežky vykoná kontrola bodov siete, ktoré sú umiestnené blízko seba. Kontrola je založená na hodnote tolerancie poskytnutej používateľom. Nadbytočné receptorové body budú z konečnej mriežky odstránené, aby sa zvýšila efektívnosť výpočtu. 
 
-### Receptory bodovéj mriežky 
+### Receptory bodových zdrojov
 
 Predvolené hodnoty pre nastavenia receptorov bodových zdrojov sa automaticky vypočítajú, keď používateľ nakreslí projekt.
 
