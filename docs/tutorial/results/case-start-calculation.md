@@ -37,7 +37,7 @@ V prehľade projektov je počas výpočtu projektu označenie „Výpočet bež�
 
 Keďže **dokončenie výpočtov môže trvať niekoľko hodín**, aplikácia odošle používateľovi e-mail, keď sa výpočet skončí, či už úspešne alebo naopak. Stav projektu v prehľade projektov sa potom zmení na „Výpočet ukončený“ alebo „Výpočet zlyhal“.
 
-<--- ![Calculation progress: finished](./images/view_results_button_main.png)
+<!--- ![Calculation progress: finished](./images/view_results_button_main.png) --->
 
 
 Ak výpočet zlyhá, v zozname projektov sa zobrazí chybové hlásenie v časti „Podrobnosti o chybe“.
