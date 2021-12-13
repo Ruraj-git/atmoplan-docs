@@ -29,6 +29,25 @@ Pri výbere mapy v rozbaľovacom zozname sa mapa zobrazí na pravej strane pomoc
 ![Result map for NO2: dynamic legend](./images/result_no2_dynamic.png)
 ![Result map for NO2: custom legend](./images/result_no2_custom.png)
 
+### Časové rady pre body záujmu
+
+V predvolenom nastavení sa body záujmu prípadu zobrazujú na mape pomocou modrých značiek. Keď používateľ klikne na značku, zobrazí sa graf s časovým radom koncentrácií pre každý scenár.
+
+Používateľ si môže vybrať znečisťujúcu látku, ktorá sa má zobraziť v graf, a časové rozlíšenie (hodinové alebo priemerné priemerné koncentrácie). Presunutím myši nad graf sa pre každý scenár zobrazí dátum a zodpovedajúce hodnoty koncentrácií.
+
+Ďalšie funkcie sú dostupné prostredníctvom ponuky nad grafom. Tieto funkcie zahŕňajú:
+
+- Stiahnutie grafu vo formáte .png
+- Priblíženie:
+
+  - Vyberte ikonu priblíženia a nakreslením obdĺžnika priblížite konkrétnu časť grafu
+  - Na priblíženie a oddialenie použite + a -
+  - Použite „automatickú mierku“ na resetovanie grafu po priblížení
+
+![Daily timeseries](./images/result_timeseries_daily.png)
+![Hourly timeseries](./images/result_timeseries_hourly.png)
+![Hourly timeseries (zoomed)](./images/result_timeseries_hourly_zoomed.png)
+
 
 <!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
