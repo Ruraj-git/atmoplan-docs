@@ -48,6 +48,17 @@ Používateľ si môže vybrať znečisťujúcu látku, ktorá sa má zobraziť 
 ![Hourly timeseries](./images/result_timeseries_hourly.png)
 ![Hourly timeseries (zoomed)](./images/result_timeseries_hourly_zoomed.png)
 
+### Sťahovanie výsledkov
+
+Výsledky je možné stiahnuť pomocou tlačidla „Stiahnuť výstup“. Keď používateľ klikne na toto tlačidlo, stiahne sa archív zip obsahujúci výsledky pre všetky scenáre v prípade.
+
+![Obsah výsledného súboru zip](./images/output_zip.png)
+
+#### Prípad
+
+Na najvyššej úrovni obsahuje súbor zip jeden priečinok pre každý scenár. Názov priečinka zodpovedá názvu scenára. Priečinok obsahuje aj nasledujúce súbory pre prípad:
+
+##### Vstup:
 
 <!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
