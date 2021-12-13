@@ -16,6 +16,20 @@ Výsledky obsahujú:
 
 ### Interpolované mapy
 
+Prejdite na stránku s výsledkami projektu. Ponuka na ľavej strane zobrazuje všetky scenáre projektu, všetky znečisťujúce látky, rôzne typy máp, body záujmu a tlačidlo na stiahnutie výsledkov.
+
+Pre základný scenár je možné zvoliť priemerné ročné koncentrácie pre štyri znečisťujúce látky (NO<sub>2</sub>, PM<sub>10</sub>, PM<sub>2,5</sub>, WILDCARD).
+
+Pre  ostatné scenáre sú dostupné aj mapy relatívnych a absolútnych rozdielov ročnej priemernej koncentrácie vzhľadom na základný scenár. V týchto mapách kladné hodnoty znamenajú zvýšenie koncentrácií (zhoršenie kvality ovzdušia), záporné hodnoty pokles koncentrácií (zlepšenie kvality ovzdušia).
+
+Pri výbere mapy v rozbaľovacom zozname sa mapa zobrazí na pravej strane pomocou predvolenej legendy, ktorá sa zobrazuje v ľavom dolnom rohu. Pre každú znečisťujúcu látku je poskytnutá predvolená legenda (možnosť „predvolené“), ale je tiež možné vybrať legendu v rozsahu od minimálnej po maximálnu hodnotu na mape (možnosť „dynamická“) alebo poskytnúť vlastné minimum a maximum hodnotu (možnosť „vlastné“).
+
+![Result map for NO2](./images/result_no2.png)
+![Result map for NO2: default legend](./images/result_no2_default.png)
+![Result map for NO2: dynamic legend](./images/result_no2_dynamic.png)
+![Result map for NO2: custom legend](./images/result_no2_custom.png)
+
+
 <!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
 ![View results: main page](./images/view_results_button_main.png)
