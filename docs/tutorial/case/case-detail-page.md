@@ -10,7 +10,7 @@ V oboch prípadoch sa otvorí stránka s podrobnosťami o projekte.
 
 ![Edit case](./images/case_edit_SK.png)
 
-:::Upozornenie
+:::caution Upozornenie
 Projekt je možné upraviť až po jeho úspešnom vytvorení. Pokiaľ vytváranie stále prebieha alebo zlyhalo, projekt nie je možné upraviť.
 :::
 
