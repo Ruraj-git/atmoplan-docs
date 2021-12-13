@@ -19,7 +19,9 @@ Ak je projekt odoslaný na spracovanie (výpočet), nie je možné k nemu pridá
 Po spustení výpočtu sa na pozadí spustia nasledujúca procesy:
 
 - Projekt a všetky jeho scenáre sa skontrolujú a overí sa, či obsahujú všetky potrebné informácie na spustenie výpočtu.
-- A message is placed on a message queue signaling the back-end that a new calculation is requested. This message will trigger the generation of a calculation job which will be scheduled for execution. Depending on the current load of the back-end, the job may be delayed or start running immediately. The size and load of the back-end determines the speed at which jobs start running.
+- 
+<!--- - A message is placed on a message queue signaling the back-end that a new calculation is requested. This message will trigger the generation of a calculation job which will be scheduled for execution. Depending on the current load of the back-end, the job may be delayed or start running immediately. The size and load of the back-end determines the speed at which jobs start running. --->
+
 -  Výpočtová úloha sa zaradí do zoznamu plánovaných úloh. V závislosti od aktuálneho zaťaženia servara sa môže úloha spustiť okamžite alebo s oneskorením. 
 - Po spustení výpočtovej úlohy sa na serveri vykoná niekoľko krokov:
 - Mriežka receptorov je zadefinovaná po spracovaní všetkých mriežok zadaných pre rôzne scenáre (ich sčítaním a odstránením nadbytočných bodov pri zadanej tolerancii, ako je uvedené v konfigurácii mriežky pre daný projekt).
