@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Keď sú definované všetky scenáre v projekte, je nastavená výpočtová mriežka a definované body záujmu, používateľ môže pristúpiť k spusteniu výpočtu  kliknutím na tlačidlo „Spustiť výpočet“ v pravej hornej časti stránky s podrobnosťami o projekte.
 
-:::POZOR!
+:::caution POZOR!
 
 Ak je projekt odoslaný na spracovanie (výpočet), nie je možné k nemu pridávať ďalšie scenáre. Používateľ je na to upozornený, ako je možné vidieť na obrázku nižšie.
 :::
@@ -37,7 +37,7 @@ V prehľade projektov je počas výpočtu projektu označenie „Výpočet bež�
 
 Keďže **dokončenie výpočtov môže trvať niekoľko hodín**, aplikácia odošle používateľovi e-mail, keď sa výpočet skončí, či už úspešne alebo naopak. Stav projektu v prehľade projektov sa potom zmení na „Výpočet ukončený“ alebo „Výpočet zlyhal“.
 
-![Calculation progress: finished](./images/view_results_button_main.png)
+<--- ![Calculation progress: finished](./images/view_results_button_main.png)
 
 
 Ak výpočet zlyhá, v zozname projektov sa zobrazí chybové hlásenie v časti „Podrobnosti o chybe“.
