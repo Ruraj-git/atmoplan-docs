@@ -68,11 +68,138 @@ Na najvyššej úrovni obsahuje súbor zip jeden priečinok pre každý scenár.
 ##### Výstup:
 
 Pre prípad neexistujú žiadne výstupné súbory.
+
 #### Scenár
 
 Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsledné súbory:
 
 ##### Vstup:
+<table>
+  <tr>
+    <th>File</th>
+    <th>Content</th>
+  </tr>
+  <tr>
+    <td>scenario_summary.txt</td>
+    <td>Describes the general settings of the scenario</td>
+  </tr>
+  <tr>
+    <td >pointsource-X.txt</td>
+    <td>
+      X = name of the point source emission of the scenario
+      <br/>
+      Contains a list of all point sources and their properties for the given emission
+     </td>
+  </tr>
+  <tr>
+    <td>pointsource-X.txt</td>
+    <td>X = name of the point source emission of the scenario</td>
+  </tr>
+  <tr>
+    <td>LEZ.txt</td>
+    <td>Contains a list of all low emissions zones of the scenario.</td>
+  </tr>
+</table>
+
+##### Output:
+
+<table>
+  <tr>
+    <th>File</th>
+    <th>Content</th>
+  </tr>
+  <tr>
+    <td>fastrace.txt fastraceMetadata.txt</td>
+    <td>
+      <p>These files are the output of the traffic emission calculation.</p>
+      <p>The meta data file (fastraceMetadata.txt) contains information on the version of the traffic emission model and other metadata.</p>
+      <p>The data file (fastrace.txt) contains the actual calculated emission values on the line segments provided by the network. The format of this file is described in appendix G.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_Y_Z.tif</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        <br/>
+        Y = indicator corresponding to the pollutant (MeanConcentration, P50, P99.8, max1day, ...)
+        <br/>
+        Z = SRID
+      </p>
+      <p>These GeoTIFF raster files contain the indicator values for the different pollutants. These rasters were gridded from the receptor grid. These files are ordinary GeoTIFFs including projection information which can easily be opened in any GIS client for creating off-line visualisations and analyses (e.g. QGIS, ArcGIS…).</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_MeanConcentration_3035_diff.tif</td>
+    <td>
+      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
+      <p>These GeoTIFF raster files contain the differences of the annual mean values between the scenario and the baseline scenario.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_MeanConcentration_3035_rel_diff.tif</td>
+    <td>
+      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
+      <p>These GeoTIFF raster files contain the relative differences of the annual mean values between the scenario and the baseline scenario.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_Z.csv</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+	<br/>
+        Z = SRID
+      </p>
+      <p>These files contain annual indicator values for all receptor grid points. The indicators include the annual mean concentrations and a list of indicators that are different per pollutant. These files are provided as plain text comma separated value files (.csv) and can easily be imported into any spreadsheet tool.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_Z_diff.csv</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+	<br/>
+        Z = SRID
+      </p>
+      <p>These files contain the absolute differences of the indicators between the scenario and the baseline scenario.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputIndicatorsX_Z_rel_diff.csv</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+	<br/>
+        Z = SRID
+      </p>
+      <p>These files contain the relative differences of the indicators between the scenario and the baseline scenario.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputTimeseriesX_Z.csv</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+	<br/>
+        Z = SRID
+      </p>
+      <p>These files contain the hourly time series for the points of interest for the different pollutants.</p>
+      <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>outputTimeseriesDailyX_Z.csv</td>
+    <td>
+      <p>
+        X = pollutant (NO2, PM10, PM25, WILDCARD)
+	<br/>
+        Z = SRID
+      </p>
+      <p>These files contain the daily time series for the points of interest for the different pollutants. The format corresponds to the hourly time series files.</p>
+    </td>
+  </tr>
+</table>
 
 <!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
