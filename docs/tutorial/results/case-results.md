@@ -81,23 +81,19 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
   </tr>
   <tr>
     <td>scenario_summary.txt</td>
-    <td>Describes the general settings of the scenario</td>
+    <td>Popisuje všeobecné nastavenia scenára</td>
   </tr>
   <tr>
     <td >pointsource-X.txt</td>
     <td>
-      X = name of the point source emission of the scenario
+      X = názov bodového zdroja scenára
       <br/>
-      Contains a list of all point sources and their properties for the given emission
+      Obsahuje zoznam všetkých bodových zdrojov a ich vlastností.
      </td>
   </tr>
   <tr>
-    <td>pointsource-X.txt</td>
-    <td>X = name of the point source emission of the scenario</td>
-  </tr>
-  <tr>
     <td>LEZ.txt</td>
-    <td>Contains a list of all low emissions zones of the scenario.</td>
+    <td>Obsahuje zoznam všetkých nízkoemisných zón scenára.</td>
   </tr>
 </table>
 
