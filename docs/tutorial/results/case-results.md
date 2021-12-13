@@ -154,33 +154,34 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputIndicatorsX_Z_diff.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
-      <p>These files contain the absolute differences of the indicators between the scenario and the baseline scenario.</p>
+      <p>Tieto súbory obsahujú absolútne rozdiely indikátorov medzi scenárom a základným scenárom.</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_Z_rel_diff.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
-      <p>These files contain the relative differences of the indicators between the scenario and the baseline scenario.</p>
+      <p>Tieto súbory obsahujú relatívne rozdiely indikátorov medzi scenárom a základným scenárom.</p>
     </td>
   </tr>
   <tr>
     <td>outputTimeseriesX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, inertný plyn)
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
+	<br/>(NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
-      <p>Tieto súbory obsahujú časové radz preimerných hodinových koncentrácií jednotlivýh znečistujúcich látok pre body záujmu. </p>
+      <p>Tieto súbory obsahujú časové rady preimerných hodinových koncentrácií jednotlivých znečistujúcich látok pre body záujmu. </p>
       <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations. </p>
     </td>
   </tr>
@@ -188,7 +189,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputTimeseriesDailyX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, inertný plyn)
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
