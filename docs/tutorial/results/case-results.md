@@ -108,17 +108,17 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>fastrace.txt fastraceMetadata.txt</td>
     <td>
       <p>Tieto súbory sú výstupom výpočtu emisií z dopravy.</p>
-      <p>Súbor s metadátami (fastraceMetadata.txt )obsahuje informácie o verzii dopravného emisného modelu a ďalšie metadáta.</p>
-      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch poskytovaných sieťou. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#fastrace-output-format)</p>
+      <p>Súbor s metadátami (fastraceMetadata.txt) obsahuje informácie o verzii dopravného emisného modelu a ďalšie metadáta.</p>
+      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#fastrace-output-format)</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_Y_Z.tif</td>
     <td>
       <p>
-        X = znečisťujúca látka (NO2, PM10, PM25, WILDCARD)
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
         <br/>
-        Y = indikátor pre danú znečisťujúcu látku ( priemerná koncentrácia, precentily (P50, P99,8), maximálna koncentrácia, ...)
+        Y = indikátor pre danú znečisťujúcu látku (priemerná koncentrácia, precentily (P50, P99,8), maximálna koncentrácia, ...)
         <br/>
         Z = SRID
       </p>
@@ -128,14 +128,14 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_diff.tif</td>
     <td>
-      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
-      <p>These GeoTIFF raster files contain the differences of the annual mean values between the scenario and the baseline scenario.</p>
+      <p>X = znečisťujúca látka (NO2, PM10, PM25, intertný plyn)</p>
+      <p>Tieto rastrové súbory GeoTIFF obsahujú rozdiely priemerných ročnými koncentrácií medzi scenárom a základným scenárom.</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_rel_diff.tif</td>
     <td>
-      <p>X = pollutant (NO2, PM10, PM25, WILDCARD)</p>
+      <p>X = znečiťújúca látka (NO2, PM10, PM25, intertný plyn)</p>
       <p>These GeoTIFF raster files contain the relative differences of the annual mean values between the scenario and the baseline scenario.</p>
     </td>
   </tr>
@@ -176,23 +176,23 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputTimeseriesX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = pollutant (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
-      <p>These files contain the hourly time series for the points of interest for the different pollutants.</p>
-      <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations.</p>
+      <p>Tieto súbory obsahujú časové radz preimerných hodinových koncentrácií jednotlivýh znečistujúcich látok pre body záujmu. </p>
+      <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations. </p>
     </td>
   </tr>
   <tr>
     <td>outputTimeseriesDailyX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = pollutant (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
-      <p>These files contain the daily time series for the points of interest for the different pollutants. The format corresponds to the hourly time series files.</p>
+      <p>Tieto súbory obsahujú denné časové rady bodov záujmu pre rôzne znečisťujúce látky. Formát zodpovedá súborom hodinových časových radov.</p>
     </td>
   </tr>
 </table>
