@@ -60,6 +60,20 @@ Na najvyššej úrovni obsahuje súbor zip jeden priečinok pre každý scenár.
 
 ##### Vstup:
 
+| File/folder      | Content                                                      |
+| :--------------- | :----------------------------------------------------------- |
+| case_summary.txt | Describes the general settings and grid settings of the case |
+| poi.txt          | Name and location of all POIs of the case                    |
+
+##### Výstup:
+
+Pre prípad neexistujú žiadne výstupné súbory.
+#### Scenár
+
+Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsledné súbory:
+
+##### Vstup:
+
 <!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
 ![View results: main page](./images/view_results_button_main.png)
