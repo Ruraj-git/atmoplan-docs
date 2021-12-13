@@ -107,18 +107,18 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
   <tr>
     <td>fastrace.txt fastraceMetadata.txt</td>
     <td>
-      <p>These files are the output of the traffic emission calculation.</p>
-      <p>The meta data file (fastraceMetadata.txt) contains information on the version of the traffic emission model and other metadata.</p>
-      <p>The data file (fastrace.txt) contains the actual calculated emission values on the line segments provided by the network. The format of this file is described in appendix G.</p>
+      <p>Tieto súbory sú výstupom výpočtu emisií z dopravy.</p>
+      <p>Súbor s metadátami (fastraceMetadata.txt )obsahuje informácie o verzii dopravného emisného modelu a ďalšie metadáta.</p>
+      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch poskytovaných sieťou. Formát tohto súboru je popísaný v časti</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_Y_Z.tif</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = znečisťujúca látka (NO2, PM10, PM25, WILDCARD)
         <br/>
-        Y = indicator corresponding to the pollutant (MeanConcentration, P50, P99.8, max1day, ...)
+        Y = indikátor pre danú znečisťujúcu látku ( priemerná koncentrácia, precentily (P50, P99,8), maximálna koncentrácia, ...)
         <br/>
         Z = SRID
       </p>
