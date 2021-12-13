@@ -24,7 +24,7 @@ Po spustení výpočtu sa na pozadí spustia nasledujúca procesy:
 
 -  Výpočtová úloha sa zaradí do zoznamu plánovaných úloh. V závislosti od aktuálneho zaťaženia servara sa môže úloha spustiť okamžite alebo s oneskorením. 
 - Po spustení výpočtovej úlohy sa na serveri vykoná niekoľko krokov:
-- - Mriežka receptorov je zadefinovaná po spracovaní všetkých mriežok zadaných pre rôzne scenáre (ich sčítaním a odstránením nadbytočných bodov pri zadanej tolerancii, ako je uvedené v konfigurácii mriežky pre daný projekt).
+-- Mriežka receptorov je zadefinovaná po spracovaní všetkých mriežok zadaných pre rôzne scenáre (ich sčítaním a odstránením nadbytočných bodov pri zadanej tolerancii, ako je uvedené v konfigurácii mriežky pre daný projekt).
 
 -- Výpočet scenárov:
     --- Pre zdroje emisií z dopravy sa používa model dopravných emisií [FASTRACE](/#the-fastrace-traffic-emissions-model). Model emisií z dopravy prevádza intenzity dopravy a zloženie vozového parku do emisií z líniových zdrojov v kg/km pre rôzne znečisťujúce látky, ktoré sú pripravené pre gausovský rozptylový model. IFDM.
