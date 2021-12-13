@@ -54,7 +54,7 @@ Výsledky je možné stiahnuť pomocou tlačidla „Stiahnuť výstup“. Keď p
 
 ![Obsah výsledného súboru zip](./images/output_zip.png)
 
-#### Prípad
+#### Projekt
 
 Na najvyššej úrovni obsahuje súbor zip jeden priečinok pre každý scenár. Názov priečinka zodpovedá názvu scenára. Priečinok obsahuje aj nasledujúce súbory pre prípad:
 
@@ -109,6 +109,7 @@ Additional functionalities are available through the menu above the graph. These
 ### Downloading the results
 
 The results can be downloaded via the 'Download output' button. When the user clicks this button, a zip-archive will be downloaded containing the results for all scenarios in the case.
+
 
 ![Content of the result zip file](./images/output_zip.png)
 
