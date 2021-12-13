@@ -1,4 +1,4 @@
-ž---
+---
 title: Začiatok výpočtu
 sidebar_position: 1
 ---
