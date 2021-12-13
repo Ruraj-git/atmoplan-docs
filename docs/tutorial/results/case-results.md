@@ -1,12 +1,22 @@
 ---
-title: Inspecting the results
+title: Preskúmanie výsledkov 
 sidebar_position: 2
 ---
+Po dokončení výpočtu sa používateľovi odošle e-mail. Výsledky výpočtu je možné skontrolovať kliknutím na „Zobraziť výsledky“ v prehľade projektov alebo na stránke s podrobnosťami o projekte (vpravo hore).
 
-:::tip Available in Slovakia, Hungary
-:::
+![View results: main page](./images/view_results_button_main.png)
+![View results: detail page](./images/view_results_button_detail.png)
 
-When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
+Výsledky obsahujú:
+
+- Interpolované mapy priemerných ročných  koncentrácií pre každú znečisťujúcu látku
+- Interpolované mapy zobrazujúce absolútnych a relatívny rozdiel ročných priemerných koncentrácií medzi scenárom a základným scenárom
+- Časové rady priemerných hodinových koncentrácií pre body záujmu
+- Súbor zip obsahujúci súbory s výsledkami v formáte .csv.
+
+### Interpolované mapy
+
+<!-- When a calculation is finished, an email is sent to the user. The results of the calculation can be inspected by clicking on 'View results' in the case overview, or in the case detail page (top right).
 
 ![View results: main page](./images/view_results_button_main.png)
 ![View results: detail page](./images/view_results_button_detail.png)
@@ -205,3 +215,4 @@ Each scenario folder contains files that describe the scenario and result files:
     </td>
   </tr>
 </table>
+-->
