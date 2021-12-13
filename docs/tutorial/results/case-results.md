@@ -62,8 +62,8 @@ Na najvyššej úrovni obsahuje súbor zip jeden priečinok pre každý scenár.
 
 | File/folder      | Content                                                      |
 | :--------------- | :----------------------------------------------------------- |
-| case_summary.txt | Describes the general settings and grid settings of the case |
-| poi.txt          | Name and location of all POIs of the case                    |
+| case_summary.txt | Popisuje všeobecné nastavenia a nastavenia mriežky           |
+| poi.txt          | Názov a umiestnenie všetkých bodov záujmu prípadu            |
 
 ##### Výstup:
 
