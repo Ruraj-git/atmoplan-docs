@@ -18,7 +18,7 @@ Všetky body záujmu sú uvedené vľavo a sú zobrazené na mape. Jednotlivý b
 
 ## Vytváranie bodov záujmu
 
-:::Upozornenie:
+:::caution Upozornenie:
 Body záujmu nemožno vytvárať počas prebiehajúceho výpočtu alebo po dokončení výpočtu. Príslušné tlačidlá sú skryté alebo deaktivované.
 :::
 
@@ -59,7 +59,7 @@ Ak je súbor neplatný, používateľ je upozornený krátkou správou o chybe i
 
 ## Aktualizovanie informácií o bodoch záujmu
 
-:::Upozornenie:
+:::caution Upozornenie:
 Body záujmu nemožno aktualizovať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončení. Nastavenia sú v tomto prípade prístupné iba na čítanie.
 :::
 
@@ -73,7 +73,7 @@ Prípadne môžete kliknúť na upraviť a potom presunúť značku na nové mie
 
 ## Odstránenie bodu záujmu
 
-:::Upozornenie
+:::caution Upozornenie
 Body záujmu nemožno vymazať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončeníu. Tlačidlo Odstrániť je vtedy skryté.
 :::
 
