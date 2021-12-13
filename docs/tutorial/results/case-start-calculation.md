@@ -30,7 +30,7 @@ Po spustení výpočtu sa na pozadí spustia nasledujúca procesy:
 
 V prehľade projektov je počas výpočtu projektu označenie „Výpočet beží“.
 
-![Calculation progress](./images/start_calculation_progress_sk.png)
+![Calculation progress](./images/start_calculation_progres_sk.png)
 
 Since **calculations can take several hours to finish**, the planning application sends an email to the user when the calculation has ended, both successfully or if failed. The status of the case in the case overview is then changed to 'Calculation finished' or 'Calculation failed'.
 
