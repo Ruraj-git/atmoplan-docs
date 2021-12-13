@@ -32,7 +32,9 @@ V prehľade projektov je počas výpočtu projektu označenie „Výpočet bež�
 
 ![Calculation progress](./images/start_calculation_progres_sk.png)
 
-Since **calculations can take several hours to finish**, the planning application sends an email to the user when the calculation has ended, both successfully or if failed. The status of the case in the case overview is then changed to 'Calculation finished' or 'Calculation failed'.
+
+
+Keďže **dokončenie výpočtov môže trvať niekoľko hodín**, aplikácia odošle používateľovi e-mail, keď sa výpočet skončí, či už úspešne alebo naopak. Stav projektu v prehľade projektov sa potom zmení na „Výpočet ukončený“ alebo „Výpočet zlyhal“.
 
 ![Calculation progress: finished](./images/view_results_button_main.png)
 
