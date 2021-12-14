@@ -73,6 +73,7 @@ Pre prípad neexistujú žiadne výstupné súbory.
 
 Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsledné súbory:
 
+
 ##### Vstup:
 <table>
   <tr>
@@ -102,7 +103,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 <table>
   <tr>
     <th>File</th>f o verzii dopravného emisného modelu a ďalšie metadáta.</p>
-      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#výstup emisného modelu FASTRACE) [FASTRACE - formát výstupu](https://flamboyant-euclid-8b9c02.netlify.app/file-formats/fastrace-output-format)</p>
+      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#výstup) [FASTRACE - formát výstupu](https://flamboyant-euclid-8b9c02.netlify.app/file-formats/fastrace-output-format)</p>
     </td>
   </tr>
   <tr>
@@ -115,7 +116,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
         <br/>
         Z = SRID
       </p>
-      <p>Tieto rastrové súbory obsahujú hodnoty indikátorov pre rôzne znečisťujúce látky. Tieto rastre boli mriežkované z receptorovej mriežky. Tieto súbory sú obyčajné súbory formátu GeoTIFF vrátane informácií o projekcii, ktoré možno ľahko otvoriť v ľubovoľnej GIS aplikácii.
+      <p>Tieto rastrové súbory obsahujú hodnoty indikátorov pre rôzne znečisťujúce látky. Tieto rastre boli vytvorené z výpočtovej mriežky. Tieto súbory sú obyčajné súbory formátu GeoTIFF vrátane informácií o projekcii, ktoré možno ľahko otvoriť v ľubovoľnej GIS aplikácii.
  (napr. QGIS, ArcGIS…).</p>
     </td>
   </tr>
@@ -130,7 +131,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputIndicatorsX_MeanConcentration_3035_rel_diff.tif</td>
     <td>
       <p>X = znečisťújúca látka (NO2, PM10, PM25, intertný plyn)</p>
-      <p>These GeoTIFF raster files contain the relative differences of the annual mean values between the scenario and the baseline scenario.</p>
+      <p>Tieto rastrové GeoTIFF súbory obsahujú relatívne rozdiely priemerných ročných koncentrácií medzi scenárom a základným scenárom.</p>
     </td>
   </tr>
   <tr>
@@ -141,7 +142,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 	<br/>
         Z = SRID
       </p>
-      <p>These files contain annual indicator values for all receptor grid points. The indicators include the annual mean concentrations and a list of indicators that are different per pollutant. These files are provided as plain text comma separated value files (.csv) and can easily be imported into any spreadsheet tool.</p>
+      <p>Tieto súbory obsahujú ročné hodnoty indikátorov pre všetky body mriežky. Indikátory zahŕňajú priemerné ročné koncentrácie a indikátory, ktoré sa líšia podľa znečisťujúcej látky. Tieto súbory sú obyčajné textové súbory s hodnotami oddelenými čiarkami (.csv) a možno ich jednoducho importovať do akéhokoľvek tabuľkového procesora. </p>
     </td>
   </tr>
   <tr>
@@ -175,7 +176,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 	<br/>
         Z = SRID
       </p>
-      <p>Tieto súbory obsahujú časové rady preimerných hodinových koncentrácií jednotlivých znečistujúcich látok pre body záujmu. </p>
+      <p>Tieto súbory obsahujú časové rady priemerných hodinových koncentrácií jednotlivých znečistujúcich látok pre body záujmu. </p>
       <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations. </p>
     </td>
   </tr>
@@ -187,7 +188,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 	<br/>
         Z = SRID
       </p>
-      <p>Tieto súbory obsahujú denné časové rady bodov záujmu pre rôzne znečisťujúce látky. Formát zodpovedá súborom hodinových časových radov.</p>
+      <p> Tieto súbory obsahujú denné časové rady bodov záujmu pre rôzne znečisťujúce látky. Formát zodpovedá súborom hodinových časových radov.</p>
     </td>
   </tr>
 </table>
