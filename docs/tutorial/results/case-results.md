@@ -98,11 +98,11 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 </table>
 
 ##### Output:
-
+<font size="-1">This is smaller text.</font>
 <table>
   <tr>
     <th>File</th>f o verzii dopravného emisného modelu a ďalšie metadáta.</p>
-      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#fastrace-output-format) [FASTRACE - formát výstupu](https://flamboyant-euclid-8b9c02.netlify.app/file-formats/fastrace-output-format)</p>
+      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát](file-formats/#výstup emisného modelu FASTRACE) [FASTRACE - formát výstupu](https://flamboyant-euclid-8b9c02.netlify.app/file-formats/fastrace-output-format)</p>
     </td>
   </tr>
   <tr>
@@ -115,20 +115,21 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
         <br/>
         Z = SRID
       </p>
-      <p>These GeoTIFF raster files contain the indicator values for the different pollutants. These rasters were gridded from the receptor grid. These files are ordinary GeoTIFFs including projection information which can easily be opened in any GIS client for creating off-line visualisations and analyses (e.g. QGIS, ArcGIS…).</p>
+      <p>Tieto rastrové súbory obsahujú hodnoty indikátorov pre rôzne znečisťujúce látky. Tieto rastre boli mriežkované z receptorovej mriežky. Tieto súbory sú obyčajné súbory formátu GeoTIFF vrátane informácií o projekcii, ktoré možno ľahko otvoriť v ľubovoľnej GIS aplikácii.
+ (napr. QGIS, ArcGIS…).</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_diff.tif</td>
     <td>
       <p>X = znečisťujúca látka (NO2, PM10, PM25, intertný plyn)</p>
-      <p>Tieto rastrové súbory GeoTIFF obsahujú rozdiely priemerných ročnými koncentrácií medzi scenárom a základným scenárom.</p>
+      <p>Tieto rastrové GeoTIFF súbory obsahujú rozdiely priemerných ročných koncentrácií medzi scenárom a základným scenárom.</p>
     </td>
   </tr>
   <tr>
     <td>outputIndicatorsX_MeanConcentration_3035_rel_diff.tif</td>
     <td>
-      <p>X = znečiťújúca látka (NO2, PM10, PM25, intertný plyn)</p>
+      <p>X = znečisťújúca látka (NO2, PM10, PM25, intertný plyn)</p>
       <p>These GeoTIFF raster files contain the relative differences of the annual mean values between the scenario and the baseline scenario.</p>
     </td>
   </tr>
