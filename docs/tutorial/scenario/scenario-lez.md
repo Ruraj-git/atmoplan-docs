@@ -103,7 +103,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 :::
 
 :::Pozor
-V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvoriť/vymazať LEZ v základnom scenári.
+V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvoriť/vymazať NEZ v základnom scenári.
 :::
 :::Pozor
 Nízkoemisnú zónu nie je možné vymazať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Tlačidlo Odstrániť je vtedy skryté.
