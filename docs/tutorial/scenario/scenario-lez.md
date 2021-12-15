@@ -1,114 +1,114 @@
 ---
-title: LEZ
+title: NEZ
 sidebar_position: 5
 ---
 
-## Inspecting the low emission zones of a scenario
+## Kontrola nízkoemisných zón v scenári 
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku a v Maďarsku
 :::
 
-The ATMO-Plan tool allows the definition of Low Emission Zones (LEZ). An LEZ is an area where the most polluting vehicles are prohibited from travelling.
+Nástroj ATMO-Plan umožňuje definovanie nízkoemisných zón (NEZ). NEZ je oblasť, kde je zakázaný vjazd vozidlám produkujúcim najväčšie znečistenie.
 
-Go to the case detail page, open a scenario and click on 'Low emission zones'. A list of all LEZs for the scenario is shown at the left.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo.
 
 ![LEZ overview](./images/lez_overview.png)
 
-Then click on an LEZ. The location of the LEZ is shown on the map as a blue polygon.
+Potom kliknite na NEZ. Poloha NEZ je na mape znázornená ako modrý polygón.
 
 ![LEZ detail](./images/lez_detail.png)
 
-At the right, the name of the LEZ is shown.
+Vpravo je zobrazený názov NEZ.
 
-When clicking on 'Manage vehicle restrictions', a list of all vehicle types is shown. For each vehicle type, the last column shows whether it is allowed in the LEZ or not:
+Po kliknutí na „Spravovať obmedzenia vozidiel“ sa zobrazí zoznam všetkých typov vozidiel. Pre každý typ vozidla je v poslednom stĺpci uvedené, či je v NEZ povolený alebo nie:
 
-- when the slider is green, the vehicle type is allowed in the LEZ
-- when the slider is red, the vehicle type is not allowed in the LEZ
-- when the slider is grey, the vehicle type is not present in the scenario fleet
+- keď je semafor zelený, typ vozidla je povolený v NEZ 
+- keď je semafor červený, typ vozidla nie je povolený v NEZ
+- keď je semafor sivý, typ vozidla sa nenachádza vo vozovej flotile pre daný scenár
 
 ![LEZ vehicle restrictions](./images/lez_vehicle_restrictions.png)
 
-Each column in the table can be sorted by clicking on the arrows in the column header. By clicking again, the column is sorted in the opposite order. When a column is sorted, the arrow is shown in dark grey, otherwise it is hidden.
+Každý stĺpec v tabuľke je možné zoradiť kliknutím na šípky v záhlaví stĺpca. Opätovným kliknutím sa stĺpec zoradí v opačnom poradí. Keď je stĺpec zoradený, šípka sa zobrazuje tmavosivou, inak je skrytá.
 
-Each column can be sorted by clicking on the funnel in the column header. When a column is filtered, the funnel is shown in orange, otherwise it is shown in grey.
+Každý stĺpec je možné zoradiť kliknutím na lievik v hlavičke stĺpca. Keď je stĺpec filtrovaný, lievik je zobrazený oranžovou farbou, inak je zobrazený sivou farbou.
 
-## Creating a low emission zone
+## Vytvorenie nízkoemisnej zóny
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku a v Maďarsku
 :::
 
-:::caution
-In some deployments (Slovakia, Hungary), it is not allowed to create an LEZ in the baseline scenario.
+:::Pozor
+V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvárať NEZ v základnom scenári.
 :::
 
-:::caution
-A low emission zone cannot be created while the results are being calculated or when the calculation is (successfully) finished. The scenario should also have a valid fleet before an LEZ can be created. The add button is hidden then.
+:::Pozor
+Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by scenár mal mať platnú flotilu. Tlačidlo Pridať je v tom prípade skryté.
 :::
 
-Go to the case detail page, open a scenario and click on 'Low emission zones'. A list of all LEZs for the scenario is shown at the left. Click on 'Add low emission zone' to create a new LEZ.
+Prejdite na stránku s podrobnosťami o prípade, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Kliknutím na „Pridať zónu s nízkymi emisiami“ vytvoríte novú NEZ.
 
-Low emission zones can only be defined after a fleet is defined for the scenario. If not, 'Add low emission zone' will be disabled.
+Nízkoemisné zóny možno definovať až po definovaní flotily pre scenár. V opačnom prípade bude funkcia „Pridať zónu s nízkymi emisiami“ deaktivovaná.
 
-After clicking on 'Add low emission zone', the user can draw the LEZ on the map. This is done by clicking on the map and drawing the corners of a polygon. You can zoom in/out using the icons at the bottom right of the map, or by using the mouse wheel. Close the polygon by clicking on the first corner. The location can be changed by clicking on 'Redraw' or 'Edit' at the right. When clicking on 'Redraw', the drawn polygon disappears and you can restart drawing. When you click on 'Edit', you can change the polygon by dragging the corners.
+Po kliknutí na „Pridať zónu s nízkymi emisiami“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón zatvoríte kliknutím na prvý roh. Umiestnenie je možné zmeniť kliknutím na 'Prekresliť' alebo 'Upraviť' na pravo. Po kliknutí na 'Prekresliť' nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na 'Upraviť', môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
 
 ![LEZ: name and polygon](./images/lez_name_polygon.png)
 
-On the right, the name for the LEZ can be specified. When clicking on 'Save', the LEZ is added to the list of low emission zones at the left.
+Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ pridá do zoznamu zón s nízkymi emisiami vľavo.
 
 ![Login](./images/lez_detail.png)
 
-To finish the definition of the LEZ a fleet should be defined for the LEZ. This fleet expresses which vehicle types are allowed in the zone and which vehicle types are banned. This is done in the LEZ configuration tool, which is opened when clicking on 'Manage vehicle restrictions'.
+Na dokončenie definície NEZ by je potrebné definovať flotilu pre NEZ. Vo flotile je zadefinované, ktoré typy vozidiel sú v zóne povolené a ktoré typy vozidiel sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Spravovať obmedzenia pre vozidlá“.
 
-The LEZ configuration tool can be used to perform a quick screening of the effect of the introduction of an LEZ on the concentrations. The tool can be used to ban vehicle types (e.g. per EURO 5) in the selected zone, but it does not change the total number of vehicles of a category (bus, car, HDV…) in the fleet nor the traffic counts. When banning a vehicle category, the banned vehicles will instead be distributed to the remaining categories of the same type, keeping the traffic volumes in all streets constant. For example, when banning all cars of pre-EURO 5 categories, the pre-EURO5 cars will be replaced by EURO5 and EURO6, with the ratio between them equal to the ratio in the non-LEZ fleet.
+Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť na zákaz typov vozidiel (napr. pred EURO 5) vo vybranej zóne, ale nemení sa celkový počet vozidiel kategórie (autobus, auto, HDV...) vo flotile, ani počty prebehov. Pri zakázaní určitej kategórie vozidiel sa tieto vozidlá rozdelia do zostávajúcich kategórií rovnakého typu, pričom sa intenzita dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých áut kategórií pred EURO 5 budú autá pred EURO 5 nahradené EURO 5 a EURO 6, pričom pomer medzi nimi sa bude rovnať pomeru medzi EURO 5 a EURO 6 vo flotile mimo NEZ.
 
-The simple configuration tool shows a table containing all vehicle types in the scenario fleet. For each vehicle type, the vehicle type category, emission category and fuel type are shown.
+Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo flotile daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná kategória a typ paliva.
 
 ![LEZ: vehicle restrictions](./images/lez_vehicle_restrictions.png)
 
-:::caution
-It is important to note that the vehicle categories which may occur in a fleet composition file are predefined for each deployment and dependent on the selected region. A user can only work with the existing vehicle types. No new vehicle types can be added after deployment and the user or the deployment responsible should contact VITO should this be required.
+:::Pozor
+Je dôležité poznamenať, že kategórie vozidiel, ktoré sa môžu vyskytnúť v súbore zloženia flotily, sú preddefinované pre každú verziu a závisia od zvoleného regiónu. Užívateľ môže pracovať iba s existujúcimi typmi vozidiel. Po nasadení verzie nie je možné pridať žiadne nové typy vozidiel, v prípade požiadavky na rozšírenie typov je potrebné kontaktovať VITO.
 :::
 
-When first opening the configuration tool, the last column reflects which vehicle types are present in the scenario fleet (green slider) and which are not (grey slider). The user can ban vehicle types from the LEZ by switching a slider from green to red.
+Pri otvorení konfiguračného nástroja zobrazuje posledný stĺpec, ktoré typy vozidiel sa nachádzajú vo vozovom parku scenárov (zelený semafor) a ktoré nie (sivý semafor). Užívateľ môže zakázať typy vozidiel v NEZ prepnutím semafora zo zelenej na červenú.
 
-The user can also ban groups of vehicle types by using the column filters and then clicking on the slider in the header of the last column. In the following figures, the table is filtered and only contains vehicle types whose fuel category is different from 'Euro 6'. By clicking on the slider in the header of the last column, all these vehicle types are banned at once.
+Užívateľ môže tiež zakázať skupiny typov vozidiel pomocou filtrov v stĺpcoch a následným kliknutím na semafor v záhlaví posledného stĺpca. Na nasledujúcich obrázkoch je zobrazená tabuľka s filtrom na typy vozidiel, ktorých kategória paliva sa líši od kategórie „Euro 6“. Kliknutím na semafor v záhlaví posledného stĺpca sú všetky tieto typy vozidiel okamžite zakázané.
 
 ![LEZ: filter vehicle types](./images/lez_filter.png)
 
 ![LEZ: ban multiple vehicle types](./images/lez_ban_all.png)
 
-When the necessary vehicle types are banned, the user should click on Save. At that moment, the fleet for the LEZ is computed and saved and the newly created LEZ is complete.
+Keď sú potrebné typy vozidiel zakázané, kliknite na Uložiť. V tom momente je flotila pre NEZ vypočítaná, uložená a novovytvorená NEZ je tak kompletná.
 
-:::caution
-There are some restrictions when banning vehicle types from the LEZ. When banning a vehicle type, it is important to note that the total number of vehicles in your fleet will not change. The banned vehicles will instead be distributed to the remaining vehicle types of the same category. For example, when banning cars of the Euro 1 category, the number of Euro 1 cars will be spread over all other vehicle types. This also means that you cannot ban all fleet vehicle types corresponding to a network vehicle type. At least one must be left; otherwise an error message will appear.
+:::Pozor
+Pri zákaze typov vozidiel v NEZ existujú určité obmedzenia. Pri zákaze typu vozidla je dôležité si uvedomiť, že celkový počet vozidiel vo flotile sa nezmení. Zakázané vozidlá budú namiesto toho distribuované do zostávajúcich typov vozidiel rovnakej kategórie. Napríklad pri zákaze áut kategórie Euro 1 sa počet áut Euro 1 rozloží na všetky ostatné typy vozidiel. To tiež znamená, že nemôžete zakázať vo flotile všetky typy vozidiel zodpovedajúce určitej kategórii vozidla. Musí zostať aspoň jeden; inak sa zobrazí chybové hlásenie.
 :::
 
-## Updating a low emission zone
+## Aktualizácia nízkoemisnej zóny
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku a v Maďarsku
 :::
 
-:::caution
-In some deployments (Slovakia, Hungary), it is not allowed to create/update an LEZ in the baseline scenario.
+:::Pozor
+V niektorých nasadeniach (Slovensko, Maďarsko) nie je povolené vytvárať/aktualizovať NEZ v základnom scenári.
 :::
-:::caution
-A low emission zone cannot be updated while the results are being calculated or when the calculation is (successfully) finished. The scenario should also have a valid fleet before an LEZ can be created. The LEZ properties are read-only then.
-:::
-
-Go to the case detail page, open a scenario and click on 'Low emission zones'. A list of all LEZs for the scenario is shown at the left. Then click on an LEZ. The name of the LEZ can be updated on the right and the vehicle restrictions can be updated as explained in a previous section.
-
-## Deleting a low emission zone
-
-:::tip Available in Slovakia, Hungary
+:::Pozor
+Nízkoemisnú zónu nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platnú flotilu. Vlastnosti NEZ môžu byť vtedy len zobrazené.
 :::
 
-:::caution
-In some deployments (Slovakia, Hungary), it is not allowed to create/delete an LEZ in the baseline scenario.
-:::
-:::caution
-A low emission zone cannot be deleted while the results are being calculated or when the calculation is (successfully) finished. The delete button is hidden then.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Potom kliknite na NEZ. Názov NEZ je možné aktualizovať vpravo a obmedzenia vozidiel možno aktualizovať podľa postupu vysvetlenom v predchádzajúcej časti.
+
+## Vymazanie nízkoemisnej zóny
+
+:::tip Dostupné na Slovensku a v Maďarsku
 :::
 
-Go to the case detail page, open a scenario and click on 'Low emission zones'. A list of all LEZs for the scenario is shown at the left. LEZs can be removed by hovering over an LEZ in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
+:::Pozor
+V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvoriť/vymazať LEZ v základnom scenári.
+:::
+:::Pozor
+Nízkoemisnú zónu nie je možné vymazať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Tlačidlo Odstrániť je vtedy skryté.
+:::
+
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. NEZ je možné odstrániť umiestnením kurzora myši na NEZ v zozname vľavo a kliknutím na ikonu výmazu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá OK a Zrušiť.
 
 ![Delete LEZ](./images/lez_delete.png)
