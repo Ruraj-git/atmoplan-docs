@@ -1,24 +1,24 @@
 ---
-title: General settings
+title: Všeobecné nastavenia
 sidebar_position: 1.5
 ---
 
-## Inspecting the general settings of a scenario
+## Kontrola všeobecných nastavení scenára
 
-:::tip Available in each deployment
+:::tip Dostupné v každej verzii
 :::
 
-Go to the case detail page, open a scenario and click on 'General'. The name of the scenario can be inspected here.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Všeobecné“. Názov scenára si môžete pozrieť tu.
 
 ![Scenario list](./images/scenario_general_settings.png)
 
-## Updating the general settings of a scenario
+## Aktualizácia všeobecných nastavení scenára 
 
-:::tip Available in each deployment
+:::tip Dostupné v každej verzii
 :::
 
-Go to the case detail page, open a scenario and click on 'General'. The name of the scenario can be edited here.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Všeobecné“. Tu je možné upraviť názov scenára.
 
-:::caution
-The general settings cannot be updated while the results are being calculated or when the calculation is (successfully) finished. The general settings are read-only then.
+:::Pozor
+Všeobecné nastavenia nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Všeobecné nastavenia môžu byť len zobrazené.
 :::
