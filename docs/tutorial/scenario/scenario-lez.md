@@ -61,7 +61,7 @@ Na dokončenie definície NEZ je potrebné definovať flotilu pre NEZ. Vo flotil
 
 Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť na zákaz typov vozidiel (napr. pred EURO 5) vo vybranej zóne, pričom sa nemení celkový počet vozidiel kategórie (autobus, auto, HDV...) vo flotile, ani počty prebehov. Pri zakázaní určitého typu vozidiel sa tieto vozidlá rozdelia do zostávajúcich typov rovnakej kategórie, pričom sa intenzita dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých áut kategórií pred EURO 5 budú autá pred EURO 5 nahradené EURO 5 a EURO 6, pričom pomer medzi nimi sa bude rovnať pomeru medzi EURO 5 a EURO 6 vo flotile mimo NEZ.
 
-Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo flotile daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná kategória a typ paliva.
+Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo flotile daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná trieda a typ paliva.
 
 ![LEZ: vehicle restrictions](./images/lez_vehicle_restrictions.png)
 
