@@ -3,10 +3,11 @@ title: Meteo
 sidebar_position: 4
 ---
 
-## Inspecting the meteo of a scenario
+## Kontrola meteo v scenári
 
-:::caution Not yet available
+:::Pozor - Zatiaľ nedostupné
 :::
 
-In Slovakia and Hungary, the same background concentration is reused in all cases. This background concentration has a fixed meteo associated with it, that is not shown in the tool.
+Na Slovensku a v Maďarsku sa vo všetkých projektoch používa rovnaká pozaďová koncentrácia. S touto koncentráciou pozadia je spojené fixné meteo, ktoré nie je zobrazené v nástroji.
+
 
