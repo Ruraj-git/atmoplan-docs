@@ -1,7 +1,7 @@
 ---
-title: Úvod do spravovania prípadov a scenárov
+title: Úvod do správy prípadov a scenárov
 sidebar_position: 1.5
-slug: spravovanie prípadov a scenárov 
+slug: správa prípadov a scenárov 
 ---
 
 :::tip Dostupné v každej verzii
