@@ -20,11 +20,11 @@ Potom kliknite na NEZ. Poloha NEZ je na mape znázornená ako modrý polygón.
 
 Vpravo je zobrazený názov NEZ.
 
-Po kliknutí na „Spravovať obmedzenia vozidiel“ sa zobrazí zoznam všetkých typov vozidiel. Pre každý typ vozidla je v poslednom stĺpci uvedené, či je v NEZ povolený alebo nie:
+Po kliknutí na „Správa obmedzení vozidiel“ sa zobrazí zoznam všetkých typov vozidiel. Pre každý typ vozidla je v poslednom stĺpci uvedené, či je v NEZ povolený alebo nie:
 
 - keď je semafor zelený, typ vozidla je povolený v NEZ 
 - keď je semafor červený, typ vozidla nie je povolený v NEZ
-- keď je semafor sivý, typ vozidla sa nenachádza vo vozovej flotile pre daný scenár
+- keď je semafor sivý, typ vozidla sa nenachádza vo flotile pre daný scenár
 
 ![LEZ vehicle restrictions](./images/lez_vehicle_restrictions.png)
 
@@ -45,11 +45,11 @@ V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvárať NEZ v 
 Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by scenár mal mať platnú flotilu. Tlačidlo Pridať je v tom prípade skryté.
 :::
 
-Prejdite na stránku s podrobnosťami o prípade, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Kliknutím na „Pridať zónu s nízkymi emisiami“ vytvoríte novú NEZ.
+Prejdite na stránku s podrobnosťami o prípade, otvorte scenár a kliknite na „Zóny s nízkymi emisiami“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Kliknutím na „Pridanie nízkoemisnej zóny“ vytvoríte novú NEZ.
 
-Nízkoemisné zóny možno definovať až po definovaní flotily pre scenár. V opačnom prípade bude funkcia „Pridať zónu s nízkymi emisiami“ deaktivovaná.
+Nízkoemisné zóny možno definovať až po definovaní flotily pre scenár. V opačnom prípade bude funkcia „Pridanie nízkoemisnej zóny“ deaktivovaná.
 
-Po kliknutí na „Pridať zónu s nízkymi emisiami“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón zatvoríte kliknutím na prvý roh. Umiestnenie je možné zmeniť kliknutím na 'Prekresliť' alebo 'Upraviť' na pravo. Po kliknutí na 'Prekresliť' nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na 'Upraviť', môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
+Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón zatvoríte kliknutím na prvý roh. Umiestnenie je možné zmeniť kliknutím na 'Prekresliť' alebo 'Editovať' na pravo. Po kliknutí na 'Prekresliť' nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na 'Editovať', môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
 
 ![LEZ: name and polygon](./images/lez_name_polygon.png)
 
@@ -57,9 +57,9 @@ Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ prid�
 
 ![Login](./images/lez_detail.png)
 
-Na dokončenie definície NEZ by je potrebné definovať flotilu pre NEZ. Vo flotile je zadefinované, ktoré typy vozidiel sú v zóne povolené a ktoré typy vozidiel sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Spravovať obmedzenia pre vozidlá“.
+Na dokončenie definície NEZ je potrebné definovať flotilu pre NEZ. Vo flotile je zadefinované, ktoré typy vozidiel sú v zóne povolené a ktoré typy vozidiel sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Správa obmedzení vozidiel“.
 
-Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť na zákaz typov vozidiel (napr. pred EURO 5) vo vybranej zóne, ale nemení sa celkový počet vozidiel kategórie (autobus, auto, HDV...) vo flotile, ani počty prebehov. Pri zakázaní určitej kategórie vozidiel sa tieto vozidlá rozdelia do zostávajúcich kategórií rovnakého typu, pričom sa intenzita dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých áut kategórií pred EURO 5 budú autá pred EURO 5 nahradené EURO 5 a EURO 6, pričom pomer medzi nimi sa bude rovnať pomeru medzi EURO 5 a EURO 6 vo flotile mimo NEZ.
+Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť na zákaz typov vozidiel (napr. pred EURO 5) vo vybranej zóne, pričom sa nemení celkový počet vozidiel kategórie (autobus, auto, HDV...) vo flotile, ani počty prebehov. Pri zakázaní určitého typu vozidiel sa tieto vozidlá rozdelia do zostávajúcich typov rovnakej kategórie, pričom sa intenzita dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých áut kategórií pred EURO 5 budú autá pred EURO 5 nahradené EURO 5 a EURO 6, pričom pomer medzi nimi sa bude rovnať pomeru medzi EURO 5 a EURO 6 vo flotile mimo NEZ.
 
 Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo flotile daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná kategória a typ paliva.
 
