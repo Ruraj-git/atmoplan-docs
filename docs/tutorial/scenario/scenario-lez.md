@@ -49,7 +49,7 @@ Prejdite na stránku s podrobnosťami o prípade, otvorte scenár a kliknite na 
 
 Nízkoemisné zóny možno definovať až po definovaní flotily pre scenár. V opačnom prípade bude funkcia „Pridanie nízkoemisnej zóny“ deaktivovaná.
 
-Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón zatvoríte kliknutím na prvý roh. Umiestnenie je možné zmeniť kliknutím na 'Prekresliť' alebo 'Editovať' na pravo. Po kliknutí na 'Prekresliť' nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na 'Editovať', môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
+Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón uzatvoríte kliknutím na prvý roh. Umiestnenie polygónu je možné zmeniť kliknutím na 'Prekresliť' alebo 'Editovať' na pravo. Po kliknutí na 'Prekresliť' nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na 'Editovať', môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
 
 ![LEZ: name and polygon](./images/lez_name_polygon.png)
 
