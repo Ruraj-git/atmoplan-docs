@@ -6,7 +6,7 @@ Ak má užívateľ práva správcu, na hlavnej stránke sa zobrazí štvrtá pol
 
 ![User management menu](./images/user_menu.png)
 
-Po kliknutí na túto položkumenu sa zobrazí tabuľka so všetkými aktuálnymi užívateľmi.
+Po kliknutí na túto položku menu sa zobrazí tabuľka so všetkými aktuálnymi užívateľmi.
 
 ![User overview](./images/user_overview.png)
 
