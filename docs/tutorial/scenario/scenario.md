@@ -1,16 +1,16 @@
 ---
-title: Detail page
+title: Detaily
 sidebar_position: 1
 ---
 
-## Inspecting a scenario
+## Kontrola scenára
 
-:::tip Available in each deployment
+:::tip Dostupné v každej verzii
 :::
 
-Go to the case detail page. At the left, a list of all scenarios is shown. This list always contains at least one scenario, which is the baseline scenario of the case. This scenario is created automatically when the case was created. The baseline scenario is always shown as first scenario.
+Prejdite na stránku s podrobnosťami projektu. Vľavo je zobrazený zoznam všetkých scenárov. Tento zoznam vždy obsahuje aspoň jeden scenár, ktorý je základným scenárom projektu. Tento scenár sa vytvorí automaticky pri vytvorení projektu. Základný scenár sa vždy zobrazuje ako prvý scenár.
 
-Click on a scenario name or on the arrow to the right of the name to open the menu for that scenario. The menu contains links to the general settings, emissions, background concentrations, meteo and Low Emission Zones of the scenario.
+Kliknutím na názov scenára alebo na šípku napravo od názvu otvoríte menu pre daný scenár. Menu obsahuje odkazy na všeobecné nastavenia, emisie, koncentrácie pozadia, meteo a nízkoemisné zóny scenára.
 
 ![Scenario list](./images/scenario_list.png)
 ![Scenario list: menu items](./images/scenario_list2.png) 
