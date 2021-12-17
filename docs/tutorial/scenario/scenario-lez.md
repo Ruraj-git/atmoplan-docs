@@ -91,6 +91,7 @@ Pri zákaze typov vozidiel v NEZ existujú určité obmedzenia. Pri zákaze typu
 :::Pozor
 V niektorých nasadeniach (Slovensko, Maďarsko) nie je povolené vytvárať/aktualizovať NEZ v základnom scenári.
 :::
+
 :::Pozor
 Nízkoemisnú zónu nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platnú flotilu. Vlastnosti NEZ môžu byť vtedy len zobrazené.
 :::
@@ -105,6 +106,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 :::Pozor
 V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvoriť/vymazať NEZ v základnom scenári.
 :::
+
 :::Pozor
 Nízkoemisnú zónu nie je možné vymazať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Tlačidlo Odstrániť je vtedy skryté.
 :::
