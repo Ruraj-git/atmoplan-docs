@@ -1,28 +1,28 @@
 ---
-title: Duplikovanie
+title: Kopírovanie
 sidebar_position: 7
 ---
 
-## Duplikovanie scenára
+## Kopírovanie scenára
 
 :::tip Dostupné na Slovensku, v Maďarsku
 :::
 
 :::pozor
-Scenár nie je možné duplikovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu. Potom je tlačidlo Duplikovať zablokované.
+Scenár nie je možné kopírovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu. Vtedy je tlačidlo „Kopírovať scenár“ zablokované.
 :::
 
-Duplikovanie scenára sa môže použiť na rýchle zadefinovanie nového scenára z existujúceho scenára.
+Kopírovanie scenára sa môže použiť na rýchle zadefinovanie nového scenára z existujúceho scenára.
 
-Prejdite na stránku s podrobnosťami projektu. Scenár možno duplikovať umiestnením kurzora myši nad názov scenára v zozname vľavo a kliknutím na tlačidlo Duplikovať. Zobrazí sa kontextové okno s výzvou na zadanie názvu nového scenára. Názvy scenárov v projekte by mali byť jedinečné, pri zadaní názvu, ktorý už existuje, sa zobrazí chybové hlásenie.
+Prejdite na stránku s podrobnosťami projektu. Scenár možno kopírovať umiestnením kurzora myši nad názov scenára v zozname vľavo a kliknutím na tlačidlo „Kopírovať scenár“. Zobrazí sa kontextové okno s výzvou na zadanie názvu nového scenára. Názvy scenárov v projekte by mali byť jedinečné, pri zadaní názvu, ktorý už existuje, sa zobrazí chybové hlásenie.
 
 ![Duplicating a scenario](./images/scenario_duplicate.png)
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_name.png)
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_name2.png)
 
-Po kliknutí na Uložiť sa nový scenár pridá do zoznamu scenárov vľavo.
+Po kliknutí na „Uložiť“ sa nový scenár pridá do zoznamu scenárov vľavo.
 
-Duplikovanie scenára trvá pár minút. Počas duplikácie sa napravo od kopírovaného scenára zobrazí ikona a po umiestnení kurzora myši na ikonu sa zobrazí správa.
+Kopírovanie scenára trvá pár minút. Počas kopírovania sa napravo od kopírovaného scenára zobrazí ikona a po umiestnení kurzora myši na ikonu sa zobrazí správa.
 
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_progress.png)
 
