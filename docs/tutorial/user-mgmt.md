@@ -13,7 +13,7 @@ Po kliknutí na túto položku menu sa zobrazí tabuľka so všetkými aktuálny
 Správca užívateľov môže užívateľov upravovať alebo mazať prostredníctvom položky menu vpravo.
 
 
-Nových užívateľov možno pridať pomocou tlačidla „+“. Správca užívateľov zadá meno, priezvisko, e-mail a rolu nového užívateľa. V súčasnosti sú podporované dve roly: expert a správca užívateľov. Po kliknutí na uložiť sa odošle e-mail na uvedenú e-mailovú adresu. Po prijatí tohto e-mailu sa nový užívateľ môže prihlásiť do nástroja ATMO-Plan pomocou odkazu v e-maile. Nový užívateľ si môže vytvoriť heslo kliknutím na „zabudnuté heslo“ na prihlasovacej stránke.
+Nových užívateľov možno pridať pomocou tlačidla „+“. Správca užívateľov zadá meno, priezvisko, e-mail a rolu nového užívateľa. V súčasnosti sú podporované dve roly: expert a správca užívateľov. Po kliknutí na „Uložiť“ sa odošle e-mail na uvedenú e-mailovú adresu. Po prijatí tohto e-mailu sa nový užívateľ môže prihlásiť do nástroja ATMO-Plan pomocou odkazu v e-maile. Nový užívateľ si môže vytvoriť heslo kliknutím na „Zabudli ste heslo?“ na prihlasovacej stránke.
 
 
 ![User detail](./images/user_detail.png)
