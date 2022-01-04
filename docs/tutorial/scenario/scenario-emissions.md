@@ -1,107 +1,119 @@
 ---
-title: Emissions
+title: Emisie
 sidebar_position: 2
 ---
 
-## Inspecting the emissions of a scenario
+## Kontrola emisií scenára
 
-:::tip Available in each deployment
+:::tip Dostupné v každej verzii
 :::
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo.
+
 
 ![Scenario emissions](./images/scenario_emissions.png)
 
-There are two types of emissions:
+Existujú dva typy emisií:
 
-- Traffic emissions
-- Point source emissions
+- Emisie z dopravy
+- Emisie z bodových zdrojov
 
-The **traffic emissions** for a scenario consist of a list of roads with traffic counts for different vehicle type categories. The supported vehicle type categories depend on the deployment. In Slovakia and Hungary, the vehicle type categories are fixed: BUS, CAR, LDV, HDV.
+**Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Na Slovensku a v Maďarsku sú kategórie typov vozidiel pevne dané: BUS, AUTO, LDV, HDV.
 
-Whether the traffic intensities are given as peak intensities (together with a scaling profile) or yearly totals, also depends on the deployment. In Slovakia and Hungary, the intensities are yearly totals.
 
-The **point source emissions** for a scenario consists of a list of (industrial) point sources with corresponding emissions.
+Či sú intenzity dopravy uvedené ako intenzity cez špičku (spolu s profilom škálovania) alebo ročné súčty, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné úhrny.
 
-### Inspecting traffic emissions
+**Emisie z bodových zdrojov** pre scenár pozostávajú zo zoznamu (priemyselných) bodových zdrojov s príslušnými emisiami.
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
 
-When clicking on a road, the properties of the road are shown on the right. The properties consist of the traffic intensities, speed limit, height and road type. The road type can be Highway, Rural or Urban.
+### Kontrola emisií z dopravy
 
-Click on Cancel before selecting another road on the map.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+
+
+Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť diaľnica, regionálna alebo mestská.
+
+Pred výberom inej cesty na mape kliknite na Zavrieť.
 
 ![Traffic emissions](./images/scenario_traffic.png)
 
-### Inspecting point source emissions
+### Kontrola emisií bodového zdroja
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a point source emission. All point sources are shown on the map as red points.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené body.
 
-When clicking on a point source, the properties of the point source are shown on the right. The properties consist of the name, emissions, NO/NOX ratio, height, flow rate, diameter and temperature of the point source.
 
-Click on Cancel before selecting another point source on the map.
+Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Vlastnosti pozostávajú z názvu, emisií, pomeru NO k NOX, výšky, prietoku, priemeru a teploty bodového zdroja.
+
+
+Pred výberom iného bodového zdroja na mape kliknite na Zavrieť.
 
 ![Point source emissions](./images/scenario_pointsources.png)
 
-## Creating emissions for a scenario
+## Vytváranie emisií pre scenár
 
-:::caution Not yet available
+:::pozor Zatiaľ nedostupné
 :::
 
-## Updating the traffic emissions of a scenario
+## Aktualizácia emisií z dopravy pre scenár
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku, v Maďarsku
 :::
 
-First we describe how to update traffic emissions. After that, we look at the point source emissions.
+Najprv popíšeme, ako aktualizovať emisie z dopravy. Potom sa pozrieme na emisie bodových zdrojov.
 
-:::caution
-In some deployments (Slovakia, Hungary), it is not allowed to update emissions in the baseline scenario.
+
+:::pozor
+V niektorých verziach (Slovensko, Maďarsko) nie je povolené aktualizovať emisie v základnom scenári.
 :::
 
-:::caution
-The emissions cannot be updated while the results are being calculated or when the calculation is (successfully) finished.
+:::pozor
+Emisie nie je možné aktualizovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu.
 :::
 
-There are different options:
+Existujú rôzne možnosti:
 
-- Updating the properties of an existing road
-- Creating a road by drawing on the map
-- Uploading a file containing multiple roads
-- Deleting a road
+- Aktualizácia vlastností existujúcej cesty
+- Vytvorenie cesty kreslením na mape
+- Nahranie súboru obsahujúceho viacero ciest
+- Odstránenie cesty
 
-### Updating the properties of an existing road
+### Aktualizácia vlastností existujúcej cesty
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
-When clicking on a road, the properties of the road are shown on the right. The properties consist of the traffic intensities, speed limit, height and road type. The road type can be H (Highway), R (Rural) or U (Urban).
 
-The properties can be updated by editing the fields and clicking on Save. The properties follow some rules:
+Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť H (diaľnica), R (regionálna) alebo U (mestská).
 
-- The traffic counts should be positive or zero
-- The total traffic count cannot be zero
-- The speed limit should be an integer value between 1 and 130
-- The height should be a decimal value between 0 and 150
+
+Vlastnosti je možné aktualizovať úpravou polí a kliknutím na Uložiť. Vlastnosti sa riadia niekoľkými pravidlami:
+
+- Početnosť dopravy by mala byť kladná alebo nulová
+- Celková početnosť dopravy nemôže byť nula
+- Rýchlostný limit by mal byť celé číslo medzi 1 a 130
+- Výška by mala byť hodnota medzi 0 a 150
 
 ![Update road](./images/scenario_road_update.png)
 
-### Creating a road by drawing on the map
+### Vytvorenie cesty kreslením na mape
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
-Click on the icon in the top left corner of the map and draw a road on the map by clicking on the begin and end point of the road. Each road is represented by a line string. After drawing the road, the properties of the road appear at the right. Fill in the different properties and click on Save to create the new road. The properties follow some rules that are describe in the previous section.
+
+Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec cesty nakreslite cestu na mapu. Každá cesta je reprezentovaná čiarou. Po nakreslení cesty sa vpravo zobrazia vlastnosti cesty. Vyplňte vlastnosti cesty a kliknutím na Uložiť vytvorte novú cestu. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
+
 
 ![Draw road: + button](./images/scenario_road_draw.png)
 ![Draw road: empty properties](./images/scenario_road_draw_empty_properties.png)
 ![Draw road: empty properties](./images/scenario_road_draw_valid_properties.png)
 
-### Uploading a file containing multiple roads
+### Nahrávanie súboru obsahujúceho viacero ciest
 
-Go to the case detail page, open a scenario and click on 'Emissions'. A list of all emissions for the scenario is shown at the left. Then click on a traffic emission. All roads are shown on the map as black line strings.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
-Click on 'Bulk upload' in the menu of the traffic emission. At the right, a panel is shown where the network file can be uploaded. At the top a template can be downloaded that can be used to define your own network file. The format of the network file is described in more detail in an appendix. The network file defines the geometrical location of the individual roads via lat/lon coordinates and contains the traffic counts for different categories. For each road, the road type, speed limit and height are given.
+Kliknite na 'Hromadné nahrávanie' v menu pre dopravné emisie. Vpravo je zobrazený panel, kde je možné nahrať súbor s cestnou sieťou. V hornej časti si môžete stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súbor s cestnou sieťou. Formát súboru s cestnou sieťou je podrobnejšie popísaný v prílohe. Súbor s cestnou sieťou definuje geometrickú polohu jednotlivých ciest prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje početnosť dopravy pre rôzne kategórie. Pre každú cestu je uvedený typ cesty, rýchlostný limit a výška.
 
-Upload your network file by dragging and dropping the file in the upload component. Alternatively, you can click on the upload component; this opens a file explorer, which allows you to choose a file on your file system. The name of the chosen file is shown below the upload component. Click on 'upload' to start importing the file.
+Nahrajte svoj súbor presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „nahrať“ spustíte import súboru.
+
 
 ![Bulk upload: menu](./images/scenario_road_bulk_upload_menu.png)
 ![Bulk upload: choose file](./images/scenario_road_bulk_upload_file1.png)
