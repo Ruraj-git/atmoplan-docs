@@ -21,7 +21,7 @@ Existujú dva typy emisií:
 **Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Na Slovensku a v Maďarsku sú kategórie typov vozidiel pevne dané: BUS, AUTO, LDV, HDV.
 
 
-Či sú intenzity dopravy uvedené ako intenzity cez špičku (spolu s profilom škálovania) alebo ročné súčty, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné úhrny.
+Či sú intenzity dopravy uvedené ako intenzity cez špičku (spolu s profilom škálovania) alebo ročné súčty, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné súčty.
 
 **Emisie z bodových zdrojov** pre scenár pozostávajú zo zoznamu (priemyselných) bodových zdrojov s príslušnými emisiami.
 
