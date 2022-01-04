@@ -3,7 +3,7 @@ title: Emisie
 sidebar_position: 2
 ---
 
-## Kontrola emisií scenára
+## Kontrola emisií v scenári
 
 :::tip Dostupné v každej verzii
 :::
@@ -18,10 +18,10 @@ Existujú dva typy emisií:
 - Emisie z dopravy
 - Emisie z bodových zdrojov
 
-**Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Na Slovensku a v Maďarsku sú kategórie typov vozidiel pevne dané: BUS, AUTO, LDV, HDV.
+**Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Na Slovensku a v Maďarsku sú kategórie typov vozidiel pevne dané: BUS, AUTO, LDV (ľahké nákladné vozidlá), HDV (ťažké nákladné vozidlá).
 
 
-Či je početnosť dopravy uvedená ako intenzita cez špičku (spolu s profilom škálovania) alebo ročné súčty, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné súčty.
+Či je početnosť dopravy uvedená ako intenzita cez špičku (spolu s profilom škálovania) alebo ročný súčet, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné súčty.
 
 **Emisie z bodových zdrojov** pre scenár pozostávajú zo zoznamu (priemyselných) bodových zdrojov s príslušnými emisiami.
 
@@ -33,7 +33,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 
 Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť diaľnica, regionálna alebo mestská.
 
-Pred výberom inej cesty na mape kliknite na Zavrieť.
+Pred výberom inej cesty na mape kliknite na „Zavrieť“.
 
 ![Traffic emissions](./images/scenario_traffic.png)
 
@@ -45,7 +45,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Vlastnosti pozostávajú z názvu, emisií, pomeru NO k NOX, výšky, prietoku, priemeru a teploty bodového zdroja.
 
 
-Pred výberom iného bodového zdroja na mape kliknite na Zavrieť.
+Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 
 ![Point source emissions](./images/scenario_pointsources.png)
 
@@ -85,7 +85,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť H (diaľnica), R (regionálna) alebo U (mestská).
 
 
-Vlastnosti je možné aktualizovať úpravou polí a kliknutím na Uložiť. Vlastnosti sa riadia niekoľkými pravidlami:
+Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť“. Riadia sa niekoľkými pravidlami:
 
 - Početnosť dopravy by mala byť kladná alebo nulová
 - Celková početnosť dopravy nemôže byť nula
@@ -99,7 +99,7 @@ Vlastnosti je možné aktualizovať úpravou polí a kliknutím na Uložiť. Vla
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
 
-Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec cesty nakreslite cestu na mapu. Každá cesta je reprezentovaná čiarou. Po nakreslení cesty sa vpravo zobrazia vlastnosti cesty. Vyplňte vlastnosti cesty a kliknutím na Uložiť vytvorte novú cestu. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
+Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec cesty nakreslite cestu na mapu. Každá cesta je reprezentovaná čiarou. Po nakreslení cesty sa vpravo zobrazia vlastnosti cesty. Vyplňte vlastnosti cesty a kliknutím na „Uložiť“ vytvorte novú cestu. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
 
 
 ![Draw road: + button](./images/scenario_road_draw.png)
@@ -110,9 +110,9 @@ Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec c
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
-Kliknite na 'Hromadné nahrávanie' v menu pre „Doprava“. Vpravo sa zobrazí panel, kde je možné nahrať súbor s cestnou sieťou. V hornej časti si môžete stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súbor s cestnou sieťou. Formát súboru s cestnou sieťou je podrobnejšie popísaný v prílohe. Súbor s cestnou sieťou definuje geometrickú polohu jednotlivých ciest prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje početnosť dopravy pre rôzne kategórie. Pre každú cestu je uvedený typ cesty, rýchlostný limit a výška.
+Kliknite na „Hromadné nahrávanie“ v menu pre „Doprava“. Vpravo sa zobrazí panel, kde je možné nahrať súbor s cestnou sieťou. V hornej časti si môžete stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súbor s cestnou sieťou. Formát súboru s cestnou sieťou je podrobnejšie popísaný v prílohe. Súbor s cestnou sieťou definuje geometrickú polohu jednotlivých ciest prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje početnosť dopravy pre rôzne kategórie. Pre každú cestu je uvedený typ cesty, rýchlostný limit a výška.
 
-Nahrajte svoj súbor presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „nahrať“ spustíte import súboru.
+Nahrajte svoj súbor presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „Nahrať“ spustíte import súboru.
 
 
 ![Bulk upload: menu](./images/scenario_road_bulk_upload_menu.png)
@@ -138,7 +138,7 @@ Keď je súbor neplatný, užívateľ je upozornený krátkou správou s chybou 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
 
-Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Kliknutím na tlačidlo Odstrániť odstránite vybratú cestu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo OK a Zrušiť.
+Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Kliknutím na tlačidlo „Odstrániť“ odstránite vybratú cestu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo „OK“ a „Zrušiť“.
 
 
 ![Delete road](./images/scenario_road_delete.png)
@@ -171,7 +171,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Vlastnosti pozostávajú z názvu, emisií, pomeru NO k NOX, výšky, prietoku, priemeru a teploty.
 
 
-Vlastnosti je možné aktualizovať úpravou polí a kliknutím na Uložiť. Vlastnosti sa riadia niekoľkými pravidlami:
+Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť“. Vlastnosti sa riadia niekoľkými pravidlami:
 
 - Emisie by mali byť kladné alebo nulové
 - Pomer NO k NOX by mal byť desatinná hodnota medzi 0 a 1
@@ -198,10 +198,10 @@ Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na mapu nakreslite bodo
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené štvorce.
 
 
-Kliknite na 'Hromadné nahrávanie' v menu pre „Bodové zdroje“. Vpravo sa zobrazí panel, do ktorého je možné nahrať súbor s bodovými zdrojmi. V hornej časti je možné stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súboru s bodovými zdrojmi. Formát súboru s bodovými zdrojmi je podrobnejšie popísaný v prílohe. Súbor s bodovými zdrojmi definuje geometrickú polohu jednotlivých bodových zdrojov prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje emisie pre rôzne znečisťujúce látky. Pre každý bodový zdroj je uvedený názov, pomer NO k NOX, výška, prietok, priemer a teplota.
+Kliknite na „Hromadné nahrávanie“ v menu pre „Bodové zdroje“. Vpravo sa zobrazí panel, do ktorého je možné nahrať súbor s bodovými zdrojmi. V hornej časti je možné stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súboru s bodovými zdrojmi. Formát súboru s bodovými zdrojmi je podrobnejšie popísaný v prílohe. Súbor s bodovými zdrojmi definuje geometrickú polohu jednotlivých bodových zdrojov prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje emisie pre rôzne znečisťujúce látky. Pre každý bodový zdroj je uvedený názov, pomer NO k NOX, výška, prietok, priemer a teplota.
 
 
-Nahrajte svoj súbor s bodovými zdrojmi presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „nahrať“ spustíte import súboru.
+Nahrajte svoj súbor s bodovými zdrojmi presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „Nahrať“ spustíte import súboru.
 
 
 ![Bulk upload: menu](./images/scenario_pointsource_bulk_upload_menu.png)
@@ -225,7 +225,7 @@ Keď je súbor neplatný, užívateľ je upozornený krátkou správou o chybe i
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené štvorce.
 
 
-Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Kliknutím na tlačidlo Odstrániť vymažete vybraný bodový zdroj. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo OK a Zrušiť.
+Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Kliknutím na tlačidlo Odstrániť vymažete vybraný bodový zdroj. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo  „OK“ a „Zrušiť“.
 
 
 ![Delete point source](./images/scenario_pointsource_delete.png) 
