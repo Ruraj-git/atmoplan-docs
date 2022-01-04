@@ -1,40 +1,40 @@
 ---
-title: Duplicating
+title: Duplikovanie
 sidebar_position: 7
 ---
 
-## Duplicating a scenario
+## Duplikovanie scenára
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku, v Maďarsku
 :::
 
-:::caution
-A scenario cannot be duplicated while the results are being calculated or when the calculation is (successfully) finished. The duplicate button is disabled then.
+:::pozor
+Scenár nie je možné duplikovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu. Potom je tlačidlo Duplikovať zablokované.
 :::
 
-Duplicating a scenario can be used to rapidly define a new scenario based on an existing scenario.
+Duplikovanie scenára sa môže použiť na rýchle zadefinovanie nového scenára z existujúceho scenára.
 
-Go to the case detail page. A scenario can be duplicated hovering over the scenario name in the list at the left and clicking on the duplicate button. A pop-up appears asking the user to provide a name for the new scenario. The scenario names in a case should be unique, so an error message is shown when a name is provided that already exists.
+Prejdite na stránku s podrobnosťami projektu. Scenár možno duplikovať umiestnením kurzora myši nad názov scenára v zozname vľavo a kliknutím na tlačidlo Duplikovať. Zobrazí sa kontextové okno s výzvou na zadanie názvu nového scenára. Názvy scenárov v projekte by mali byť jedinečné, pri zadaní názvu, ktorý už existuje, sa zobrazí chybové hlásenie.
 
 ![Duplicating a scenario](./images/scenario_duplicate.png)
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_name.png)
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_name2.png)
 
-After clicking on Save, the new scenario is added to the list of scenarios at the left.
+Po kliknutí na Uložiť sa nový scenár pridá do zoznamu scenárov vľavo.
 
-Duplicating a scenario takes some time. During the duplication, an icon is shown to the right of the copied scenario and a message appears when hovering over the icon.
+Duplikovanie scenára trvá pár minút. Počas duplikácie sa napravo od kopírovaného scenára zobrazí ikona a po umiestnení kurzora myši na ikonu sa zobrazí správa.
 
 ![Duplicating a scenario: specify name](./images/scenario_duplicate_progress.png)
 
-When copying a scenario, the following data is created:
+Pri kopírovaní scenára sa vytvoria nasledujúce dáta:
 
-- The name of the new scenario is provided by the user.
-- The new scenario is a non-baseline scenario.
-- The roads are copied (if available).
-- The fleet file is copied (if available).
-- The vehicle mappings are copied (if available).
-- The same background is selected (if available).
-- The same meteo is selected (if available).
-- The tunnel file is copied (if available).
-- The point sources are copied (if available).
-- The LEZs are copied (if available).
+- Názov nového scenára zadá používateľ.
+- Nový scenár nie je základným scenárom.
+- Cesty sa skopírujú (ak sú k dispozícii).
+- Súbor flotily sa skopíruje (ak je k dispozícii).
+- Mapovanie vozidiel sa skopíruje (ak je k dispozícii).
+- Vyberie sa rovnaké pozadie (ak je k dispozícii).
+- Vyberie sa rovnaké meteo (ak je k dispozícii).
+- Súbor s tunelmi sa skopíruje (ak je k dispozícii).
+- Bodové zdroje sa skopírujú (ak sú k dispozícii).
+- NEZ sa skopírujú (ak sú k dispozícii).
