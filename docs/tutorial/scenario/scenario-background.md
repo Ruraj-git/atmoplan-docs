@@ -1,11 +1,12 @@
 ---
-title: Background
+title: Pozadie
 sidebar_position: 3
 ---
 
-# Inspecting the background concentration of a scenario
+# Kontrola pozaďovej koncentrácie scenára
 
-:::caution Not yet available
+:::pozor  Zatiaľ nedostupné
 :::
 
-In Slovakia and Hungary, the same background concentration is reused in all cases. Since there is only one option, it is not possible to inspect the background concentration of a scenario.
+Na Slovensku a v Maďarsku sa vo všetkých prípadoch opätovne používa rovnaká pozaďová koncentrácia. Keďže existuje len jedna možnosť, nie je možné kontrolovať koncentráciu pozadia scenára.
+
