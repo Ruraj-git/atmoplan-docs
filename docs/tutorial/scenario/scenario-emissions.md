@@ -215,7 +215,7 @@ Keď je súbor platný, nové bodové zdroje sa pridajú na mapu.
 
 ![Bulk upload: successful upload](./images/scenario_pointsource_bulk_upload_success.png)
 
-Keď je súbor neplatný, užívateľ je upozornený krátkou správou o chybe importu. Potom môže svoj súbor opraviť a znova nahrať, ako je popísané vyššie.
+Keď je súbor neplatný, užívateľ je upozornený krátkou správou s chybou importu. Potom môže svoj súbor opraviť a znova nahrať, ako je popísané vyššie.
 
 
 ![Bulk upload: failed upload](./images/scenario_pointsource_bulk_upload_fail.png)
