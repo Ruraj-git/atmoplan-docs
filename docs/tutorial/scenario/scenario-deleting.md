@@ -1,21 +1,20 @@
 ---
-title: Deleting
+title: Výmaz
 sidebar_position: 99
 ---
 
-## Deleting a scenario
+## Výmaz scenára
 
-:::tip Available in Slovakia, Hungary
+:::tip Dostupné na Slovensku, v Maďarsku
 :::
 
-:::caution
-Deleting a baseline scenario is not allowed. The delete button is hidden for baseline scenarios.
+:::pozor
+Výmaz základného scenára nie je povolený. Tlačidlo Výmaz je skryté pre základné scenáre.
 :::
 
-:::caution
-A scenario cannot be deleted while the results are being calculated, when file imports are busy or when the calculation is (successfully) finished. The delete button is disabled then.
+:::pozor
+Scenár nemožno vymazať počas výpočtu výsledkov, importu súborov, alebo po (úspešnom) dokončení výpočtu. V takomto prípade je tlačidlo Výmaz deaktivované.
 :::
-
-Go to the case detail page. A scenario can be removed by hovering over a scenario in the list at the left, and then clicking on the delete icon. A confirmation dialog is shown containing an ok and cancel button.
+Prejdite na stránku s podrobnosťami projektu. Scenár možno odstrániť umiestnením kurzora myši nad scenár v zozname vľavo a kliknutím na ikonu výmazu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo OK a Zrušiť.
 
 ![Delete scenario: confirmation dialog](./images/scenario_delete.png)
