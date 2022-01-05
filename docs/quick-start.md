@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Nasledujúce kroky rýchleho spustenia Vás prevedú cez vytvorenie nového projektu, definíciu základného scenára a vytvorenia ďalších scenárov, v ktorých si môžete pridať vlastné bodové a cestné emisie alebo zmeniť tie v základnom scenári, a taktiež si v nich môžete definovať nízkoemisnú zónu. 
 
-Projekt pozostáva z viacerých scenárov, pričom referenčný scenár, s ktorým sa budú porovnávať všetky ostatné scenáre, sa nazýva základný scenár. V základnom scenári sú všetky dáta - meteorológia, pozadie a emisie definované v aplikácii. V ostatných scenároch užívateľ môže meniť emsiné vstupy, no nemôže meniť meteorológiu ani pozadie.
+Projekt pozostáva z viacerých scenárov, pričom referenčný scenár, s ktorým sa budú porovnávať všetky ostatné scenáre, sa nazýva základný scenár. V základnom scenári sú všetky dáta - meteorológia, pozadie a emisie definované v aplikácii. V ostatných scenároch môže užívateľ meniť emsiné vstupy, no nemôže meniť meteorológiu ani pozadie.
 
 
 ## Krok 1: Vytvorenie nového projektu a základného scenára 
@@ -17,7 +17,7 @@ Na úvodnej stránke kliknite v záložke *Projekty* vpravo hore na symbol *Prid
 Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Pričom na začiatku môžete použiť len vopred vypočítané údaje (zodpovedá základnému scenáru). Môžete si tiež pozrieť emisie základného scenáru v interaktívnej mape. 
 ![Quickstart step 1](./images/quickstart1_case_name_type_SK.png)
 
-Kliknite na tlačítko *Ďalší* a nakreslite región pre výpočtovú doménu projektu.
+Kliknite na tlačítko *Ďalej* a nakreslite región pre výpočtovú doménu projektu.
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
