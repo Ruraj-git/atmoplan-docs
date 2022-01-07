@@ -102,9 +102,18 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 
 <table>
   <tr>
-          <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti Formát súborov - FASTRACE - výstupný formát</p>
+    <th>Súbor</th>
+    <th>Obsah</th>
+  </tr>
+  <tr>
+    <td>fastrace.txt fastraceMetadata.txt</td>
+    <td>
+      <p>Tieto súbory sú výstupom výpočtu emisií z dopravy.</p>
+      <p>Súbor s metadátami (fastraceMetadata.txt) obsahuje informácie o verzii dopravného emisného modelu a ďalšie metadáta.</p>
+      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti Formát súborov ->FASTRACE - výstupný formát </p>
     </td>
   </tr>
+	
   <tr>
     <td>outputIndicatorsX_Y_Z.tif</td>
     <td>
@@ -170,13 +179,15 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputTimeseriesX_Z.csv</td>
     <td>
       <p>
-        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
+        X = znečisťujúca látka (NO2, PM10, PM25, WILDCART (inertný plyn))
 	<br/>(NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
       <p>Tieto súbory obsahujú časové rady priemerných hodinových koncentrácií jednotlivých znečistujúcich látok pre body záujmu. </p>
-      <p>The files first lists the different points of interest by their name and coordinates, followed by the time series data as a comma separated list providing the timestamp and the different POIs as columns. There are separate output files for the hourly and daily concentrations. </p>
+      <p>Hlavička súboru obsahuje zoznam bodov záujmu  (ich názvy a súradnice), jednotky, rok, ESPG súradnicového systému (3035). 
+	      Dátová časť súboru obsahuje v .csv formáte rok, mesiac, deň, hodinu a priemerné hodinové koncentrácie všetky body záumu  (ako stĺpce). Samostatné výstupné súbory sú vytvorené  pre hodinové a denné koncentrácie pre každú znečiťujúcu látku.
+	       </p>
     </td>
   </tr>
   <tr>
