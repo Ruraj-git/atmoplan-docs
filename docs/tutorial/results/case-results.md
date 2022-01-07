@@ -98,12 +98,11 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
   </tr>
 </table>
 
-##### Output:
-<font size="-1">This is smaller text.</font>
+##### Výstup:
+
 <table>
   <tr>
-    <th>File</th>f o verzii dopravného emisného modelu a ďalšie metadáta.</p>
-      <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti [FASTRACE - výstupný formát]file-formats/#výstup) [FASTRACE - formát výstupu](https://flamboyant-euclid-8b9c02.netlify.app/file-formats/fastrace-output-format)</p>
+          <p>Dátový súbor (fastrace.txt) obsahuje aktuálne vypočítané hodnoty emisií na líniových segmentoch. Formát tohto súboru je popísaný v časti Formát súborov - FASTRACE - výstupný formát</p>
     </td>
   </tr>
   <tr>
