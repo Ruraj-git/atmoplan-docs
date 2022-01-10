@@ -12,8 +12,8 @@ Keď sú definované všetky scenáre v projekte, je nastavená výpočtová mri
 Ak je projekt odoslaný na spracovanie (výpočet), nie je možné k nemu pridávať ďalšie scenáre. Používateľ je na to upozornený, ako je možné vidieť na obrázku nižšie.
 :::
 
-![Start calculation](./images/start_calculation.png)
-![Start calculation: confirmation dialog](./images/start_calculation_confirmation.png)
+![Start calculation](./images/start_calculation_sk.png)
+![Start calculation: confirmation dialog](./images/start_calculation_confirmation_sk.png)
 
 
 Po spustení výpočtu sa na pozadí spustia nasledujúca procesy:
@@ -31,7 +31,7 @@ Po spustení výpočtu sa na pozadí spustia nasledujúca procesy:
 
 V prehľade projektov je počas výpočtu projektu označenie „Výpočet beží“.
 
-![Calculation progress](./images/start_calculation_progres_sk.png)
+![Calculation progress](./images/start_calculation_progres2_sk.png)
 
 
 Keďže **dokončenie výpočtov môže trvať niekoľko hodín**, aplikácia odošle používateľovi e-mail, keď sa výpočet skončí, či už úspešne alebo naopak. Stav projektu v prehľade projektov sa potom zmení na „Výpočet ukončený“ alebo „Výpočet zlyhal“.
