@@ -88,7 +88,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>
       X = názov bodového zdroja scenára
       <br/>
-      Obsahuje zoznam všetkých bodových zdrojov a ich vlastností.
+      Obsahuje zoznam všetkých bodových zdrojov a ich vlastnosti.
      </td>
   </tr>
   <tr>
@@ -123,7 +123,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
         <br/>
         Z = SRID
       </p>
-      <p>Tieto rastrové súbory obsahujú hodnoty indikátorov pre rôzne znečisťujúce látky. Tieto rastre boli vytvorené z výpočtovej mriežky. Tieto súbory sú obyčajné súbory formátu GeoTIFF vrátane informácií o projekcii, ktoré možno ľahko otvoriť v ľubovoľnej GIS aplikácii.
+      <p>Tieto rastrové súbory obsahujú hodnoty indikátorov pre rôzne znečisťujúce látky. Tieto rastre boli vytvorené z výpočtovej mriežky,  sú to bežné súbory formátu GeoTIFF vrátane informácií o projekcii, ktoré možno ľahko otvoriť v ľubovoľnej GIS aplikácii.
  (napr. QGIS, ArcGIS…).</p>
     </td>
   </tr>
@@ -149,7 +149,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 	<br/>
         Z = SRID
       </p>
-      <p>Tieto súbory obsahujú ročné hodnoty indikátorov pre všetky body mriežky. Indikátory zahŕňajú priemerné ročné koncentrácie a indikátory, ktoré sa líšia podľa znečisťujúcej látky. Tieto súbory sú obyčajné textové súbory s hodnotami oddelenými čiarkami (.csv) a možno ich jednoducho importovať do akéhokoľvek tabuľkového procesora. </p>
+      <p>Tieto súbory obsahujú ročné hodnoty indikátorov pre všetky body mriežky. Indikátory zahŕňajú priemerné ročné koncentrácie a iné indikátory, ktoré sa líšia podľa znečisťujúcej látky. Tieto súbory sú obyčajné textové súbory s hodnotami oddelenými čiarkami (.csv) a možno ich jednoducho importovať do akéhokoľvek tabuľkového procesora. </p>
     </td>
   </tr>
   <tr>
@@ -185,7 +185,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
       </p>
       <p>Tieto súbory obsahujú časové rady priemerných hodinových koncentrácií jednotlivých znečistujúcich látok pre body záujmu. </p>
       <p>Hlavička súboru obsahuje zoznam bodov záujmu  (ich názvy a súradnice), jednotky, rok, ESPG súradnicového systému (3035). 
-	      Dátová časť súboru obsahuje v .csv formáte rok, mesiac, deň, hodinu a priemerné hodinové koncentrácie všetky body záumu  (ako stĺpce). Samostatné výstupné súbory sú vytvorené  pre hodinové a denné koncentrácie pre každú znečiťujúcu látku.
+	      Dátová časť súboru obsahuje v .csv formáte rok, mesiac, deň, hodinu a priemerné hodinové koncentrácie pre všetky body záumu  (ako stĺpce). Samostatné výstupné súbory sú vytvorené  pre hodinové a denné koncentrácie pre každú znečiťujúcu látku.
 	       </p>
     </td>
   </tr>
@@ -197,7 +197,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
 	<br/>
         Z = SRID
       </p>
-      <p> Tieto súbory obsahujú denné časové rady bodov záujmu pre rôzne znečisťujúce látky. Formát zodpovedá súborom hodinových časových radov.</p>
+      <p> Tieto súbory obsahujú časové rady priemerných denných koncentrácií v mieste bodov záujmu pre rôzne znečisťujúce látky. Formát zodpovedá súborom časových radov priemerných hodinových koncentrácií.</p>
     </td>
   </tr>
 </table>
