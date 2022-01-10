@@ -4,7 +4,7 @@ title: Formát výstupu emisného modelu  FASTRACE
 
 
 
-Keď si používateľ stiahne výsledky scenára, jeden zo súborov   obsahuje výstup  <a name="výstup"></a> emisného modelu FASTRACE, ktorý z intenzít dopravy a ďalších parametrov počíta emisie z cestnej dopravy. <a href="https://atmoplan.shmu.sk/docs/assets/files/fastrace-bc5fe6811225a90f64de7d7791d41166.txt"> Toto je príklad výstupu modelu FASTRACE</a> <!--(./files/fastrace.txt)-->
+Keď si používateľ stiahne výsledky scenára, jeden zo súborov   obsahuje výstup  emisného modelu FASTRACE, ktorý z intenzít dopravy a ďalších parametrov počíta emisie z cestnej dopravy. <a href="https://atmoplan.shmu.sk/docs/assets/files/fastrace-bc5fe6811225a90f64de7d7791d41166.txt"> Toto je príklad výstupu modelu FASTRACE</a> <!--(./files/fastrace.txt)-->
 
 
 Obsah súboru:
