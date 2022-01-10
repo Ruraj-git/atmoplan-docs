@@ -19,6 +19,6 @@ Nasledujúce stĺpce sú povinné:
 
 | Stĺpec | Popis                            | Formát | Jednotky |
 | ------ | -------------------------------------- | ------ | ----- |
-| Lon    | Zemepisná dĺžka bodu záujmu (desatinné stupne) | desatinné číslo | °     |
-| Lat    |Zemepisná šírka bodu záujmu (desatinné stupne)  | desatinné číslo  | °     |
+| Lon    |Zemepisná dĺžka BZ (desatinné stupne) | desatinné číslo | °     |
+| Lat    |Zemepisná šírka BZ (desatinné stupne)  | desatinné číslo  | °     |
 | Názov   |Názov BZ                  | text| -     |
