@@ -25,9 +25,7 @@ Pre  ostatné scenáre sú dostupné aj mapy relatívnych a absolútnych rozdiel
 Pri výbere mapy v rozbaľovacom zozname sa mapa zobrazí na pravej strane pomocou predvolenej legendy, ktorá sa zobrazuje v ľavom dolnom rohu. Pre každú znečisťujúcu látku je poskytnutá predvolená legenda (možnosť „predvolené“), ale je tiež možné vybrať legendu v rozsahu od minimálnej po maximálnu hodnotu na mape (možnosť „dynamická“) alebo poskytnúť vlastné minimum a maximum hodnotu (možnosť „vlastné“).
 
 ![Result map for NO2](./images/result_no2.png)
-![Result map for NO2: default legend](./images/result_no2_default_sk.png)
-![Result map for NO2: dynamic legend](./images/result_no2_dynamic_sk.png)
-![Result map for NO2: custom legend](./images/result_no2_custom_sk.png)
+
 
 ### Časové rady pre body záujmu
 
