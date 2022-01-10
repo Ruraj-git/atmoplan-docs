@@ -4,7 +4,7 @@ title: Formát výstupu emisného modelu  FASTRACE
 
 
 
-Keď používateľ stiahne výsledky scenára, jeden zo súborov   obsahuje <a name="výstup"></a> emisného modelu FASTRACE, ktorý z intenzít dopravy a ďalších parametrov počíta emisie z cestnej dopravy. [Toto je príklad výstupu modelu FASTRACE] (./files/fastrace.txt)
+Keď používateľ si stiahne výsledky scenára, jeden zo súborov   obsahuje výstup  <a name="výstup"></a> emisného modelu FASTRACE, ktorý z intenzít dopravy a ďalších parametrov počíta emisie z cestnej dopravy. [Toto je príklad výstupu modelu FASTRACE] (./files/fastrace.txt)
 
 <!-- When the user downloads the scenario results, one of the files contains the output of the FASTRACE traffic emission model calculation. This translates the traffic intensities on the network into emission values. [This is an example file](./files/fastrace.txt) -->
 <a name="abcd"></a>
