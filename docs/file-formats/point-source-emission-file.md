@@ -1,34 +1,31 @@
 ---
-title: Point source emission file
+title: Emisný súbor bodového zdroja
 ---
 
-:::tip Available in each deployment
-Point source files can be uploaded in each deployment.
-:::
 
-[An example of a point source input file is shown below and can be downloaded here.](./files/pointsource.txt)
+
+[Príklad vstupného súboru bodového zdroja je uvedený nižšie. Môžete si ho stiahnuť tu.](./files/pointsource.txt)
 
 ```
 Lon   Lat   Height_m    Diameter_m  Temperature_K   Flowrate_Nm3_s  NOX_kg_h PM10_kg_h    PM25_kg_h    WILDCARD_kg_h    NO/NOX  Name
 20.31417	49.05141	20	1	350	47.12	338.447488584	0	0	1	0.95	name1
 20.29632	49.06246	5	1	350	47.12	151.590185822	9.88591419319	8.42163908455	1	0.95	name2
 ```
+Ide o  obyčajné textové súbory používajúce tabulátory ako oddeľovače medzi stĺpcami. Takéto súbory sa dajú ľahko otvárať a upravovať napr. v programe MS Excel alebo v textovom editore.
 
-The files are plain text files using TABs as separators between the columns. Such files can easily be opened and edited in excel.|
+Nasledujúce stĺpce sú povinné:
 
-The following columns are required (separated by TABs):
-
-| Column         | Description                                                                                               | Format | Units |
+| Stĺpec         | Popis                                                                                              | Formát | Jednotky |
 | :------------- | :-------------------------------------------------------------------------------------------------------- | :----- | :---- |
-| Lon            | Longitude of the point source (decimal degrees)                                                           | float  | °     |
-| Lat            | Latitude of the point source (decimal degrees)                                                            | float  | °     |
-| Height_m       | Height of the stack                                                                                       | float  | m     |
-| Diameter_m     | Diameter of the stack                                                                                     | float  | m     |
-| Temperature_K  | Outflow temperature                                                                                       | float  | K     |
-| Flowrate_Nm3_s | Outflow rate in Nm3/s, meaning as measured with standard temperature 0°C (273.15 K) and pressure of 1 atm | float  | Nm3/s |
-| NOX_kg_h       | Emission rate for NOx                                                                                     | float  | kg/h  |
-| PM10_kg_h      | Emission rate for PM10                                                                                    | float  | kg/h  |
-| PM25_kg_h      | Emission rate for PM25                                                                                    | float  | kg/h  |
-| WILDCARD_kg_h  | Emission rate for a pollutant that ... (TODO)                                                             | float  | kg/h  |
-| NO/NOx         | Ratio of NO exhaust in the NOx emission                                                                   | float  | -     |
-| Name           | The name of the point source                                                                              | string | -     |
+| Lon            | Zemepisná dĺžka bodového zdroja (desatinné stupne)                                                    | desatinné číslo | °     |
+| Lat            |Zemepisná šírka bodového zdroja (desatinné stupne)                                                          | desatinné číslo  | °     |
+| Height_m       | Výška komína                                                                                     | desatinné číslo  | m     |
+| Diameter_m     | Priemer komína                                                                                    | desatinné číslo | m     |
+| Temperature_K  | Výstupná teplota                                                                                       | desatinné číslo | K     |
+| Flowrate_Nm3_s | Výstupný tok (v Nm3/s), pri teplote 0°C (273.15 K) a pri atmosferickom tlaku 101,325kPa  (1 atm) | desatinné číslo  | Nm3/s |
+| NOX_kg_h       | Emisný tok NOx                                                                                     | desatinné číslo  | kg/h  |
+| PM10_kg_h      | Emisný tok  PM10                                                                                    | desatinné číslo  | kg/h  |
+| PM25_kg_h      | Emisný tok PM25                                                                                    | desatinné číslo  | kg/h  |
+| WILDCARD_kg_h  | Emisný tok pre WILDCARD (inertný plyn, voliteľná znečisťujúca látka, ktorá nevstupuje do chemiských reakcií v atmosfére a je plynného skupensktva, alebo sa po fyzikálnej stránke správa ako plyn                                                            | desatinné číslo  | kg/h  |
+| NO/NOx         | Podiel NO v NOx                                                                   | desatinné číslo  | -     |
+| Name           | Názov bodového zdroja                                                                            | text | -     |
