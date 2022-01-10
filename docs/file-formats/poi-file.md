@@ -15,7 +15,7 @@ Lon   Lat   Názov
 Ide o obyčajný textový súbor,  používajúci tabulátory ako oddeľovače medzi stĺpcami. Takéto súbory sa dajú otvárať a upravovať v programe Excel alebo v textovom editore. 
 
 
-Nasledujúce stĺpce sú povinné (oddelené tabelátorom):
+Nasledujúce stĺpce sú povinné:
 
 | Stĺpec | Popis                            | Formát | Jednotky |
 | ------ | -------------------------------------- | ------ | ----- |
