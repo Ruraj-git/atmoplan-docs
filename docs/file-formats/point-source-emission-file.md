@@ -26,6 +26,6 @@ Nasledujúce stĺpce sú povinné:
 | NOX_kg_h       | Emisný tok NOx                                                                                     | desatinné číslo  | kg/h  |
 | PM10_kg_h      | Emisný tok  PM10                                                                                    | desatinné číslo  | kg/h  |
 | PM25_kg_h      | Emisný tok PM25                                                                                    | desatinné číslo  | kg/h  |
-| WILDCARD_kg_h  | Emisný tok pre WILDCARD (inertný plyn, voliteľná znečisťujúca látka, ktorá nevstupuje do chemiských reakcií v atmosfére a je plynného skupensktva, alebo sa po fyzikálnej stránke správa ako plyn                                                            | desatinné číslo  | kg/h  |
-| NO/NOx         | Podiel NO v NOx                                                                   | desatinné číslo  | -     |
+| WILDCARD_kg_h  | Emisný tok pre WILDCARD (Inertný plyn. Voliteľná znečisťujúca látka, ktorá nevstupuje do chemiských reakcií v atmosfére a je plynného skupensktva, alebo sa po fyzikálnej stránke správa ako plyn                                                            | desatinné číslo  | kg/h  |
+| NO/NOx         | Podiel NO k NOx                                                                   | desatinné číslo  | -     |
 | Name           | Názov bodového zdroja                                                                            | text | -     |
