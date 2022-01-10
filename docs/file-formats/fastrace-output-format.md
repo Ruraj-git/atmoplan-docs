@@ -27,7 +27,7 @@ The file contains the following information :
 | emission             | Emisie pre aktuálny segment cesty, typ vozidla a znečisťujúcu látku. Na získanie týchto emisií je potrebné vynásobiť emisný faktor počtom najazdených vozokilometrov na tomto úseku cesty podľa  typu vozidla. Počet vozokilometrov sa rovná počtu vozidiel vynásobenom dĺžkou segmentu.| desatinné číslo|  |      |
 | emission_unit        | Jednotka emisií                                                                                                                                                                                                                                                                                                                              | textový reťazec |      |
 | fleet                | Nepoužíva sa, vždy obsahuje hodnotu 'default'                                                                                                                                                                                                                                                                                            | textový reťazec |      |
-</table>
+
 Poznámky:
 
 - Každý riadok vo výstupnom súbore obsahuje  emisie pre jeden úsek cesty, typ vozidla a znečisťujúcu látku vyp modelu FASTRACE.
