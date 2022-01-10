@@ -6,8 +6,8 @@ title: Formát výstupu emisného modelu  FASTRACE
 
 Keď si používateľ stiahne výsledky scenára, jeden zo súborov   obsahuje výstup  <a name="výstup"></a> emisného modelu FASTRACE, ktorý z intenzít dopravy a ďalších parametrov počíta emisie z cestnej dopravy. <a href="https://atmoplan.shmu.sk/docs/assets/files/fastrace-bc5fe6811225a90f64de7d7791d41166.txt"> Toto je príklad výstupu modelu FASTRACE</a> <!--(./files/fastrace.txt)-->
 
-<!-- When the user downloads the scenario results, one of the files contains the output of the FASTRACE traffic emission model calculation. This translates the traffic intensities on the network into emission values. [This is an example file](./files/fastrace.txt) -->
-<a name="abcd"></a>
+
+Obsah súboru:
 The file contains the following information :
 
 | Stĺpec              | Popis                                                                                                                                                                                                                                                                                                                                          | Formát | Jednotky |
@@ -32,39 +32,3 @@ Poznámky:
 
 - Každý riadok vo výstupnom súbore obsahuje  emisie pre jeden úsek cesty, typ vozidla a znečisťujúcu látku vyp modelu FASTRACE.
 
-<!-- - The columns in green contain information about the road and are simply taken over from the input network file. -6iadne yelen0 st=lpce tam nie s[ vynecham to -->
-
-
-<!-- ### original
-
-The file contains the following information :
-
-
-| Stĺpec             | Popis                                                                                                                                                                                                                                                                                                                                          | Format | Unit |
-| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----- | :--- |
-| ID                   | ID of the road segment                                                                                                                                                                                                                                                                                                                                 | celé číslo   |      |
-| X1,Y1,X2,Y2          | The begin and end coordinates of the road segment in the SRID chosen by the user                                                                                                                                                                                                                                                                       | desatinné číslo  |      |
-| length               | The length of the road segment                                                                                                                                                                                                                                                                                                                         | desatinné číslo  |      |
-| length_unit          | The unit used for the length                                                                                                                                                                                                                                                                                                                           | textový reťazec|      |
-| zone                 | Not used in ATMO-Plan, always contains the value 'default'                                                                                                                                                                                                                                                                                             | textový reťazec |      |
-| speed                | Average traffic speed on the road segment                                                                                                                                                                                                                                                                                                              | desatinné číslo | km/h |
-| CAR,LDV,HDV,BUS      | The traffic intensities for the different network vehicle types (as defined in the network file, not the fleet composition file)                                                                                                                                                                                                                       | textový reťazec |      |
-| VEHICLETYPE          | The vehicle type for which the result is computed                                                                                                                                                                                                                                                                                                      | textový reťazec |      |
-| roadtype             | The road type of the segment. Possible values: U, R, H. See the network input file description.                                                                                                                                                                                                                                                        | textový reťazec |      |
-| pollutant            | The pollutant for which the result is computed (NOx & NO2 are separated)                                                                                                                                                                                                                                                                               | textový reťazec |      |
-| emissionfactor       | The emission factor for the current road segment, vehicle type and pollutant                                                                                                                                                                                                                                                                           | desatinné číslo  |      |
-| emission_factor_unit | The unit of the emission factor                                                                                                                                                                                                                                                                                                                        | string |      |
-| emission             | The emission for the current road segment, vehicle type and pollutant. To obtain this emission, the emission factor has to be multiplied by the number of vehicle kilometers on this road segment, driven by the considered vehicle type. The number of vehicle kilometers is equal to the number of vehicles multiplied by the length of the segment. | desatinné číslo  |      |
-| emission_unit        | The unit of the emission                                                                                                                                                                                                                                                                                                                               | textový reťazec |      |
-| fleet                | Not used in ATMO-Plan, always contains the value 'default'                                                                                                                                                                                                                                                                                             | textový reťazec |      |
-
-
-
-Poznámky:
-- Zelené stĺpce obsahujú informácie o ceste a sú jednoducho prevzaté zo vstupného sieťového súboru.
-
-- The columns in green contain information about the road and are simply taken over from the input network file.
-
-### nie sú tam žiadne zelene stĺpce, vynecham
-
--->
