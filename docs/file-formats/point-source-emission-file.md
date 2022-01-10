@@ -22,7 +22,7 @@ Nasledujúce stĺpce sú povinné:
 | Height_m       | Výška komína                                                                                     | desatinné číslo  | m     |
 | Diameter_m     | Priemer komína                                                                                    | desatinné číslo | m     |
 | Temperature_K  | Výstupná teplota                                                                                       | desatinné číslo | K     |
-| Flowrate_Nm3_s | Výstupný tok (v Nm3/s), pri teplote 0°C (273.15 K) a pri atmosferickom tlaku 101,325kPa  (1 atm) | desatinné číslo  | Nm3/s |
+| Flowrate_Nm3_s | Prietok (v Nm3/s), pri teplote 0°C (273.15 K) a pri atmosferickom tlaku 101,325kPa  (1 atm) | desatinné číslo  | Nm3/s |
 | NOX_kg_h       | Emisný tok NOx                                                                                     | desatinné číslo  | kg/h  |
 | PM10_kg_h      | Emisný tok  PM10                                                                                    | desatinné číslo  | kg/h  |
 | PM25_kg_h      | Emisný tok PM25                                                                                    | desatinné číslo  | kg/h  |
