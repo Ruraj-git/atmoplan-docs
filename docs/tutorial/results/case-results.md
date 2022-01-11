@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 Po dokončení výpočtu sa používateľovi odošle e-mail. Výsledky výpočtu je možné skontrolovať kliknutím na „Zobraziť výsledky“ v prehľade projektov alebo na stránke s podrobnosťami o projekte (vpravo hore).
 
-![View results: main page](./images/view_results_button_main.png)
+![View results: main page](./images/view_results_button_main_sk.png)
 ![View results: detail page](./images/view_results_button_detail.png)
 
 
@@ -25,7 +25,7 @@ Pre  ostatné scenáre sú dostupné aj mapy relatívnych a absolútnych rozdiel
 
 Pri výbere mapy v rozbaľovacom zozname sa mapa zobrazí na pravej strane pomocou predvolenej legendy, ktorá sa zobrazuje v ľavom dolnom rohu. Pre každú znečisťujúcu látku je poskytnutá predvolená legenda (možnosť „predvolené“), ale je tiež možné vybrať legendu v rozsahu od minimálnej po maximálnu hodnotu na mape (možnosť „dynamická“) alebo poskytnúť vlastné minimum a maximum hodnotu (možnosť „vlastné“).
 
-![Result map for NO2](./images/result_no2.png)
+![Result map for NO2](./images/result_no2_sk.png)
 
 
 ### Časové rady pre body záujmu
