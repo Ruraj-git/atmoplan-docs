@@ -2,9 +2,6 @@
 title: Súbor cestnej siete
 ---
 
-:::tip Available in each deployment
-Network files can be uploaded in each deployment.
-:::
 
 [Príklad súboru cestnej siete je uvedený nižšie a môžete si ho stiahnuť tu.](./files/network.txt)
 
@@ -27,11 +24,9 @@ Súbor cestnej siete obsahuje tieto stĺpce:
 | <Cat1\>   | Intenzita dopravy (počet prebehov za rok) pre vozidlo kategórie  'cat1' na tomto segmente cesty                                                                                                                                                                                                                                                                                                                              | desatinné číslo  | n/a   |
 | <Cat2\>   | Intenzita dopravy (počet prebehov za rok) pre vozidlo kategórie 'cat2' na tomto segmente cesty                                                                                                                                                                                                                                                                                                                             | desatinné číslo  | n/a   |
 | ...       | ...                                                                                                                                                                                                                                                                                                                                                                                        | ...    | ...   |
-| Typ cesty | U (mestská - Urban ), R (regionálna (medzimestská) - Rural), H (diaľnica - Highway). Označenia typu cesty. Slúži jednak na výber jazdných podmienok v emisnom  modeli FASTRACE, okrem toho sa v rozptylovom modeli IFDM sa na základe tohoto parametra určí denný časový profil (vývoj počtu prebehov počas dňa).
-  | text   | n/a   |
-| Speed     | Priemerná rýchlosť premávky na danom cestnom segmente (medzi 1 a 130)                                                                                                                                                                                                                                                                                                                              | desatinné číslo | km/h  |
-| Height    | Výška nad terénom (medzi 0 a 150, obvykle 0 m)                                                                                                                                                                                                                                                                                                                                     | desatinné číslo  | m     |
-
+| Typ cesty | U (mestská - Urban ), R (regionálna (medzimestská) - Rural), H (diaľnica - Highway). Označenia typu cesty. Slúži jednak na výber jazdných podmienok v emisnom  modeli FASTRACE, okrem toho sa v rozptylovom modeli IFDM sa na základe tohoto parametra určí denný časový profil (vývoj počtu prebehov počas dňa)| text   | n/a   |
+| Speed     | Priemerná rýchlosť premávky na danom cestnom segmente (medzi 1 a 130)| desatinné číslo | km/h  |
+| Height    | Výška nad terénom (medzi 0 a 150, obvykle 0 m)   | desatinné číslo  | m     |
 
 Dôležité poznámky:
 
