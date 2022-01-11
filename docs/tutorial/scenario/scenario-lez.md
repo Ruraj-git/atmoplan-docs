@@ -34,7 +34,7 @@ Každý stĺpec je možné zoradiť kliknutím na filter v hlavičke stĺpca. Ke
 
 
 :::Upozornenie
-V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvárať NEZ v základnom scenári.
+V základnom scenári nie je povolené vytvárať NEZ.
 :::
 
 :::Upozornenie
@@ -83,7 +83,7 @@ Pri zákaze typov vozidiel v NEZ existujú určité obmedzenia. Pri zákaze typu
 
 
 :::Upozornenie
-V niektorých nasadeniach (Slovensko, Maďarsko) nie je povolené vytvárať/aktualizovať NEZ v základnom scenári.
+V základnom scenári nie je povolené vytvárať/aktualizovať NEZ.
 :::
 
 :::Upozornenie
@@ -96,7 +96,7 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 
 
 :::Upozornenie
-V niektorých verziach (Slovensko, Maďarsko) nie je povolené vytvoriť/odstrániť NEZ v základnom scenári.
+V základnom scenári nie je povolené vytvárať/aktualizovať NEZ.
 :::
 
 :::Upozornenie
