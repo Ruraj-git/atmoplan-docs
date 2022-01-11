@@ -6,11 +6,11 @@ sidebar_position: 99
 ## Odstránenie scenára
 
 
-:::Upozornenie
+:::caution Upozornenie
 Odstránenie základného scenára nie je povolené. Tlačidlo „Odstrániť scenár“ je skryté pre základné scenáre.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Scenár nemožno odstrániť počas výpočtu výsledkov, importu súborov, alebo po (úspešnom) dokončení výpočtu. V takomto prípade je tlačidlo „Odstrániť scenár“ deaktivované.
 :::
 
