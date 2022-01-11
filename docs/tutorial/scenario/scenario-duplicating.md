@@ -5,10 +5,8 @@ sidebar_position: 7
 
 ## Kopírovanie scenára
 
-:::tip Dostupné na Slovensku, v Maďarsku
-:::
 
-:::pozor
+:::Upozornenie
 Scenár nie je možné kopírovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu. Vtedy je tlačidlo „Kopírovať scenár“ zablokované.
 :::
 
