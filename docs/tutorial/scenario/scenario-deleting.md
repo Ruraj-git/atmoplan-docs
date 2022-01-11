@@ -5,14 +5,12 @@ sidebar_position: 99
 
 ## Odstránenie scenára
 
-:::tip Dostupné na Slovensku, v Maďarsku
-:::
 
-:::pozor
+:::Upozornenie
 Odstránenie základného scenára nie je povolené. Tlačidlo „Odstrániť scenár“ je skryté pre základné scenáre.
 :::
 
-:::pozor
+:::Upozornenie
 Scenár nemožno odstrániť počas výpočtu výsledkov, importu súborov, alebo po (úspešnom) dokončení výpočtu. V takomto prípade je tlačidlo „Odstrániť scenár“ deaktivované.
 :::
 
