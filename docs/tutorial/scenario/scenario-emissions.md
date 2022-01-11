@@ -5,8 +5,6 @@ sidebar_position: 2
 
 ## Kontrola emisií v scenári
 
-:::tip Dostupné v každej verzii
-:::
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo.
 
@@ -18,10 +16,10 @@ Existujú dva typy emisií:
 - Emisie z dopravy
 - Emisie z bodových zdrojov
 
-**Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Na Slovensku a v Maďarsku sú kategórie typov vozidiel pevne dané: BUS, AUTO, LDV (ľahké nákladné vozidlá), HDV (ťažké nákladné vozidlá).
+**Emisie z dopravy** pre scenár pozostávajú zo zoznamu ciest s početnosťou dopravy pre rôzne kategórie typov vozidiel. Podporované kategórie typov vozidiel závisia od verzie. Kategórie typov vozidiel sú pevne dané: BUS, AUTO, LDV (ľahké nákladné vozidlá), HDV (ťažké nákladné vozidlá).
 
 
-Či je početnosť dopravy uvedená ako intenzita cez špičku (spolu s profilom škálovania) alebo ročný súčet, závisí aj od verzie. Na Slovensku a v Maďarsku ide o ročné súčty.
+Či je početnosť dopravy uvedená ako intenzita cez špičku (spolu s profilom škálovania) alebo ročný súčet, závisí aj od verzie. Na Slovensku ide o ročné súčty.
 
 **Emisie z bodových zdrojov** pre scenár pozostávajú zo zoznamu (priemyselných) bodových zdrojov s príslušnými emisiami.
 
@@ -51,22 +49,20 @@ Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 
 ## Vytváranie emisií pre scenár
 
-:::pozor Zatiaľ nedostupné
+:::Upozornenie Zatiaľ nedostupné
 :::
 
 ## Aktualizácia emisií z dopravy pre scenár
 
-:::tip Dostupné na Slovensku, v Maďarsku
-:::
 
 Najprv popíšeme, ako aktualizovať emisie z dopravy. Potom sa pozrieme na emisie bodových zdrojov.
 
 
-:::pozor
-V niektorých verziach (Slovensko, Maďarsko) nie je povolené aktualizovať emisie v základnom scenári.
+:::Upozornenie
+V základnom scenári nie je povolené aktualizovať emisie.
 :::
 
-:::pozor
+:::Upozornenie
 Emisie nie je možné aktualizovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu.
 :::
 
@@ -145,14 +141,12 @@ Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Kliknutím na tlačid
 
 ## Aktualizácia emisií z bodových zdrojov
 
-:::tip Dostupné na Slovensku, v Maďarsku
+
+:::Upozornenie
+V základnom scenári nie je povolené aktualizovať emisie.
 :::
 
-:::pozor
-V niektorých verziach (Slovensko, Maďarsko) nie je povolené aktualizovať emisie v základnom scenári.
-:::
-
-:::pozor
+:::Upozornenie
 Emisie nie je možné aktualizovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu.
 :::
 
