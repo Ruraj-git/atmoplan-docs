@@ -49,7 +49,7 @@ Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 
 ## Vytváranie emisií pre scenár
 
-:::Upozornenie Zatiaľ nedostupné
+:::caution Upozornenie Zatiaľ nedostupné
 :::
 
 ## Aktualizácia emisií z dopravy pre scenár
@@ -58,11 +58,11 @@ Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 Najprv popíšeme, ako aktualizovať emisie z dopravy. Potom sa pozrieme na emisie bodových zdrojov.
 
 
-:::Upozornenie
+:::caution Upozornenie
 V základnom scenári nie je povolené aktualizovať emisie.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Emisie nie je možné aktualizovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu.
 :::
 
@@ -142,11 +142,11 @@ Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Kliknutím na tlačid
 ## Aktualizácia emisií z bodových zdrojov
 
 
-:::Upozornenie
+:::caution Upozornenie
 V základnom scenári nie je povolené aktualizovať emisie.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Emisie nie je možné aktualizovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu.
 :::
 
