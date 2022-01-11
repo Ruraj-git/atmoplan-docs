@@ -6,7 +6,7 @@ sidebar_position: 7
 ## Kopírovanie scenára
 
 
-:::Upozornenie
+:::caution Upozornenie
 Scenár nie je možné kopírovať počas výpočtu výsledkov alebo po (úspešnom) dokončení výpočtu. Vtedy je tlačidlo „Kopírovať scenár“ zablokované.
 :::
 
