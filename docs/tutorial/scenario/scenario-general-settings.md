@@ -14,6 +14,6 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Všeobecné“. Tu je možné upraviť názov scenára.
 
-:::Upozornenie
+:::caution Upozornenie
 Všeobecné nastavenia nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Všeobecné nastavenia môžu byť len zobrazené.
 :::
