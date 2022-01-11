@@ -33,11 +33,11 @@ Každý stĺpec je možné zoradiť kliknutím na filter v hlavičke stĺpca. Ke
 ## Vytvorenie nízkoemisnej zóny
 
 
-:::Upozornenie
+:::caution Upozornenie
 V základnom scenári nie je povolené vytvárať NEZ.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by scenár mal mať platnú flotilu. Tlačidlo „Pridanie nízkoemisnej zóny“ je v tom prípade skryté.
 :::
 
@@ -61,7 +61,7 @@ Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy 
 
 ![LEZ: vehicle restrictions](./images/lez_vehicle_restrictions.png)
 
-:::Upozornenie
+:::caution Upozornenie
 Je dôležité poznamenať, že kategórie vozidiel, ktoré sa môžu vyskytnúť v súbore zloženia flotily, sú preddefinované pre každú verziu a závisia od zvoleného regiónu. Užívateľ môže pracovať iba s existujúcimi typmi vozidiel. Po nasadení verzie nie je možné pridať žiadne nové typy vozidiel, v prípade požiadavky na rozšírenie typov je potrebné kontaktovať VITO.
 :::
 
@@ -75,18 +75,18 @@ Užívateľ môže tiež zakázať skupiny typov vozidiel pomocou filtrov v stĺ
 
 Keď sú potrebné typy vozidiel zakázané, kliknite na „Uložiť“. V tom momente je flotila pre NEZ vypočítaná, uložená a novovytvorená NEZ je tak kompletná.
 
-:::Upozornenie
+:::caution Upozornenie
 Pri zákaze typov vozidiel v NEZ existujú určité obmedzenia. Pri zákaze typu vozidla je dôležité si uvedomiť, že celkový počet vozidiel vo flotile sa nezmení. Zakázané vozidlá budú namiesto toho distribuované do zostávajúcich typov vozidiel rovnakej kategórie. Napríklad pri zákaze áut kategórie Euro 1 sa počet áut Euro 1 rozloží na všetky ostatné typy vozidiel. To tiež znamená, že nemôžete zakázať vo flotile všetky typy vozidiel zodpovedajúce určitej kategórii vozidla. Musí zostať aspoň jeden; inak sa zobrazí chybové hlásenie.
 :::
 
 ## Aktualizácia nízkoemisnej zóny
 
 
-:::Upozornenie
+:::caution Upozornenie
 V základnom scenári nie je povolené vytvárať/aktualizovať NEZ.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Nízkoemisnú zónu nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platnú flotilu. Vlastnosti NEZ môžu byť vtedy len zobrazené.
 :::
 
@@ -95,11 +95,11 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 ## Odstránenie nízkoemisnej zóny
 
 
-:::Upozornenie
+:::caution Upozornenie
 V základnom scenári nie je povolené vytvárať/aktualizovať NEZ.
 :::
 
-:::Upozornenie
+:::caution Upozornenie
 Nízkoemisnú zónu nie je možné odstrániť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Tlačidlo „Odstrániť“ je vtedy skryté.
 :::
 
