@@ -11,7 +11,7 @@ Prejdite na stránku s podrobnosťami o projekte a kliknite na „Všeobecné na
 ## Aktualizácia všeobecných nastavení projektu
 
 Prejdite na stránku s podrobnosťami o projektu a kliknite na „Všeobecné nastavenia“. Tu je možné upraviť názov a popis.
-::: Upozornenie
+:::caution Upozornenie
 Všeobecné nastavenia nie je možné aktualizovať počas prebiehajúceho výpočtu alebo po jeho (úspešnom) dokončení. Všeobecné nastavenia sú potom prístupné len na čítanie.
 :::
 
