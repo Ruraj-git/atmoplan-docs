@@ -23,7 +23,7 @@ Keď používateľ klikne na ponuku „Nastavenia mriežky“, zobrazia sa tri m
 
 Pre každé z nastavení je potrebné uviesť niekoľko parametrov. Tieto parametre sú podrobnejšie opísané nižšie. 
 
-:::Upozornenie:
+:::caution Upozornenie:
 V súčasnosti existuje limit 60 000 bodov mriežky na celkovej mriežke, aby sa skrátil výpočtový čas.
 :::
 
