@@ -1,16 +1,17 @@
 ---
-title: Background concentration file
+title: Súbor s pozaďovými koncentráciami
 ---
 
-:::caution Not yet available
-Uploading a custom background concentration file is not yet available. At this moment, only predefined background can be used.
+:::caution Upozornenie 
+Nahranie vlastného súboru s pozaďovými koncentráciami zatiaľ nie je k dispozícii. V tejto chvíli je možné použiť iba preddefinované pozadie.
 :::
 
 [This is an example of a background concentration data file.](./files/background-concentration.txt)
 
-The ATMO-Plan application works with hourly data. The background concentration files are plain text files using `<tab>` as separators between the columns. Such files can easily be opened and edited in excel. A full year of data is required.
+Aplikácia ATMO-Plan pracuje s hodinovými údajmi. Súbory s pozaďovými koncentráciami sú obyčajné textové súbory, ktoré ako oddeľovače medzi stĺpcami používajú `<tab>`. Takéto súbory sa dajú ľahko otvárať a upravovať v programe Excel. Vyžaduje sa celý rok údajov.
 
-Below we show a table explaining the fields in the data file. Note that all pollutants must be present in the data file.
+Nižšie uvádzame tabuľku vysvetľujúcu polia v dátovom súbore. Upozorňujeme, že v súbore s údajmi musia byť prítomné všetky znečisťujúce látky.
+
 
 | Column       | Description                                                                                                 | Format | Units |
 | :----------- | :---------------------------------------------------------------------------------------------------------- | :----- | :---- |
