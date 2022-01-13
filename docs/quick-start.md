@@ -57,7 +57,7 @@ Nový zdroj môže byť pridaný
 
 1. manuálne 
 
-V scenári kliknite na *Emisie* -> *Bodový zdroj* -> a na mape vľavo hore kliknite na symbol + a zakreslite nový bodový zdroj do mapy.
+V scenári kliknite na *Emisie* -> *Bodové zdroje* -> a na mape vľavo hore kliknite na symbol + a zakreslite nový bodový zdroj do mapy.
 
 ![Quickstart step 3: draw road](./images/quickstart3_draw_point_SK.png)
 
@@ -67,7 +67,7 @@ V paneli vľavo môžete potom jednoducho pridať názov zdroja a jeho vlastnost
 
 ### Príklad 2: Zmena vlastností bodového zdroja alebo vymazanie bodového zdroja 
 
-V scenári kliknite na *Emisie* -> *Bodový zdroj* a na mape kliknite na cestný úsek (editovateľné sú bodové zdroje vyznačené modrými štvorčekmi). V paneli vľavo môžete potom zmeniť jeho vlastnosti, alebo ho úplne vymazať tlačidlom *ODSTRÁNIŤ*, ktoré sa nachádza vpravo dole.
+V scenári kliknite na *Emisie* -> *Bodové zdroje* a na mape kliknite na cestný úsek (editovateľné sú bodové zdroje vyznačené modrými štvorčekmi). V paneli vľavo môžete potom zmeniť jeho vlastnosti, alebo ho úplne vymazať tlačidlom *ODSTRÁNIŤ*, ktoré sa nachádza vpravo dole.
 
 
 ### Príklad 3: Pridanie novej cesty
@@ -91,11 +91,10 @@ V scenári kliknite na *Emisie* -> *Doprava* a na mape kliknite na cestný úsek
 
 ### Príklad 5: Pridanie nízkoemisnej zóny
 
-V scenári kliknite na *Nízkoemisné zóny* -> *Pridanie nízkoemisnej zóny* a pomenujte a nakreslite nízkoemisnú zónu (vrcholy oblasti zóny musia ležať na cestných segmentoch)
-
+V scenári kliknite na *Nízkoemisné zóny* -> *Pridanie nízkoemisnej zóny* a pomenujte a nakreslite nízkoemisnú zónu a kliknite na tlačidlo *Uložiť*.
 ![Quickstart step 3: add LEZ](./images/quickstart3_lez_name_polygon_SK.png)
 
-Po nakreslení nízkoemisnej zóny kliknite vľavo dole na *SPRÁVA OBMEDZENÍ VOZIDIEL* a definujte aké typy vozidiel povolíte v nízkoemisnej zóne
+Po nakreslení nízkoemisnej zóny kliknite vľavo dole na *Vozidlá v nízkoemisnej zóne* a definujte aké typy vozidiel povolíte v nízkoemisnej zóne
 
 ![Quickstart step 3: add LEZ](./images/quickstart3_lez_vehicle_restrictions_SK.png)
 
@@ -108,6 +107,6 @@ Výpočet je možné spustiť kliknutím na tlačidlo „Spustiť výpočet“ v
 
 ## Krok 5: Prezeranie výstupov 
 
-Po dokončení výpočtu sa výsledky výpočtu sprístupnia v aplikácii. Kliknutím na „ZOBRAZIŤ VÝSLEDKY“ na stránke Prehľad prípadov zobrazíte výsledné interpolované mapy a časové rady. V predvolenom nastavení sa zobrazujú výsledky pre prvý scenár, scenár Baseline. Po kliknutí na iné scenáre sa pod možnosťami Výpočtov zobrazí možnosť zobrazenia máp „Rozdiel“ a „Relatívny rozdiel“. Mapy (ako súbory .tif) a údaje časových radov na znečisťujúcu látku (ako súbory .csv) pre jednotlivé prípady si môžete stiahnuť (tlačidlo Stiahnuť výstup). Časové série je možné zobraziť v nástroji kliknutím na bod záujmu. 
+Po dokončení výpočtu sa výsledky výpočtu sprístupnia v aplikácii. Kliknutím na „Zobrazenie výsledkov“ na stránke prehľadu projektov zobrazíte výsledné interpolované mapy a časové rady. V predvolenom nastavení sa zobrazujú výsledky pre základný scenár. Po kliknutí na ostatné scenáre sa pod nápisom *Výpočty* zobrazí možnosť zobrazenia máp pre *Rozdiel* a *Relatívny rozdiel* medzi základným a vybraným scenárom. Mapy (ako súbory .tif) a časové rady v bodoch záujmu  (ako súbory .csv) pre koncetrácií znečisťujúcich látok si môžete stiahnuť kliknutím na tlačidlo *Stiahnuť výstup*. Časové rady je možné zobraziť v nástroji kliknutím na bod záujmu. 
 
 ![Quickstart step 5: view results](./images/quickstart5_results.png)
