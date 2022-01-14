@@ -6,7 +6,7 @@ sidebar_position: 1.5
 ## Kontrola všeobecných nastavení scenára
 
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Všeobecné“. Názov scenára si môžete pozrieť tu.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Všeobecné“. Názov scenára si môžete pozrieť vpravo hore.
 
 ![Scenario list](./images/scenario_general_settings.png)
 
