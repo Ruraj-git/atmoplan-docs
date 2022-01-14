@@ -1,31 +1,33 @@
 ---
-title: Traffic emission fleet composition file
+title: Súbor zloženia vozového parku pre výpočet emisií z dopravy
 ---
 
-:::caution Not yet available
-Uploading a custom fleet composition file is not yet available. At this moment, only pre-calculated cases can be created in which the fleet is determined when drawing the case and cannot be edited.
+:::caution Upozornenie
+Nahranie súboru zloženia vlastného vozového parku zatiaľ nie je k dispozícii. V tejto chvíli je možné vytvárať projekty, v ktorých je vozový park určený úžívateľom.
 :::
 
-[An example of a traffic fleet composition file can be found here.](./files/traffic-emission-fleet-composition.txt)
+[Príklad súboru s vozovým parkom.](./files/traffic-emission-fleet-composition.txt)
 
-The fleet files are plain text files using TAB's as a separator between the columns. Such files can easily be opened and edited in excel.
+Súbory vozového parku sú obyčajné textové súbory, ktoré používajú tabulátor ako oddeľovač medzi stĺpcami. Takéto súbory sa dajú ľahko otvárať a upravovať v programe Excel.
 
-In the tool it is possible to download a template of the fleet file in the emissions section. This template is specific for the region of interest and therefore only the last 2 columns in the file (population and mileage) require editing.
+V nástroji je možné stiahnuť šablónu súboru vozového parku v sekcii emisie. Táto šablóna je špecifická pre oblasť záujmu, a preto je potrebné upraviť iba posledné 2 stĺpce v súbore (počet vozidiel a počet najazdených kilometrov).
 
-The fleet file contains the following columns:
+
+Súbor vozového parku obsahuje nasledujúce stĺpce: 
 
 | Column     | Description                                                                                  | Format | Units |
 | :--------- | :------------------------------------------------------------------------------------------- | :----- | :---- |
-| Scenario   | The name for the fleet (optional)                                                            | string | n/a   |
-| Year       | The year for which the fleet is applicable (optional)                                        | int    | n/a   |
-| Category   | Vehicle category name, e.g. Passenger Cars, Buses, Mopeds, Motorcycles, Heavy Duty Trucks, … | string | n/a   |
-| Segment    | Cylinder class / tonne class of the engine (corresponding to COPERT IV segment)              | string | n/a   |
-| Fuel       | Fuel type                                                                                    | string | n/a   |
-| Euro       | EURO class                                                                                   | string | n/a   |
-| Population | The total vehicle count for the vehicle type                                                 | float  | n/a   |
-| Mileage    | The average total yearly mileage (in km) for an individual vehicle of this particular type   | float  | km    |
+| Scenario   | Názov vozového parku  (voliteľné)                                                            | string | n/a   |
+| Year       | Rok pre ktoý je platný vozový park (voliteľné)                                               | int    | n/a   |
+| Category   | Názvy kategórií vozidiel. Osobné automobily, ťažké nákladné vozidlá...                       | string | n/a   |
+| Segment    | Trieda valca / tonová trieda motora (podľa COPERT IV kategórií)                              | string | n/a   |
+| Fuel       | Typ paliva                                                                                   | string | n/a   |
+| Euro       | Trieda/názov EURO normy                                                                      | string | n/a   |
+| Population | Celkový počet vozidiel pre daný typ vozidla                                                  | float  | n/a   |
+| Mileage    | Priemerný celkový ročný počet najazdených kilometrov (v km) pre jednotlivé typy vozidiel     | float  | km    |
 
-Please note that:
+Vezmite prosím na vedomie, že:
 
-- The total vehicle km driven by each vehicle type is given by the product of the population and the mileage.
-- When applying the vehicle fleet to the traffic counts on the road network, only the relative distribution of the vehicle kilometers over the vehicle categories is used, even though the total vehicle count (in absolute numbers) is given per type in the fleet composition file.
+- Celkový vozokm najazdený každým typom vozidla je daný súčinom počtu vozidiel a najazdených kilometrov.
+- Pri aplikovaní vozového parku na počet vozidiel v cestnej sieti sa používa iba relatívne rozdelenie najazdených kilometrov podľa kategórií vozidiel, aj keď celkový počet vozidiel (v absolútnych číslach) je uvedený podľa typu v súbore zloženia vozového parku. .
+
