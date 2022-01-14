@@ -7,7 +7,7 @@ sidebar_position: 99
 
 
 :::caution Upozornenie
-Odstránenie základného scenára nie je povolené. Tlačidlo „Odstrániť scenár“ je skryté pre základné scenáre.
+Odstránenie základného scenára nie je povolené. Tlačidlo „Odstrániť scenár“ je deaktivované pre základné scenáre.
 :::
 
 :::caution Upozornenie
