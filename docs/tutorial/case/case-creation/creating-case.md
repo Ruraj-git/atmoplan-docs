@@ -13,7 +13,7 @@ Na vytvorenie nového projektu kliknite na + znamienko v pravom hornom rohu. Vyt
 Je možné vytvoriť dva druhy projektov:
 
 - [Projekty s automatickým použitím vopred vypočítaných dát](./creating-a-predefined-case.md)
-- [Projekty vytvorené od základu s použitím vlastných dát](./creating-a-normal-case.md)
+- [Projekty vytvorené od základu s použitím vlastných dát (Nedostuné v aktuálnej verzií)](./creating-a-normal-case.md)
 
-Oba druhy projektov sú vysvetlené v sekcií nižšie.
+Oba druhy projektov sú vysvetlené v ďalšej sekcií.
 
