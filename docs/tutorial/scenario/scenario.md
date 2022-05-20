@@ -10,6 +10,6 @@ Prejdite na stránku s podrobnosťami projektu. Vľavo je zobrazený zoznam vše
 
 Kliknutím na názov scenára alebo na šípku napravo od názvu otvoríte menu pre daný scenár. Menu obsahuje odkazy na všeobecné nastavenia, emisie, koncentrácie pozadia, meteorológiu a nízkoemisné zóny scenára.
 
-![Scenario list](./images/scenario_list.png)
-![Scenario list: menu items](./images/scenario_list2.png) 
+![Scenario list](./images/scenario_list_sk.png)
+![Scenario list: menu items](./images/scenario_list2_sk.png) 
 
