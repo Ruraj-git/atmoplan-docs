@@ -14,15 +14,15 @@ Kopírovanie scenára sa môže použiť na rýchle zadefinovanie nového scená
 
 Prejdite na stránku s podrobnosťami projektu. Scenár možno kopírovať umiestnením kurzora myši nad názov scenára v zozname vľavo a kliknutím na tlačidlo „Kopírovať scenár“. Zobrazí sa kontextové okno s výzvou na zadanie názvu nového scenára. Názvy scenárov v projekte by mali byť jedinečné, pri zadaní názvu, ktorý už existuje, sa zobrazí chybové hlásenie.
 
-![Duplicating a scenario](./images/scenario_duplicate.png)
-![Duplicating a scenario: specify name](./images/scenario_duplicate_name.png)
-![Duplicating a scenario: specify name](./images/scenario_duplicate_name2.png)
+![Duplicating a scenario](./images/scenario_duplicate_sk.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_name_sk.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_name2_sk.png)
 
 Po kliknutí na „Uložiť“ sa nový scenár pridá do zoznamu scenárov vľavo.
 
 Kopírovanie scenára trvá pár minút. Počas kopírovania sa napravo od kopírovaného scenára zobrazí ikona a po umiestnení kurzora myši na ikonu sa zobrazí správa.
 
-![Duplicating a scenario: specify name](./images/scenario_duplicate_progress.png)
+![Duplicating a scenario: specify name](./images/scenario_duplicate_progress_sk.png)
 
 Pri kopírovaní scenára sa vytvoria nasledujúce dáta:
 
