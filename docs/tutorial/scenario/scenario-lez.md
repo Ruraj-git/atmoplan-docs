@@ -10,11 +10,11 @@ Nástroj ATMO-Plan umožňuje definovanie nízkoemisných zón (NEZ). NEZ je obl
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo.
 
-![LEZ overview](./images/lez_overview.png)
+![LEZ overview](./images/lez_overview_sk.png)
 
 Potom kliknite na NEZ. Poloha NEZ je na mape znázornená ako modrý polygón.
 
-![LEZ detail](./images/lez_detail.png)
+![LEZ detail](./images/lez_detail_sk.png)
 
 Vpravo je zobrazený názov NEZ.
 
@@ -24,7 +24,7 @@ Po kliknutí na „Vozidlá v nízkoemisnej zóne“ sa zobrazí zoznam všetký
 - keď je semafor červený, typ vozidla nie je povolený v NEZ
 - keď je semafor sivý, typ vozidla sa nenachádza vo flotile pre daný scenár
 
-![LEZ vehicle restrictions](./images/lez_vehicle_restrictions.png)
+![LEZ vehicle restrictions](./images/lez_vehicle_restrictions_sk.png)
 
 Každý stĺpec v tabuľke je možné zoradiť kliknutím na šípky v záhlaví stĺpca. Opätovným kliknutím sa stĺpec zoradí v opačnom poradí. Keď je stĺpec zoradený, šípka sa zobrazuje tmavosivou, inak je skrytá.
 
@@ -47,7 +47,7 @@ Nízkoemisné zóny možno definovať až po definovaní flotily pre scenár. V 
 
 Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť NEZ na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón uzatvoríte kliknutím na prvý roh. Umiestnenie polygónu je možné zmeniť kliknutím na „Prekresliť“ alebo „Editovať“ na pravo. Po kliknutí na „Prekresliť“ nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na „Editovať“, môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
 
-![LEZ: name and polygon](./images/lez_name_polygon.png)
+![LEZ: name and polygon](./images/lez_name_polygon_sk.png)
 
 Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ pridá do zoznamu zón s nízkymi emisiami vľavo.
 
@@ -59,7 +59,7 @@ Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu ú
 
 Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo flotile daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná trieda a typ paliva.
 
-![LEZ: vehicle restrictions](./images/lez_vehicle_restrictions.png)
+![LEZ: vehicle restrictions](./images/lez_vehicle_restrictions_sk.png)
 
 :::caution Upozornenie
 Je dôležité poznamenať, že kategórie vozidiel, ktoré sa môžu vyskytnúť v súbore zloženia flotily, sú preddefinované pre každú verziu a závisia od zvoleného regiónu. Užívateľ môže pracovať iba s existujúcimi typmi vozidiel. Po nasadení verzie nie je možné pridať žiadne nové typy vozidiel, v prípade požiadavky na rozšírenie typov je potrebné kontaktovať VITO.
@@ -69,9 +69,9 @@ Pri otvorení konfiguračného nástroja zobrazuje posledný stĺpec, ktoré typ
 
 Užívateľ môže tiež zakázať skupiny typov vozidiel pomocou filtrov v stĺpcoch a následným kliknutím na semafor v záhlaví posledného stĺpca. Na nasledujúcich obrázkoch je zobrazená tabuľka s filtrom na typy vozidiel, ktorých kategória paliva sa líši od kategórie „Euro 6“. Kliknutím na semafor v záhlaví posledného stĺpca sú všetky tieto typy vozidiel okamžite zakázané.
 
-![LEZ: filter vehicle types](./images/lez_filter.png)
+![LEZ: filter vehicle types](./images/lez_filter_sk.png)
 
-![LEZ: ban multiple vehicle types](./images/lez_ban_all.png)
+![LEZ: ban multiple vehicle types](./images/lez_ban_all_sk.png)
 
 Keď sú potrebné typy vozidiel zakázané, kliknite na „Uložiť“. V tom momente je flotila pre NEZ vypočítaná, uložená a novovytvorená NEZ je tak kompletná.
 
@@ -105,4 +105,4 @@ Nízkoemisnú zónu nie je možné odstrániť počas výpočtu alebo po (úspe�
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. NEZ je možné odstrániť umiestnením kurzora myši na NEZ v zozname vľavo a kliknutím na ikonu výmazu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá „OK“ a „Zrušiť“.
 
-![Delete LEZ](./images/lez_delete.png)
+![Delete LEZ](./images/lez_delete_sk.png)
