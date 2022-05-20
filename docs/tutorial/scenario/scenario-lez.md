@@ -51,7 +51,7 @@ Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť
 
 Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ pridá do zoznamu zón s nízkymi emisiami vľavo.
 
-![Login](./images/lez_detail.png)
+![Login](./images/lez_detail_sk.png)
 
 Na dokončenie definície NEZ je potrebné definovať flotilu pre NEZ. Vo flotile je zadefinované, ktoré typy vozidiel sú v zóne povolené a ktoré typy vozidiel sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Vozidlá v nízkoemisnej zóne“.
 
