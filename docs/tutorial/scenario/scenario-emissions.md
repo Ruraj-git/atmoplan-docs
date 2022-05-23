@@ -92,7 +92,7 @@ Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť�
 
 ### Vytvorenie cesty kreslením na mape
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
 
 
 Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec cesty nakreslite cestu na mapu. Každá cesta je reprezentovaná čiarou. Po nakreslení cesty sa vpravo zobrazia vlastnosti cesty. Vyplňte vlastnosti cesty a kliknutím na „Uložiť“ vytvorte novú cestu. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
@@ -189,7 +189,7 @@ Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na mapu nakreslite bodo
 
 ### Nahrávanie súboru obsahujúceho viacero zdrojových bodov
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené štvorce.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako modré štvorce.
 
 
 Kliknite na „Hromadné nahrávanie“ v menu pre „Bodové zdroje“. Vpravo sa zobrazí panel, do ktorého je možné nahrať súbor s bodovými zdrojmi. V hornej časti je možné stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súboru s bodovými zdrojmi. Formát súboru s bodovými zdrojmi je podrobnejšie popísaný v prílohe. Súbor s bodovými zdrojmi definuje geometrickú polohu jednotlivých bodových zdrojov prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje emisie pre rôzne znečisťujúce látky. Pre každý bodový zdroj je uvedený názov, pomer NO k NOX, výška, prietok, priemer a teplota.
@@ -219,7 +219,7 @@ Keď je súbor neplatný, užívateľ je upozornený krátkou správou s chybou 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené štvorce.
 
 
-Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Kliknutím na tlačidlo Odstrániť vymažete vybraný bodový zdroj. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo  „OK“ a „Zrušiť“.
+Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Kliknutím na tlačidlo „Odstrániť“ vymažete vybraný bodový zdroj. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo  „OK“ a „Zrušiť“.
 
 
 ![Delete point source](./images/scenario_pointsource_delete_sk.png) 
