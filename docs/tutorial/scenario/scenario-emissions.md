@@ -37,7 +37,7 @@ Pred výberom inej cesty na mape kliknite na „Zavrieť“.
 
 ### Kontrola emisií bodového zdroja
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako červené body.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Bodové zdroje“. Všetky bodové zdroje sú na mape zobrazené ako modré body.
 
 
 Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Vlastnosti pozostávajú z názvu, emisií, pomeru NO k NOX, výšky, prietoku, priemeru a teploty bodového zdroja.
