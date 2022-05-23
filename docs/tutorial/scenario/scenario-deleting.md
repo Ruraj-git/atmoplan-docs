@@ -16,4 +16,4 @@ Scenár nemožno odstrániť počas výpočtu výsledkov, importu súborov, aleb
 
 Prejdite na stránku s podrobnosťami projektu. Scenár možno odstrániť umiestnením kurzora myši nad scenár v zozname vľavo a kliknutím na ikonu výmazu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo „OK“ a „Zrušiť“.
 
-![Delete scenario: confirmation dialog](./images/scenario_delete.png)
+![Delete scenario: confirmation dialog](./images/scenario_delete_sk.png)
