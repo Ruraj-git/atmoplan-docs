@@ -174,7 +174,7 @@ Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť�
 - Priemer by mal byť desatinná hodnota väčšia alebo rovná 0
 - Teplota by mala byť desatinná hodnota väčšia alebo rovná 273,15
 
-![Update point source](./images/scenario_pointsource_update.png)
+![Update point source](./images/scenario_pointsource_update_sk.png)
 
 ### Vytvorenie bodového zdroja kreslením na mape
 
@@ -183,9 +183,9 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na mapu nakreslite bodový zdroj. Po nakreslení bodového zdroja sa vpravo zobrazia vlastnosti bodového zdroja. Vyplňte rôzne vlastnosti a kliknutím na Uložiť vytvorte nový bodový zdroj. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
 
 
-![Draw point source: + button](./images/scenario_pointsource_draw.png)
-![Draw point source: empty properties](./images/scenario_pointsource_draw_empty_properties.png)
-![Draw point source: empty properties](./images/scenario_pointsource_draw_valid_properties.png)
+![Draw point source: + button](./images/scenario_pointsource_draw_sk.png)
+![Draw point source: empty properties](./images/scenario_pointsource_draw_empty_properties_sk.png)
+![Draw point source: empty properties](./images/scenario_pointsource_draw_valid_properties_sk.png)
 
 ### Nahrávanie súboru obsahujúceho viacero zdrojových bodov
 
@@ -198,21 +198,21 @@ Kliknite na „Hromadné nahrávanie“ v menu pre „Bodové zdroje“. Vpravo 
 Nahrajte svoj súbor s bodovými zdrojmi presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „Nahrať“ spustíte import súboru.
 
 
-![Bulk upload: menu](./images/scenario_pointsource_bulk_upload_menu.png)
-![Bulk upload: choose file](./images/scenario_pointsource_bulk_upload_file1.png)
-![Bulk upload: file uploaded](./images/scenario_pointsource_bulk_upload_file2.png)
+![Bulk upload: menu](./images/scenario_pointsource_bulk_upload_menu_sk.png)
+![Bulk upload: choose file](./images/scenario_pointsource_bulk_upload_file1_sk.png)
+![Bulk upload: file uploaded](./images/scenario_pointsource_bulk_upload_file2_sk.png)
 
 Pri importovaní súborov sa ich obsah analyzuje, overí a vloží do back-end databázy. V prípade väčších súborov to môže chvíľu trvať. Keď  import prebieha, na stránke sa zobrazí správa.
 
 
 Keď je súbor platný, nové bodové zdroje sa pridajú na mapu.
 
-![Bulk upload: successful upload](./images/scenario_pointsource_bulk_upload_success.png)
+![Bulk upload: successful upload](./images/scenario_pointsource_bulk_upload_success_sk.png)
 
 Keď je súbor neplatný, užívateľ je upozornený krátkou správou s chybou importu. Potom môže svoj súbor opraviť a znova nahrať, ako je popísané vyššie.
 
 
-![Bulk upload: failed upload](./images/scenario_pointsource_bulk_upload_fail.png)
+![Bulk upload: failed upload](./images/scenario_pointsource_bulk_upload_fail_sk.png)
 
 ### Odstránenie bodového zdroja
 
@@ -222,4 +222,4 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Kliknutím na tlačidlo Odstrániť vymažete vybraný bodový zdroj. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo  „OK“ a „Zrušiť“.
 
 
-![Delete point source](./images/scenario_pointsource_delete.png) 
+![Delete point source](./images/scenario_pointsource_delete_sk.png) 
