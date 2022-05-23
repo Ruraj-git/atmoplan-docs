@@ -9,7 +9,7 @@ sidebar_position: 2
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo.
 
 
-![Scenario emissions](./images/scenario_emissions.png)
+![Scenario emissions](./images/scenario_emissions_sk.png)
 
 Existujú dva typy emisií:
 
@@ -33,7 +33,7 @@ Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostáva
 
 Pred výberom inej cesty na mape kliknite na „Zavrieť“.
 
-![Traffic emissions](./images/scenario_traffic.png)
+![Traffic emissions](./images/scenario_traffic_sk.png)
 
 ### Kontrola emisií bodového zdroja
 
@@ -45,7 +45,7 @@ Po kliknutí na bodový zdroj sa vpravo zobrazia vlastnosti bodového zdroja. Vl
 
 Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 
-![Point source emissions](./images/scenario_pointsources.png)
+![Point source emissions](./images/scenario_pointsources_sk.png)
 
 ## Vytváranie emisií pre scenár
 
@@ -75,7 +75,7 @@ Existujú rôzne možnosti:
 
 ### Aktualizácia vlastností existujúcej cesty
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
 
 
 Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť H (diaľnica), R (regionálna) alebo U (mestská).
@@ -88,7 +88,7 @@ Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť�
 - Rýchlostný limit by mal byť celé číslo medzi 1 a 130
 - Výška by mala byť hodnota medzi 0 a 150
 
-![Update road](./images/scenario_road_update.png)
+![Update road](./images/scenario_road_update_sk.png)
 
 ### Vytvorenie cesty kreslením na mape
 
@@ -98,46 +98,46 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec cesty nakreslite cestu na mapu. Každá cesta je reprezentovaná čiarou. Po nakreslení cesty sa vpravo zobrazia vlastnosti cesty. Vyplňte vlastnosti cesty a kliknutím na „Uložiť“ vytvorte novú cestu. Vlastnosti sa riadia niektorými pravidlami, ktoré sú popísané v predchádzajúcej časti.
 
 
-![Draw road: + button](./images/scenario_road_draw.png)
-![Draw road: empty properties](./images/scenario_road_draw_empty_properties.png)
-![Draw road: empty properties](./images/scenario_road_draw_valid_properties.png)
+![Draw road: + button](./images/scenario_road_draw_sk.png)
+![Draw road: empty properties](./images/scenario_road_draw_empty_properties_sk.png)
+![Draw road: empty properties](./images/scenario_road_draw_valid_properties_sk.png)
 
 ### Nahrávanie súboru obsahujúceho viacero ciest
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
 
 Kliknite na „Hromadné nahrávanie“ v menu pre „Doprava“. Vpravo sa zobrazí panel, kde je možné nahrať súbor s cestnou sieťou. V hornej časti si môžete stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súbor s cestnou sieťou. Formát súboru s cestnou sieťou je podrobnejšie popísaný v prílohe. Súbor s cestnou sieťou definuje geometrickú polohu jednotlivých ciest prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje početnosť dopravy pre rôzne kategórie. Pre každú cestu je uvedený typ cesty, rýchlostný limit a výška.
 
 Nahrajte svoj súbor presunutím súboru do komponentu nahrávania. Prípadne môžete kliknúť na komponent nahrávania; otvorí sa prieskumník súborov, ktorý vám umožní vybrať súbor vo vašom súborovom systéme. Názov zvoleného súboru je zobrazený pod komponentom nahrávania. Kliknutím na „Nahrať“ spustíte import súboru.
 
 
-![Bulk upload: menu](./images/scenario_road_bulk_upload_menu.png)
-![Bulk upload: choose file](./images/scenario_road_bulk_upload_file1.png)
-![Bulk upload: file uploaded](./images/scenario_road_bulk_upload_file2.png)
+![Bulk upload: menu](./images/scenario_road_bulk_upload_menu_sk.png)
+![Bulk upload: choose file](./images/scenario_road_bulk_upload_file1_sk.png)
+![Bulk upload: file uploaded](./images/scenario_road_bulk_upload_file2_sk.png)
 
 Pri importovaní súborov sa ich obsah analyzuje, overí a vloží do  back-end databázy. V prípade väčších súborov to môže chvíľu trvať. Keď  import prebieha, na stránke sa zobrazí správa.
 
 
-![Bulk upload: progress](./images/scenario_road_bulk_upload_progress.png)
+![Bulk upload: progress](./images/scenario_road_bulk_upload_progress_sk.png)
 
 Keď je súbor platný, nové cesty sa pridajú na mapu.
 
-![Bulk upload: successful upload](./images/scenario_road_bulk_upload_success.png)
+![Bulk upload: successful upload](./images/scenario_road_bulk_upload_success_sk.png)
 
 Keď je súbor neplatný, užívateľ je upozornený krátkou správou s chybou importu. Potom môže svoj súbor opraviť a znova nahrať, ako je popísané vyššie.
 
 
-![Bulk upload: failed upload](./images/scenario_road_bulk_upload_fail.png)
+![Bulk upload: failed upload](./images/scenario_road_bulk_upload_fail_sk.png)
 
 ### Odstránenie cesty
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
 
 
 Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Kliknutím na tlačidlo „Odstrániť“ odstránite vybratú cestu. Zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlo „OK“ a „Zrušiť“.
 
 
-![Delete road](./images/scenario_road_delete.png)
+![Delete road](./images/scenario_road_delete_sk.png)
 
 ## Aktualizácia emisií z bodových zdrojov
 
