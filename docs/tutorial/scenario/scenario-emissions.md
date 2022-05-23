@@ -26,7 +26,7 @@ Existujú dva typy emisií:
 
 ### Kontrola emisií z dopravy
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
 
 
 Po kliknutí na cestu sa vpravo zobrazia vlastnosti cesty. Vlastnosti pozostávajú z početnosti dopravy, rýchlostného limitu, výšky a typu cesty. Typ cesty môže byť diaľnica, regionálna alebo mestská.
