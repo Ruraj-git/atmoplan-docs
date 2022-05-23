@@ -104,7 +104,7 @@ Kliknite na ikonu v ľavom hornom rohu mapy a kliknutím na začiatok a koniec c
 
 ### Nahrávanie súboru obsahujúceho viacero ciest
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako čierne čiary.
 
 Kliknite na „Hromadné nahrávanie“ v menu pre „Doprava“. Vpravo sa zobrazí panel, kde je možné nahrať súbor s cestnou sieťou. V hornej časti si môžete stiahnuť šablónu, ktorú možno použiť na definovanie vlastného súbor s cestnou sieťou. Formát súboru s cestnou sieťou je podrobnejšie popísaný v prílohe. Súbor s cestnou sieťou definuje geometrickú polohu jednotlivých ciest prostredníctvom súradníc zemepisnej šírky a dĺžky a obsahuje početnosť dopravy pre rôzne kategórie. Pre každú cestu je uvedený typ cesty, rýchlostný limit a výška.
 
