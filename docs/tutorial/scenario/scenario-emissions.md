@@ -49,7 +49,8 @@ Pred výberom iného bodového zdroja na mape kliknite na „Zavrieť“.
 
 ## Vytváranie emisií pre scenár
 
-:::caution Upozornenie Táto možnosť nie je v aktuálnej verzií ATMO-Plan dostupná
+:::caution 
+Upozornenie Táto možnosť nie je v aktuálnej verzií ATMO-Plan dostupná
 :::
 
 ## Aktualizácia emisií z dopravy pre scenár
