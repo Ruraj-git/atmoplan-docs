@@ -145,7 +145,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputIndicatorsX_Z.csv</td>
     <td>
       <p>
-        X = pollutant (NO2, PM10, PM25, WILDCARD)
+        X = pollutant (NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
       </p>
@@ -178,7 +178,7 @@ Každý priečinok scenára obsahuje súbory, ktoré popisujú scenár a výsled
     <td>outputTimeseriesX_Z.csv</td>
     <td>
       <p>
-        X = znečisťujúca látka (NO2, PM10, PM25, WILDCART (inertný plyn))
+        X = znečisťujúca látka (NO2, PM10, PM25, inertný plyn)
 	<br/>(NO2, PM10, PM25, inertný plyn)
 	<br/>
         Z = SRID
