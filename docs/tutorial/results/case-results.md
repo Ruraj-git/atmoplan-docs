@@ -43,9 +43,9 @@ Používateľ si môže vybrať znečisťujúcu látku, ktorá sa má zobraziť 
   - Na priblíženie a oddialenie použite + a -
   - Použite „automatickú mierku“ na resetovanie grafu po priblížení
 
-![Daily timeseries](./images/result_timeseries_daily.png)
-![Hourly timeseries](./images/result_timeseries_hourly.png)
-![Hourly timeseries (zoomed)](./images/result_timeseries_hourly_zoomed.png)
+![Daily timeseries](./images/result_timeseries_daily_sk.png)
+![Hourly timeseries](./images/result_timeseries_hourly_sk.png)
+![Hourly timeseries (zoomed)](./images/result_timeseries_hourly_zoomed_sk.png)
 
 ### Sťahovanie výsledkov
 
