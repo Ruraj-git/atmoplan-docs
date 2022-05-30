@@ -26,7 +26,7 @@ Po kliknutí na „Vozidlá v nízkoemisnej zóne“ sa zobrazí zoznam všetký
 
 ![LEZ vehicle restrictions](./images/lez_vehicle_restrictions_sk.png)
 
-Každý stĺpec v tabuľke je možné zoradiť kliknutím na šípky v záhlaví stĺpca. Opätovným kliknutím sa stĺpec zoradí v opačnom poradí. Keď je stĺpec zoradený, šípka sa zobrazuje tmavosivou, inak je skrytá.
+Každý stĺpec v tabuľke je možné zoradiť kliknutím na šípky v záhlaví stĺpca. Opätovným kliknutím sa stĺpec zoradí v opačnom poradí. Keď je stĺpec zoradený, šípka sa zobrazuje tmavosivou farbou, inak je skrytá.
 
 Každý stĺpec je možné zoradiť kliknutím na filter v hlavičke stĺpca. Keď je stĺpec filtrovaný, filter je zobrazený oranžovou farbou, inak je zobrazený sivou farbou.
 
