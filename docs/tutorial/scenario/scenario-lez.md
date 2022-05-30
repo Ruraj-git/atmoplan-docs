@@ -18,11 +18,11 @@ Potom kliknite na NEZ. Poloha NEZ je na mape znázornená ako modrý polygón.
 
 Vpravo je zobrazený názov NEZ.
 
-Po kliknutí na „Vozidlá v nízkoemisnej zóne“ sa zobrazí zoznam všetkých typov vozidiel. Pre každý typ vozidla je v poslednom stĺpci uvedené, či je v NEZ povolený alebo nie:
+Po kliknutí na „Vozidlá v nízkoemisnej zóne“ sa zobrazí zoznam všetkých kategórií vozidiel. Pre každú kategóriu vozidla je v poslednom stĺpci uvedené, či je v NEZ povolená alebo nie:
 
-- keď je prepínač zelený, typ vozidla je povolený v NEZ 
-- keď je prepínač červený, typ vozidla nie je povolený v NEZ
-- keď je prepínač sivý, typ vozidla sa nenachádza vo vozovom parku pre daný scenár
+- keď je prepínač zelený, kategória vozidla je povolená v NEZ 
+- keď je prepínač červený, kategória vozidla nie je povolená v NEZ
+- keď je prepínač sivý, kategória vozidla sa nenachádza vo vozovom parku pre daný scenár
 
 ![LEZ vehicle restrictions](./images/lez_vehicle_restrictions_sk.png)
 
