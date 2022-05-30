@@ -41,7 +41,7 @@ V základnom scenári nie je povolené vytvárať NEZ.
 Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platný vozový park. Tlačidlo „Pridanie nízkoemisnej zóny“ je v tom prípade skryté.
 :::
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Kliknutím na „Pridanie nízkoemisnej zóny“ vytvoríte novú NEZ.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ je zobrazený vľavo. Kliknutím na „Pridanie nízkoemisnej zóny“ vytvoríte novú NEZ.
 
 Nízkoemisné zóny možno definovať až po definovaní vozového parku pre scenár. V opačnom prípade bude funkcia „Pridanie nízkoemisnej zóny“ deaktivovaná.
 
@@ -53,9 +53,9 @@ Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ prid�
 
 ![Login](./images/lez_detail_sk.png)
 
-Na dokončenie definície NEZ je potrebné definovať vozový park pre NEZ. Vo vozovom parku je zadefinované, ktoré kategórie vozidiel sú v zóne povolené a ktoré kategórie vozidiel sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Vozidlá v nízkoemisnej zóne“.
+Na dokončenie definície NEZ je potrebné definovať vozový park pre NEZ. Vo vozovom parku je zadefinované, ktoré kategórie vozidiel sú v zóne povolené a ktoré sú zakázané. Toto sa vykonáva v konfiguračnom nástroji NEZ, ktorý sa otvorí po kliknutí na „Vozidlá v nízkoemisnej zóne“.
 
-Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť napríklad na zákaz emisných tried vozidiel pred EURO 5 vo vybranej zóne, pričom sa celkový počet vozidiel daného typu (autobus, auto, HDV...) vo vozovom parku nemení, ani počty prebehov. Pri zakázaní určitej emisnej triedy sa tieto vozidlá rozdelia do zostávajúcich emisných tried rovnakého typu, pričom sa početnosť dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých osobných áut emisných tried pred EURO 5 budú osobné autá pred EURO 5 nahradené EURO 5 a EURO 6, pričom pomer medzi nimi sa bude rovnať pomeru medzi EURO 5 a EURO 6 vo vozovom parku mimo NEZ.
+Konfiguračný nástroj NEZ možno použiť na vykonanie rýchleho skríningu účinku zavedenia NEZ na koncentrácie. Nástroj je možné použiť napríklad na zákaz emisných tried vozidiel pred „EURO 5“ vo vybranej zóne, pričom sa celkový počet vozidiel daného typu (autobus, auto, HDV...) vo vozovom parku nemení, ani počty prebehov. Pri zakázaní určitej emisnej triedy sa tieto vozidlá rozdelia do zostávajúcich emisných tried rovnakého typu, pričom sa početnosť dopravy vo všetkých uliciach zachová konštantná. Napríklad pri zákaze všetkých osobných áut emisných tried pred „EURO 5“ budú osobné autá pred „EURO 5“ nahradené „EURO 5“ a „EURO 6“, pričom pomer medzi nimi sa bude rovnať pomeru medzi „EURO 5“ a „EURO 6“ vo vozovom parku mimo NEZ.
 
 Jednoduchý konfiguračný nástroj zobrazuje tabuľku obsahujúcu všetky typy vozidiel vo vozovom parku daného scenára. Pre každý typ vozidla je uvedená kategória typu vozidla, emisná trieda a typ paliva.
 
@@ -67,7 +67,7 @@ Je dôležité poznamenať, že typy vozidiel a im prislúchajúce kategórie, k
 
 Pri otvorení konfiguračného nástroja posledný stĺpec zobrazuje, ktoré kategórie vozidiel sa nachádzajú vo vozovom parku daného scenára (zelený prepínač), a ktoré nie (sivý prepínač). Užívateľ môže zakázať kategórie vozidiel v NEZ prepnutím prepínača zo zelenej na červenú.
 
-Užívateľ môže tiež zakázať kategórie vozidiel pomocou filtrov v stĺpcoch a následným kliknutím na prepínač v záhlaví posledného stĺpca. Na nasledujúcich obrázkoch je zobrazená tabuľka s filtrom na kategórie vozidiel, ktorých emisná trieda líši od emisnej triedy „Euro 6“. Kliknutím na prepínač v záhlaví posledného stĺpca sú všetky tieto kategórie vozidiel okamžite zakázané.
+Užívateľ môže tiež zakázať kategórie vozidiel pomocou filtrov v stĺpcoch a následným kliknutím na prepínač v záhlaví posledného stĺpca. Na nasledujúcich obrázkoch je zobrazená tabuľka s filtrom na kategórie vozidiel, ktorých emisná trieda sa líši od emisnej triedy „Euro 6“. Kliknutím na prepínač v záhlaví posledného stĺpca sú všetky tieto kategórie vozidiel okamžite zakázané.
 
 ![LEZ: filter vehicle types](./images/lez_filter_sk.png)
 
@@ -76,7 +76,7 @@ Užívateľ môže tiež zakázať kategórie vozidiel pomocou filtrov v stĺpco
 Keď sú potrebné kategórie vozidiel zakázané, kliknite na „Uložiť“. V tom momente je vozový park pre NEZ vypočítaný, uložený a novovytvorená NEZ je tak kompletná.
 
 :::caution Upozornenie
-Pri zákaze kategórií vozidiel v NEZ existujú určité obmedzenia. Pri zákaze kategórie vozidla je dôležité si uvedomiť, že celkový počet vozidiel vo vozovom parku sa nezmení. Zakázané vozidlá sú distribuované do zostávajúcich kategórií vozidiel rovnakého typu. Napríklad pri zákaze osobných áut emisnej triedy Euro 1 sa počet osobných áut v emisnej triede Euro 1 rozloží na všetky ostatné emisné triedy pre osobné autá. To tiež znamená, že nemôžete zakázať vo vozovom parku všetky kategórie  pre vozidlá konkrétneho typu. Musí zostať aspoň jedna; inak sa zobrazí chybové hlásenie.
+Pri zákaze kategórií vozidiel v NEZ existujú určité obmedzenia. Pri zákaze kategórie vozidla je dôležité si uvedomiť, že celkový počet vozidiel vo vozovom parku sa nezmení. Zakázané vozidlá sú distribuované do zostávajúcich kategórií vozidiel rovnakého typu. Napríklad pri zákaze osobných áut emisnej triedy „Euro 1“ sa počet osobných áut v emisnej triede „Euro 1“ rozloží na všetky ostatné emisné triedy pre osobné autá. To tiež znamená, že nemôžete zakázať vo vozovom parku všetky kategórie  pre vozidlá konkrétneho typu. Musí zostať aspoň jedna; inak sa zobrazí chybové hlásenie.
 :::
 
 ## Aktualizácia nízkoemisnej zóny
@@ -87,7 +87,7 @@ V základnom scenári nie je povolené vytvárať/aktualizovať NEZ.
 :::
 
 :::caution Upozornenie
-Nízkoemisnú zónu nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platný vozový park. Vlastnosti NEZ môžu byť vtedy len zobrazené.
+Nízkoemisnú zónu nie je možné aktualizovať počas výpočtu alebo po (úspešnom) dokončení výpočtu. Vlastnosti NEZ môžu byť vtedy len zobrazené.
 :::
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Potom kliknite na NEZ. Názov NEZ je možné aktualizovať vpravo a obmedzenia vozidiel možno aktualizovať podľa postupu vysvetlenom v predchádzajúcej časti.
