@@ -38,7 +38,7 @@ V základnom scenári nie je povolené vytvárať NEZ.
 :::
 
 :::caution Upozornenie
-Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by scenár mal mať platnú flotilu. Tlačidlo „Pridanie nízkoemisnej zóny“ je v tom prípade skryté.
+Nízkoemisnú zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. Pred vytvorením NEZ by  mal mať scenár platný vozový park. Tlačidlo „Pridanie nízkoemisnej zóny“ je v tom prípade skryté.
 :::
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Nízkoemisné zóny“. Zoznam všetkých NEZ pre scenár je zobrazený vľavo. Kliknutím na „Pridanie nízkoemisnej zóny“ vytvoríte novú NEZ.
@@ -49,7 +49,7 @@ Po kliknutí na „Pridanie nízkoemisnej zóny“ môže užívateľ zakresliť
 
 ![LEZ: name and polygon](./images/lez_name_polygon_sk.png)
 
-Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ pridá do zoznamu zón s nízkymi emisiami vľavo.
+Vpravo je možné zadať názov NEZ. Po kliknutí na „Uložiť“ sa NEZ pridá do zoznamu nízkoemisných zón vľavo.
 
 ![Login](./images/lez_detail_sk.png)
 
