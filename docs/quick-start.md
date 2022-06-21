@@ -5,23 +5,23 @@ sidebar_position: 1
 
 # Rýchle vytvorenie nového projektu
 
-Nasledujúce kroky rýchleho spustenia Vás prevedú cez vytvorenie nového projektu, definíciu základného scenára a vytvorenia ďalších scenárov, v ktorých si môžete pridať vlastné bodové a cestné emisie alebo zmeniť tie v základnom scenári, a taktiež si v nich môžete definovať nízkoemisnú zónu. 
+Nasledujúce kroky rýchleho spustenia Vás prevedú cez vytvorenie nového projektu, definíciu základného scenára a vytvorenie ďalších scenárov, v ktorých si môžete pridať vlastné bodové a cestné emisie alebo zmeniť tie v základnom scenári, a taktiež si v nich môžete definovať nízkoemisnú zónu. 
 
-Projekt pozostáva z viacerých scenárov, pričom referenčný scenár, s ktorým sa budú porovnávať všetky ostatné scenáre, sa nazýva základný scenár. V základnom scenári sú všetky dáta - meteorológia, pozadie a emisie definované v aplikácii. V ostatných scenároch môže užívateľ meniť emsiné vstupy, no nemôže meniť meteorológiu ani pozadie.
+Projekt pozostáva z viacerých scenárov, pričom referenčný scenár, s ktorým sa budú porovnávať všetky ostatné scenáre, sa nazýva základný scenár. V základnom scenári sú všetky dáta - meteorológia, pozadie a emisie definované v aplikácii. V ostatných scenároch môže užívateľ meniť emisné vstupy, no nemôže meniť meteorológiu ani pozadie.
 
 
 ## Krok 1: Vytvorenie nového projektu a základného scenára 
 
 Na úvodnej stránke kliknite v záložke *Projekty* vpravo hore na symbol *Pridanie nového projektu*  ![button](./images/pridat_novy.PNG)
 
-Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Pričom na začiatku môžete použiť len vopred vypočítané údaje (zodpovedá základnému scenáru). Môžete si tiež pozrieť emisie základného scenáru v interaktívnej mape. 
+Otvorí sa Vám okno, kde môžete vyplniť názov projektu a jeho popis. Prvý musí byť zadefinovaný základný scenár. Pri jeho definovaní nemôžete meniť zdroje emisií, môžete si ich však prezerať v interaktívnej mape. Je možné si tiež zvoliť zobrazenie podkladovej mapy s pozaďovými emisiami, prípadne zobrazenie umietnenia monitorovacích staníc. 
 ![Quickstart step 1](./images/quickstart1_case_name_type_SK.png)
 
 Kliknite na tlačítko *Ďalej* a nakreslite región pre výpočtovú doménu projektu.
 
 ![Quickstart step 1.1](./images/quickstart1_case_polygon_SK.png)
 
-Kliknite na tlačítko *Dokončiť*. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas, sledujte informácie v stĺpci *Status*). Na úvodnej stránke kliknite na názov projektu, otvorí sa okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky, emisie bodových a dopravných zdrojov, pozadie, meteorologické údaje). 
+Kliknite na tlačítko *Dokončiť*. Vytvorí sa Vám projekt so základným scenárom (môže to trvať istý čas, sledujte informácie v stĺpci *Status*). Na úvodnej stránke kliknite na názov projektu, otvorí sa okno s projektom, v ktorom si môžete pozrieť základné informácie o projekte (konfiguráciu výpočtovej mriežky, emisie bodových a dopravných zdrojov, pozadie). 
 
 Pred spustením simulácií môžete pridať *Bod záujmu*. V týchto bodoch budú po dokončení simulácie dostupné časové rady koncentrácií znečisťujúcich látok. *Body záujmu* sú miesta, v ktorých nás koncetrácie znečisťujúcich látok zaujímajú prioritnejšie, môžu to byť napr. miesta monitorovacích staníc alebo miesta zvlášť citlivé na kvalitu ovzdušia. Body záujmu možeme pridať nasledovne:
 
@@ -31,7 +31,7 @@ Pred spustením simulácií môžete pridať *Bod záujmu*. V týchto bodoch bud
 
 ![Quickstart step 1.2](./images/bod_zaujmu.png)
 
-Ďalej si ukážeme ako vytvoriť scenáre s vlastne definovanými emisiami a nízkoemisnými zónami.  
+V ďalších krokoch vytvoríme scenáre s vlastnými definovanými emisiami a nízkoemisnými zónami.  
 
 ## Krok 2: Pridanie scenáru kopírovaním základného scenára
 
@@ -43,10 +43,10 @@ Následne zadajte názov
 
 ![Quickstart step 2.2](./images/kopirovanie_scenaru_nazov.png)
 
-Skopírovaný scenár bude obsahovať rovnaké informácie ako základný scenár, čo je dobrý východiskový bod na definovanie nového scenára, ktorý môžete modifikovať nasledovným spôsobom.  
+Skopírovaný scenár bude obsahovať rovnaké informácie ako základný scenár, čo je dobrý východiskový bod na definovanie nového scenára, ktorý môžete modifikovať nasledujúcim spôsobom.  
 
 
-## Step 3: Modifikácia vytvoreného scenáru
+## Step 3: Modifikácia vytvoreného scenára
 
 Vo všetkých scenároch okrem základného môžete meniť veľkosť emisií už existujúcich zdrojov v doméne, môžete pridávať nové bodové a cestné zdroje a vytvoriť nízkoemisnú zónu.
 
@@ -101,12 +101,12 @@ Po nakreslení nízkoemisnej zóny kliknite vľavo dole na *Vozidlá v nízkoemi
 
 ## Krok 4: Spustenie výpočtu
 
-Výpočet je možné spustiť kliknutím na tlačidlo „Spustiť výpočet“ v pravom hornom rohu. Trvanie výpočetu je závislé od veľkosti domény, počtu zdrojov a dostupných výpočtových prostriedkov. Po dokončení výpočtu Vám bude odoslaný e-mail.  
+Výpočet je možné spustiť kliknutím na tlačidlo „Spustiť výpočet“ v pravom hornom rohu. Trvanie výpočtu je závislé od veľkosti domény, počtu zdrojov a dostupných výpočtových prostriedkov. Pokiaľ sú výpočtové prostriedky obsadené, váš projekt sa zaradí do poradia. Po dokončení výpočtu dostanete e-mail s informáciou o jeho ukončení.  
 
 ![Quickstart step 4: start calculation](./images/quickstart4_start_calculation.png)
 
 ## Krok 5: Prezeranie výstupov 
 
-Po dokončení výpočtu sa výsledky výpočtu sprístupnia v aplikácii. Kliknutím na „Zobrazenie výsledkov“ na stránke prehľadu projektov zobrazíte výsledné interpolované mapy a časové rady. V predvolenom nastavení sa zobrazujú výsledky pre základný scenár. Po kliknutí na ostatné scenáre sa pod nápisom *Výpočty* zobrazí možnosť zobrazenia máp pre *Rozdiel* a *Relatívny rozdiel* medzi základným a vybraným scenárom. Mapy (ako súbory .tif) a časové rady v bodoch záujmu  (ako súbory .csv) pre koncetrácií znečisťujúcich látok si môžete stiahnuť kliknutím na tlačidlo *Stiahnuť výstup*. Časové rady je možné zobraziť v nástroji kliknutím na bod záujmu. 
+Po dokončení výpočtu sa výsledky výpočtu sprístupnia v aplikácii. Kliknutím na „Zobrazenie výsledkov“ na stránke prehľadu projektov zobrazíte výsledné interpolované mapy a časové rady. V predvolenom nastavení sa zobrazujú výsledky pre základný scenár. Po kliknutí na ostatné scenáre sa pod nápisom *Výpočty* zobrazí možnosť zobrazenia máp pre *Rozdiel* a *Relatívny rozdiel* medzi základným a vybraným scenárom. Časové rady je možné zobraziť v nástroji kliknutím na bod záujmu. Mapy (ako súbory .tif) a časové rady v bodoch záujmu  (ako súbory .csv) pre koncetrácie znečisťujúcich látok si môžete stiahnuť kliknutím na tlačidlo *Stiahnuť výstup*. Rastrové vrstvy .tif potom môžete prezerať a ďalej spracovávať v iných GIS aplikáciách podľa svojho uváženia.   
 
 ![Quickstart step 5: view results](./images/quickstart5_results.png)
