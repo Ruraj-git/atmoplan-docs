@@ -6,9 +6,10 @@ slug: /
 
 ## Aplikácia ATMO-Plan
 
-ATMO-Plan je aplikácia na posudzovanie kvality ovzdušia. Je to užívateľsky priateľská webová  aplikácia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre navrhované v plánoch kvality ovzdušia. Pôvodne bola vyvinutá pre posudzovanie dopadu rôznych zmien v mestskej doprave na kvalitu ovzdušia, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. Zahŕňala však aj možnosť pridať (priemyselné) bodové zdroje, a tak simulovať opatrenia zamerané na zníženie týchto emisií. Neskôr sa aplikácia ATMO-plan rozšírila o možnosť hodnotenia opatrení zameraných na emisie z domácností.  
+ATMO-Plan je užívateľsky priateľská webová  aplikácia na posudzovanie kvality ovzdušia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre zmien konfigurácie emisných zdrojov. Pôvodne bola vyvinutá pre posudzovanie dopadu na kvalitu ovzdušia rôznych zmien v dopravnej infraštruktúre, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. V súčasnosti záhŕňa aj možnosť simulovať (priemyselné) bodové zdroje.   
 
-Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Ako je opísané v návode na použitie, každý registrovaný užívateľ obdrží svoje prihlasovacie údaje. Táto verzia obsahuje základný scenár s definovanou meteorológiou a emisiami (bodovými, dopravnými a lokálnymi kúreniskami) pre rok 2019 na území Slovenska. Taktiež sú zahrnuté pozaďové koncentrácie z modelu RIO pre rok 2019. Užívateľ najprv spustí tento základný scenár  a potom si môže vytvoriť ľubovolné množstvo scenárov s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Predtým, ako ju užívateľ môže začať používať, musí sa zaregistrovať. 
+Základný scenár každého projektu obsahuje aktuálnu situáciu, oproti ktorej sa vyhodnocujú užívateľom zadané scenáre. Tento základný scenár, obsahujúci za celú SR všetky emisné zdroje NEIS a dopravné zdroje, meteorológiu z modelu ALADIN v gridových bodoch s rozlíšením 4.5 km, a mapy priemerných ročných koncentrácií PM10, PM2,5 a NO2 je súčaťou aplikácie. Mapy koncentrácií s vysokým rozlíšením obsahujú aj príspevky z lokálnych kúrenísk. Súčasná verzia aplikácie obsahuje základný scenár pre rok 2019. Základný scenár pre vybrané územie je vždy súčasťou simulácie, nie je možné ho vynechať. Užívateľ si okrem neho môže vytvoriť ľubovolné množstvo ďalších scenárov, v ktorých môže zmeniť aj konfiguráciu existujúcich zdrojov základného scenára, alebo pridávať vlastné zdroje s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
 
 ## Hlavné využitie
 
@@ -21,7 +22,7 @@ Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dost
 
 ### Dopravný emisný model FASTRACE 
 
-[FASTRACE](https://vito.be/en/product/fastrace-traffic-emission-model) je dopravný emisný model vyvinutý vo VITO. Je založený na softvéri COPERT, ktorý sa celosvetovo používa na výpočet emisií z cestnej dopravy (vyvinutý spoločnosťou Emisia na objednávku Európskej environmentálnej agentúry (EEA)). COPERT neposkytuje geografické rozdelenie vypočítaných emisií. Avšak modely kvality ovzdušia s vysokým rozlíšením vyžadujú priestorovo rozčlenené emisie. Preto bol vyvinutý FASTRACE, ktorý je založený na COPERT a zároveň poskytuje priestorové rozdelenie emisií na úrovni ulíc. Nižšie sú popísané základné koncepty modelu FASTRACE.   
+[FASTRACE](https://vito.be/en/product/fastrace-traffic-emission-model) je dopravný emisný model vyvinutý vo VITO. Je založený na softvéri COPERT, ktorý sa celosvetovo používa na výpočet emisií z cestnej dopravy (vyvinutý spoločnosťou Emisia na objednávku Európskej environmentálnej agentúry (EEA)). COPERT neposkytuje geografické rozdelenie vypočítaných emisií, vyžadované modelmi kvality ovzdušia s vysokým rozlíšením. Preto bol vyvinutý FASTRACE, ktorý je založený na COPERT a zároveň poskytuje priestorové rozdelenie emisií na úrovni ulíc. Nižšie sú popísané základné koncepty modelu FASTRACE.   
 
 #### Výpočtové jadro
 
