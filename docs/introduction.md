@@ -33,14 +33,14 @@ emisie (E) = vozokilometre (vkm) \* emisný faktor (EF)
 
 Na výpočet emisií potrebuje FASTRACE údaje o mobilite. Tieto môžu byť dodané v rôznych formátoch: vo formáte vozového parku a/alebo vo formáte cestnej siete:
 
-- Údaje vo formáte vozového parku pozostávajú z počtu vozidiel na typ vozidla spolu s ročným počtom najazdených kilometrov na typ vozidla;
+- Údaje vo formáte vozového parku pozostávajú z počtu vozidiel určitého typu spolu s ročným počtom najazdených kilometrov pre daný typ vozidla;
 - Údaje vo formáte cestnej siete predstavujú počet prechádzajúcich vozidiel na segmente cesty a súvisiacu rýchlosť.
 
 FASTRACE spracováva tieto súbory na vozokilometre (vkm) podľa typu vozidla a segmentu cesty, čo je hlavný vstup pre výpočet emisií. 
 
 #### Priradenie typov vozidiel a typov ciest zo súborov cestnej siete a vozového parku
 
-Typy vozidiel a  typy ciest sa zvyčajne líšia v závislosti od zdroja údajov. Typy vozidiel uvažované v metodike COPERT sa zvyčajne nezhodujú s typmi vozidiel aké máme v reálnych dátach. To isté platí pre typy ciest. V COPERT existujú tri typy ciest: „Diaľnice“, „Mestské“ a „Vidiecke“, zatiaľ čo údaje o cestnej sieti sú vo všeobecnosti známe oveľa podrobnejšie. Z tohto dôvodu FASTRACE poskytuje rôzne priradenia. V aplikácii je poskytnutá funkcionalita, ktorá umožňuje užívateľovi priradiť rôzne typy vozidiel a typy ciest. Ak sa klasifikácie (typy ciest, typy vozidiel, …) medzi súbormi nezhodujú, priradenia budú definované na základe expertných predpokladov. 
+Typy vozidiel a  typy ciest sa zvyčajne líšia v závislosti od zdroja údajov. Typy vozidiel uvažované v metodike COPERT sa zvyčajne nezhodujú s typmi vozidiel aké máme v reálnych dátach. To isté platí pre typy ciest. V COPERT existujú tri typy ciest: „Diaľnice“, „Mestské“ a „Regionálne“, zatiaľ čo údaje o cestnej sieti sú vo všeobecnosti známe oveľa podrobnejšie. Z tohto dôvodu FASTRACE poskytuje rôzne priradenia. V aplikácii je poskytnutá funkcionalita, ktorá umožňuje užívateľovi priradiť rôzne typy vozidiel a typy ciest. Ak sa klasifikácie (typy ciest, typy vozidiel, …) medzi súbormi nezhodujú, priradenia budú definované na základe expertných predpokladov. 
 
 ####  Emisné faktory
 
