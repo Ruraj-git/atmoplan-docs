@@ -70,3 +70,13 @@ Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na �
 Zónu je možné odstrániť umiestnením kurzora myši na zónu v zozname vľavo a kliknutím na ikonu výmazania. Pon kliknutí sa zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá „OK“ a „Zrušiť“.
 
 ![Delete LEZ](./images/lk_odstranit_sk.png)
+
+
+
+Video test
+<video width="1280" height="720" controls autoplay muted loop>
+<source src=".images/short_test.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
+
+
