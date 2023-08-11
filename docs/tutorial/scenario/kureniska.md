@@ -74,9 +74,7 @@ Zónu je možné odstrániť umiestnením kurzora myši na zónu v zozname vľav
 
 
 Video test
-<video width="1280" height="720" controls autoplay muted loop>
-<source src=".images/short_test.mp4" type="video/mp4">
- Your browser does not support the video tag.
-</video>
+<video width="630" height="300" src=".images/short_test.mp4" type="video/mp4"></video>
+
 
 
