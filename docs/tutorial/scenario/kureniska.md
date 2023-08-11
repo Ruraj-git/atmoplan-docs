@@ -38,7 +38,7 @@ Na dokončenie definície zóny je potrebné definovať opatrenia pre zónu. Tot
 Nástroj v hornej časti umožňuje nastavení globálnych opatrení pre celú zónu - Opatrenia (celá zóna), pričom 100 % predstavuje zónu bez opatrení. 
 Toto nastavanie redukuje všetky emisie vzťahuje sa napríklad na zateplenie domov v celej oblasti, kde dôjde k celkovej redukcií potrebného vykurovania a teda aj produkovaných emisií.
 Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie. Užívateľ si môže nastaviť napr. zníženie emisií z vykurovania drevom pre vybrané zariadenie.
-K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor (<a href="./images/Kureniska_opatrenia.xlsx">súbor</a>).
+K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">sťiahnúť</a>).
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
 ![LEZ: vehicle restrictions](./images/lk_filter_sk.png)
