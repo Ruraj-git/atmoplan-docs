@@ -39,7 +39,7 @@ Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie
 K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">link na stiahnutie</a>).
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
-![LEZ: vehicle restrictions](./images/lk_filter_sk.png=250x250)
+![LEZ: vehicle restrictions](./images/lk_filter_sk.png =400x400)
 
 Po dokončení konfigurácie zóny kliknúť na „Uložiť“.
 
