@@ -30,8 +30,7 @@ Po kliknutí na „Pridať zónu s opatreniami“ môže užívateľ nakresliť 
 Vpravo je možné zadať názov zóny. Po kliknutí na „Uložiť“ sa zóna pridá do zoznamu zón vľavo.
 
 Na dokončenie definície zóny je potrebné definovať opatrenia pre zónu. Toto sa vykonáva v konfiguračnom nástroji, ktorý sa otvorí po kliknutí na „Správa opatrení pre zóny“. 
-
-![lk: name and polygon](./images/lk_opatrenia_sk.png)
+<img src="./images/lk_opatrenia_sk.png" width="550" height="550">
 
 Nástroj v hornej časti umožňuje nastavení globálnych opatrení pre celú zónu - Opatrenia (celá zóna), pričom 100 % predstavuje zónu bez opatrení. 
 Toto nastavanie redukuje všetky emisie vzťahuje sa napríklad na zateplenie domov v celej oblasti, kde dôjde k celkovej redukcií potrebného vykurovania a teda aj produkovaných emisií.
@@ -39,7 +38,7 @@ Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie
 K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">link na stiahnutie</a>).
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
-<img src="./images/lk_filter_sk.png" width="500" height="500">
+<img src="./images/lk_filter_sk.png" width="550" height="550">
 
 Po dokončení konfigurácie zóny kliknúť na „Uložiť“.
 
