@@ -30,6 +30,7 @@ Po kliknutí na „Pridať zónu s opatreniami“ môže užívateľ nakresliť 
 Vpravo je možné zadať názov zóny. Po kliknutí na „Uložiť“ sa zóna pridá do zoznamu zón vľavo.
 
 Na dokončenie definície zóny je potrebné definovať opatrenia pre zónu. Toto sa vykonáva v konfiguračnom nástroji, ktorý sa otvorí po kliknutí na „Správa opatrení pre zóny“. 
+
 <img src="./images/lk_opatrenia_sk.png" width="550" height="550">
 
 Nástroj v hornej časti umožňuje nastavení globálnych opatrení pre celú zónu - Opatrenia (celá zóna), pričom 100 % predstavuje zónu bez opatrení. 
