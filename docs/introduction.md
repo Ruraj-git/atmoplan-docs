@@ -8,8 +8,10 @@ slug: /
 
 ATMO-Plan je užívateľsky priateľská webová  aplikácia na posudzovanie kvality ovzdušia, ktorá umožňuje spúšťať a porovnávať rôzne scenáre zmien konfigurácie emisných zdrojov. Pôvodne bola vyvinutá pre posudzovanie dopadu na kvalitu ovzdušia rôznych zmien v dopravnej infraštruktúre, napr. nové obchvaty, okruhy, dopravné tunely a nízko emisné zóny. V súčasnosti zahŕňa aj možnosť simulovať (priemyselné) bodové zdroje.   
 
-Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke [](https://atmoplan.shmu.sk). Predtým, ako ju užívateľ môže začať používať, musí sa zaregistrovať. 
+Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre slovenských užívateľov je dostupná na stránke <a href="https://atmoplan.shmu.sk/"> Link</a>. Predtým, ako ju užívateľ môže začať používať, musí sa zaregistrovať. 
 Základný scenár každého projektu obsahuje aktuálnu situáciu, oproti ktorej sa vyhodnocujú užívateľom zadané scenáre. Tento základný scenár, obsahujúci za celú SR všetky emisné zdroje NEIS a dopravné zdroje, meteorológiu z modelu ALADIN v gridových bodoch s rozlíšením 4.5 km, a mapy priemerných ročných koncentrácií PM10, PM2,5 a NO2 je súčasťou aplikácie. Mapy koncentrácií s vysokým rozlíšením obsahujú aj príspevky z lokálnych kúrenísk. Súčasná verzia aplikácie obsahuje základný scenár pre rok 2019. Základný scenár pre vybrané územie je vždy súčasťou simulácie, nie je možné ho vynechať. Užívateľ si okrem neho môže vytvoriť ľubovoľné množstvo ďalších scenárov, v ktorých môže zmeniť aj konfiguráciu existujúcich zdrojov základného scenára, alebo pridávať vlastné zdroje s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
+
+<a href="https://www.shmu.sk/sk/?page=2819"> Link na inštruktážne videá </a>
 
 ## Hlavné využitie
 
