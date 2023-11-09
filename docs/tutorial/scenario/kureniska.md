@@ -1,5 +1,5 @@
 ---
-title: Lokálne kúreniská (až v novej verzií)
+title: Lokálne kúreniská
 sidebar_position: 6
 ---
 
@@ -39,7 +39,7 @@ Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie
 K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">link na stiahnutie</a>).
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
-<img src="./images/lk_filter_sk.png" width="400" height="400">
+<img src="./images/lk_filter_sk.png" width="500" height="500">
 
 Po dokončení konfigurácie zóny kliknúť na „Uložiť“.
 
