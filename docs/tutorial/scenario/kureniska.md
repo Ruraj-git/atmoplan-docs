@@ -45,7 +45,6 @@ Po dokončení konfigurácie zóny kliknúť na „Uložiť“.
 
 ## Aktualizácia zóny s opatreniami
 
-
 :::caution Upozornenie
 V základnom scenári nie je povolené vytvárať/aktualizovať zóny s opatreniami.
 :::
@@ -67,7 +66,7 @@ Zónu s opatreniami nie je možné odstrániť počas výpočtu alebo po (úspe�
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Opatrenia pre lokálne kúreniská“. Zoznam všetkých zón pre scenár je zobrazený vľavo. 
 Zónu je možné odstrániť umiestnením kurzora myši na zónu v zozname vľavo a kliknutím na ikonu vymazania. Po kliknutí sa zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá „OK“ a „Zrušiť“.
 
-<img src="./images/lk_odstranit_sk.png">
+<img src="./images/lk_odstranit_sk.png"> <\img>
 
 
 
