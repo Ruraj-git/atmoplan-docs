@@ -7,7 +7,7 @@ sidebar_position: 6
 
 Nástroj ATMO-Plan umožňuje definovanie opatrení pre zóny s lokálnymi kúreniskami. 
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Opatrenia pre lokálne kúreniská“. Zoznam všetkých vytvorených zón pre scenár je zobrazený vľavo.
+Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Obmedzenia pre lokálne kúreniská“. Zoznam všetkých vytvorených zón pre scenár je zobrazený vľavo.
 
 ![lk overview](./images/lk_overview_sk.png)
 
@@ -25,9 +25,7 @@ V základnom scenári nie je povolené vytvárať zóny s opatreniami pre lokál
 Zónu nemožno vytvoriť počas výpočtu alebo po (úspešnom) dokončení výpočtu. 
 :::
 
-Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Opatrenia pre lokálne kúreniská“. Zoznam všetkých zón sa zobrazí vľavo. Kliknutím na „Pridať zónu s opatreniami“ vytvoríte novú zónu.
-
-Po kliknutí na „Pridať zónu s opatreniami“ môže užívateľ nakresliť polygón zóny na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón uzatvoríte kliknutím na prvý roh. Umiestnenie polygónu je možné zmeniť kliknutím na „Prekresliť“ alebo „Editovať“ na pravo. Po kliknutí na „Prekresliť“ nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na „Editovať“, môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
+Po kliknutí na „Pridať zónu s opatreniami“ môže užívateľ nakresliť polygón zóny na mapu. Kliknite na mapu a nakreslite rohy polygónu. Priblíženie/oddialenie dosiahnete pomocou ikon v pravom dolnom rohu mapy alebo pomocou kolieska myši. Polygón uzatvoríte kliknutím na prvý roh. Umiestnenie polygónu je možné zmeniť kliknutím na „Prekresliť“ alebo „Editovať“ napravo. Po kliknutí na „Prekresliť“ nakreslený polygón zmizne a môžete začať kresliť. Keď kliknete na „Editovať“, môžete zmeniť tvar polygónu presúvaním rohov pomocou myši.
 
 Vpravo je možné zadať názov zóny. Po kliknutí na „Uložiť“ sa zóna pridá do zoznamu zón vľavo.
 
@@ -38,7 +36,7 @@ Na dokončenie definície zóny je potrebné definovať opatrenia pre zónu. Tot
 Nástroj v hornej časti umožňuje nastavení globálnych opatrení pre celú zónu - Opatrenia (celá zóna), pričom 100 % predstavuje zónu bez opatrení. 
 Toto nastavanie redukuje všetky emisie vzťahuje sa napríklad na zateplenie domov v celej oblasti, kde dôjde k celkovej redukcií potrebného vykurovania a teda aj produkovaných emisií.
 Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie. Užívateľ si môže nastaviť napr. zníženie emisií z vykurovania drevom pre vybrané zariadenie.
-K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">download</a>).
+K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">link na stiahnutie</a>).
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
 ![LEZ: vehicle restrictions](./images/lk_filter_sk.png)
@@ -67,14 +65,10 @@ Zónu s opatreniami nie je možné odstrániť počas výpočtu alebo po (úspe�
 :::
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Opatrenia pre lokálne kúreniská“. Zoznam všetkých zón pre scenár je zobrazený vľavo. 
-Zónu je možné odstrániť umiestnením kurzora myši na zónu v zozname vľavo a kliknutím na ikonu výmazania. Pon kliknutí sa zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá „OK“ a „Zrušiť“.
+Zónu je možné odstrániť umiestnením kurzora myši na zónu v zozname vľavo a kliknutím na ikonu vymazania. Po kliknutí sa zobrazí sa dialógové okno s potvrdením, ktoré obsahuje tlačidlá „OK“ a „Zrušiť“.
 
 ![Delete LEZ](./images/lk_odstranit_sk.png)
 
-
-
-Video test
-<video width="630" height="300" src=".images/short_test.mp4" type="video/mp4"></video>
 
 
 
