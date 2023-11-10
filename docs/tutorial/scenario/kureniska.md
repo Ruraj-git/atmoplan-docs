@@ -35,13 +35,18 @@ Na dokončenie definície zóny je potrebné definovať opatrenia pre zónu. Tot
 
 Nástroj v hornej časti umožňuje nastavení globálnych opatrení pre celú zónu - Opatrenia (celá zóna), pričom 100 % predstavuje zónu bez opatrení. 
 Toto nastavanie redukuje všetky emisie vzťahuje sa napríklad na zateplenie domov v celej oblasti, kde dôjde k celkovej redukcií potrebného vykurovania a teda aj produkovaných emisií.
-Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie. Užívateľ si môže nastaviť napr. zníženie emisií z vykurovania drevom pre vybrané zariadenie.
-K lepšej orientácií ako nastavovať špecifické opatrenia je priložený excel súbor - (<a href="//docs/tutorial/scenario/images/Kureniska_opatrenia.xlsx">link na stiahnutie</a>).
+Nástroj obsahuje aj nastavenie špecifických opatrení pre vybrané kategórie. 
+
 Nástroj umožňuje aj filtrovanie podľa kategórií kliknutím na obrátenú pyramídu vedľa kategórie.
 
 ![zone filter](./images/lk_filter_sk.png)
 
 Po dokončení konfigurácie zóny kliknúť na „Uložiť“.
+
+K lepšej orientácií ako nastavovať špecifické opatrenia sa využíva excel súbor s názvom emisie_prepocet_export.xlsm - (<a href="https://www.shmu.sk/File/oko/riadenie_kvality_ovzdusia/atmoplan/emisie_prepocet_export.zip">link na stiahnutie</a> - V prípade nefunkčnosti linku môžete o súbor požiadať na ovzdusie@shmu.sk). 
+Tento súbor obsahuje modifikovateľnú záložku Obmedzenia pre kúreniská a uzamknutý prehľad použitých výpočtov a emisných faktorov v záložke Emisné faktory. Užívateľ si môže nastaviť požadovanú zmenu zariadenia a paliva zadaním percent do príslušnej bunky. Riadky reprezentujú typ zariadenia a paliva, ktoré chce užívateľ zmeniť a stĺpec reprezentuje cieľ zmeny. ( Napr. Zmena Automatických kotlov využívajúce pelety (riadok 10) na bezemisné zariadenie - solárne panely (stĺpec 5) sa robí zadaním percentuálnej zmeny na bunke ich prieniku. Maximálna povolená zmena je 100 % a tá je indikovaná ako súčet v stĺpci kontrola. Po nastavení všetkých požadovaných hodnôt sa stlačením tlačidla EXPORT vygeneruje .csv súbor, ktorý slúži ako vstup pre ATMOPLAN. Excel pri tom vyzve užívateľa pre zadanie cieľového priečinka a indikáciu kraja, pre ktorý sa zmena plánuje. (Emisné faktory sa pre jednotlivé kraje mierne líšia). Nahrávanie csv sa robí cez položku NAHRAŤ SÚBOR v rozhraní ATMOPLAN v časti Obmedzenia pre lokálne kúreniská. 
+
+![](./images/lk_excel.png)
 
 ## Aktualizácia zóny s opatreniami
 
