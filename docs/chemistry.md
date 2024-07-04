@@ -1,3 +1,7 @@
+---
+title: Chemický model 
+---
+
 V modeli IFDM je implementovaný jednoduchý modul chémie ozónu. Tento modul umožňuje výpočet koncentrácie pre NOx, NO2 a NO. 
 Chemická rovnováha medzi prvkami je reprezentovaná jedinou rovnovážnou rovnicou s dvomi reakciami:
 (IFDM-ozónová chémia je založená na Hertel and Berkowicz (1989) and Berkowicz et al. (1997) )
