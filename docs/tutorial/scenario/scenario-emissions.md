@@ -91,6 +91,9 @@ Vlastnosti je možné aktualizovať úpravou polí a kliknutím na „Uložiť�
 
 ![Update road](./images/scenario_road_update_sk.png)
 
+Atmoplan umožňuje modifikovanie viacerých úsekov naraz pomocou ikony lasa v ľavej hornej časti obrazovky. Laso umožňuje nakresliť polygón, v ktorom sa vyberú cesty. Tieto môžu byť následne modifikované naraz.
+Pokiaľ nemajú vybrané úseky rovnaké parametre ich hodnota sa prepíše na 'X'. Užívateľ následne nastaví novú hodnotu a tá sa zapíše do všetkých vybraných úsekov.
+
 ### Vytvorenie cesty kreslením na mape
 
 Prejdite na stránku s podrobnosťami projektu, otvorte scenár a kliknite na „Emisie“. Zoznam všetkých emisií pre scenár je zobrazený vľavo. Potom kliknite na „Doprava“. Všetky cesty sú na mape zobrazené ako modré čiary.
