@@ -1,17 +1,17 @@
 ---
 title: Časové profily
-sidebar_position: 1
+sidebar_position: 5
 slug: /
 ---
 Čaové profily reprezentúju priebeh emisie znečisťujúcich látok do prostredia. 
 Aplikácia ATMOPLAN má v sebe zabudované tri tipy časových profilov (hodinový, týždenný a mesačný) pre každy typ zdroja.
 Výsledný časový profil vznikne ako kombinácia hodinového, týždňového a mesačné časového profilu pre danú hodinu v roku.
 
-![IDFM model visual explanation](./images/hodina.png)
+![Hodina](./images/hodina.jpg)
 
-![IDFM model visual explanation](./images/tyzden.png)
+![Tyzden](./images/tyzden.jpg)
 
-![IDFM model visual explanation](./images/mesiac.png)
+![Mesiac](./images/mesiac.jpg)
 
 ## Vykurovanie domácností
 Profil pre vykurovanie domácností zohľadňuje priebeh vykurovacej sezóny, aktivitu obyvateľstva počas dňa resp. pracovného týždňa a víkendu.
