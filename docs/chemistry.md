@@ -30,6 +30,6 @@ reprezentujúce zachovanie hmotnosti pre NOx a pre Ox.
 
 Pomocou niekoľkých ďalších výpočtov je možné odvodiť nasledujúcu rovnicu:
 
-$[NO2]f^2$ - ( rjk + [Ox]i + [NOx]i) * [NO2]f + ( [Ox]i + [NOx]i ) = 0
+$[NO2]f^2$ - ( rjk + [Ox]i + [NOx]i) * [NO2]f + ( [Ox]i * [NOx]i ) = 0
 
 Odkiaľ je možné určiť koncentrácie [NO]f, [NO2]f a [O3]f . Konštanta rjk závisí od teploty a UV žiarenia resp. výšky/polohy slnka.
