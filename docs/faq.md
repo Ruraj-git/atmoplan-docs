@@ -1,5 +1,7 @@
 ---
 title: Často kladené otázky 
+sidebar_position: 4
+slug: /
 ---
 
 **Aký je kontaktný email pre ATMOPLAN?** <br/>
