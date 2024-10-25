@@ -29,9 +29,9 @@ Projekt môžeme resetovať alebo vymazať.
 LAEA Europe - EPSG:3035
 Pre praktickosť sú vstupy a aj výpočtová doména zadávané v lat, lon a preto sa výpočtová doména mierni líši od zadanej.
 
-** Pri akých podmienkach treba určovať prietok vzduchu?
+**Pri akých podmienkach treba určovať prietok vzduchu?** <br/>
 ATMOPLAN pracuje s prietokom (v Nm3/s), pri teplote 0°C (273.15 K) a pri atmosférickom tlaku 101,325kPa (1 atm).
-Pri výpočte treba zohľadniť teplotu spalín:  V [Nm3/s]  = V [m3/s] * T[273,15K] / T[teplota spalín K] ; 
+Pri výpočte treba zohľadniť teplotu spalín:  V [Nm3/s]  = V [m3/s]  T[273,15K] / T[teplota spalín K] ; 
 V - prietok v metroch kubických za sekundu, T - teplota v kelvinoch
-Zadania často uvádzajú hodnoty rýchlosti spalín. Tie treba prepočítať na prietok cez V = v * Pi * d * d / 4
+Zadania často uvádzajú hodnoty rýchlosti spalín. Tie treba prepočítať na prietok cez V = v  Pi  d  d / 4
 V - prietok, d - priemer komína v metroch, v - výstupná rýchlosť spalín v metroch za sekundu , Pi - 3,14...
