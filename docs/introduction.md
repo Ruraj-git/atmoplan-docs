@@ -11,7 +11,7 @@ ATMO-Plan je užívateľsky priateľská webová  aplikácia na posudzovanie kva
 Aplikáciu ATMO-Plan prevádzkuje SHMÚ a pre užívateľov je dostupná na stránke <a href="https://atmoplan.shmu.sk/"> Link</a>. Predtým, ako ju užívateľ môže začať používať, musí požiadať o vytvorenie konta na adrese atmoplan@shmu.sk (Mail musí obsahovať registračný email, meno, priezvisko a profesiu užívateľa)
 Základný scenár každého projektu obsahuje aktuálnu situáciu, oproti ktorej sa vyhodnocujú užívateľom zadané scenáre. Tento základný scenár, obsahujúci za celú SR všetky väčšie emisné zdroje NEIS a dopravné zdroje, meteorológiu z modelu ALADIN v gridových bodoch s rozlíšením 4.5 km, a mapy priemerných ročných koncentrácií PM10, PM2,5 a NO2 je súčasťou aplikácie. Mapy koncentrácií s vysokým rozlíšením obsahujú aj príspevky z lokálnych kúrenísk. Súčasná verzia aplikácie obsahuje základný scenár pre rok 2019. Základný scenár pre vybrané územie je vždy súčasťou simulácie, nie je možné ho vynechať. Užívateľ si okrem neho môže vytvoriť ľubovoľné množstvo ďalších scenárov, v ktorých môže zmeniť aj konfiguráciu existujúcich zdrojov základného scenára, alebo pridávať vlastné zdroje s použitím vlastných emisných vstupov, pričom meteorologické parametre a pozaďové koncentrácie ostávajú rovnaké. Tieto scenáre sa potom porovnávajú so základným scenárom. 
 
-<a href="https://www.shmu.sk/sk/?page=2819"> Link na inštruktážne videá </a>
+## <a href="https://www.shmu.sk/sk/?page=2819"> Link na inštruktážne videá </a>
 
 ## Hlavné využitie
 
