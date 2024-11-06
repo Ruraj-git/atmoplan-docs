@@ -12,7 +12,10 @@ sidebar_position: 6
 ## Základné operácie v QGIS.
 Tabuľka nižšie zobrazuje typy dát ktoré je možné stiahnuť z aplikácie ATMOPLAN. Okrem toho sa v stiahnutých dátach nachádzajú súbory so súradnicami modelovaného bodového zdroja (pointsource-nazov.txt) a bodov záujmu (poi.txt). V nasledujúcom texte si popíšeme, ako zobrazíme rastrový súbor .tif  a textové súbory so súradnicami zdroja a bodov záujmu.  
 
+<i> Tab. 1 Zoznam a popis súborov v balíku .zip stiahnutom z aplikácie ATMOPLAN. Červenou farbou sú vyznačené parametre ktoré je potrebné spracovať pre posudok. (ZL – znečisťujúca látka: PM10, PM25, NO2, WILDCARD) </i>
+
 | Scenáre / znečisťujúce látky | Typ dát |	Formát |
+|---|---|---|
 | Všetky scenáre / všetky ZL |	Hodnoty koncentrácií v jednotlivých výpočtových bodoch (neinterpolované): priemerná ročná koncentrácia, počet prekročení krátkodobej limitnej hodnoty, medián, max. hodinová a max. denná koncentrácia, percentil prislúchajúci počtu prekročení krátkodobej limitnej hodnoty |	outputIndicatorsZL_all_3035_ifdm.csv |
 | Všetky okrem základného / základné ZL | 	Hodnoty rozdielov koncentrácií medzi scenárom a základným scenárom v jednotlivých výpočtových bodoch (neinterpolované): priemerná ročná koncentrácia, počet prekročení krátkodobej limitnej hodnoty, medián, max. hodinová a max. denná koncentrácia, percentil prislúchajúci počtu prekročení krátkodobej limitnej hodnoty |	outputIndicatorsZL_all_3035_diff_ifdm.csv |
 | Všetky okrem základného / základné ZL |	Percentuálne hodnoty rozdielov koncentrácií medzi scenárom a základným scenárom v jednotlivých výpočtových bodoch (neinterpolované): priemerná ročná koncentrácia, počet prekročení krátkodobej limitnej hodnoty, medián, max. hodinová a max. denná koncentrácia, percentil prislúchajúci počtu prekročení krátkodobej limitnej hodnoty |	outputIndicatorsZL_all_3035_rel_diff_ifdm.csv |
@@ -24,7 +27,7 @@ Tabuľka nižšie zobrazuje typy dát ktoré je možné stiahnuť z aplikácie A
 | Všetky scenáre / všetky ZL |	Interpolovaná mapa mediánov koncentrácií |	outputIndicatorsZL_P50_hourly_3035.tif |
 | Všetky scenáre / všetky ZL |	Interpolovaná mapa percentilov zodpovedajúcich počtu prekročení krátkodobej limitnej hodnoty |	outputIndicatorsPM10_P90.4_daily_3035.tif |
 
-<i> Tab. 1 Zoznam a popis súborov v balíku .zip stiahnutom z aplikácie ATMOPLAN. Červenou farbou sú vyznačené parametre ktoré je potrebné spracovať pre posudok. (ZL – znečisťujúca látka: PM10, PM25, NO2, WILDCARD) </i>
+
 
 ## Import .tif súboru a jeho zobrazenie na mape
 1.	Otvoríme si nový projekt v QGISe. 
@@ -65,6 +68,6 @@ Farebnú škálu buď skopírujeme zo zoznamu vrstiev vľavo, alebo ju vytvorím
 Správca rozloženia je pomerne zložitý nástroj, v prípade, keď prestane fungovať intuícia, je vhodné použiť manuál QGIS https://docs.qgis.org/3.34/en/docs/user_manual/index.html
 Možno sa zíde aj Láskavý úvod do tvorby máp, dostupný v češtine (k staršej verzii QGIS). https://docs.qgis.org/2.18/cs/docs/gentle_gis_introduction/index.html 
 
-
+![QGIS](./images/qgis.png)
 
 
